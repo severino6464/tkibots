@@ -57,7 +57,7 @@ Jogar com 2 a 3 minas
 text2 = """
 🔷🔹 Entrada Finalizada 🔹🔷
      ✅✅ GRENN! ✅✅
- Você que fez GREEN envie um print no @suporteganhosarena """
+ Você que fez GREEN envie um print no @Suporteganhosarena """
 
 print("BOT-aff39-nuts")
 
