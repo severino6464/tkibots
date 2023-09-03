@@ -46,8 +46,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35153&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=35153&brand=nutsbet)
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36090&brand=nutsbet)
+👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36090&brand=nutsbet)
 ⏱️ Válido até: {}
 📙: Assista aula de como joga: Clicando aqui 
 💰Banca recomendada, acima de R$30,00
@@ -57,7 +57,7 @@ Jogar com 2 a 3 minas
 text2 = """
 🔷🔹 Entrada Finalizada 🔹🔷
      ✅✅ GRENN! ✅✅
- Você que fez GREEN envie um print no @suportedominess """
+ Você que fez GREEN envie um print no @suporteganhosarena """
 
 print("BOT-aff39-nuts")
 
