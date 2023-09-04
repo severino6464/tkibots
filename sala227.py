@@ -20,7 +20,7 @@ texto4 = """
 """
 
 texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
+🔷🔹 Entrada ok 🔹🔷
      ✅✅ GRENN! ✅✅
  
 """
