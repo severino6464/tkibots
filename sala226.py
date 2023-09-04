@@ -54,8 +54,13 @@ Jogar com 2 a 3 minas
 
 
 text2 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
+✅✅✅ GRENN! ✅✅✅
+
+💰 Lucrou? Mande print aqui (@ )
+ 
+🔥 Só quem joga na NUTS Bet deu green
+
+💰⭐💰⭐💰⭐💰⭐💰⭐💰⭐
   """
 
 print("aff208")
