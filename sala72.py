@@ -27,7 +27,7 @@ possibilidades_minas = [
 
 
 texto4 = """
-ATENÇÃO VAMOS INICIAR !
+ATENÇÃO VAMOS INICIAR. !
 """
 
 
