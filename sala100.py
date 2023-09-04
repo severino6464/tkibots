@@ -32,7 +32,7 @@ possibilidades_minas = [
 ]
 
 links = [
-    "https://exemplo1.com",
+    "https://exemplo1f.com",
    
 ]
 
