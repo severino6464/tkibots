@@ -54,7 +54,7 @@ Jogar com 2 a 3 minas
 
 
 text2 = """
-🔷🔹 Entrada Finalizada 🔹🔷
+🔷🔹 Entrada Finalizada ! 🔹🔷
      ✅✅ GRENN! ✅✅
   """
 
