@@ -14,7 +14,6 @@ texto4 = """
 💎ENCONTRANDO FALHA NA MATRIX...💎
 🐯POSSÍVEL ENTRADA EM 2 MINUTOS
 
-
 [📱 Cadastre-se aqui](http://bit.ly/cadastrofortuneassertivepkg)
 """
 
@@ -26,7 +25,6 @@ texto5 = """
 
 mensagem = """
 🔮 MATRIX QUEBRADA🔮
-
 
 🐯 FORTUNE TIGER ☘️
 🎯 Estratégia: Multiplicador de 100x
