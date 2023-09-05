@@ -40,7 +40,7 @@ mensagem = """
 
 [📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
 """
-print("BOT-aff03-nuts")
+print("BOT-aff229-nuts")
 
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
 time.sleep(120) 
