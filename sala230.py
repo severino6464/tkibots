@@ -67,7 +67,7 @@ print("aff230")
 
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
@@ -76,4 +76,4 @@ bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown
     
 time.sleep(120)
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='Markdown')
-time.sleep(600)  # Espera 5 minutos (300 segundos)
+time.sleep(480)  # Espera 5 minutos (300 segundos)
