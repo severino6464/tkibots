@@ -63,7 +63,7 @@ text2 = """
 💰⭐💰⭐💰⭐💰⭐💰⭐💰⭐
   """
 
-print("aff208")
+print("aff230")
 
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
