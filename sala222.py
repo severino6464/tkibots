@@ -38,7 +38,7 @@ mensagem = """
 {}
 
 👉 Cobrir o zero
-🔁 Fazer até 3 gales
+🛡️Fazer até duas proteções
 🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=35676&brand=nutsbet&utm_campaign=linkcadastro)
 🖥️[Jogue Aqui](https://nuts.bet/live-casino/game/2177465)
 ⏱️ Válido até: {}
