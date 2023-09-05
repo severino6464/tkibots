@@ -15,7 +15,7 @@ texto4 = """
 🐯POSSÍVEL ENTRADA EM 2 MINUTOS
 
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
+[📱 Cadastre-se aqui](http://bit.ly/cadastrofortuneassertivepkg)
 """
 
 texto5 = """
@@ -35,9 +35,9 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
+[📱 Cadastre-se aqui](http://bit.ly/cadastrofortuneassertivepkg)
 
-[ 📱 ABRIR FORTUNE TIGER🐯☘️](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
+[ 📱 ABRIR FORTUNE TIGER🐯☘️](http://bit.ly/cadastrofortuneassertivepkg)
 """
 print("BOT-aff229-nuts")
 
