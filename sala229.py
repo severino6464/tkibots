@@ -11,34 +11,33 @@ group_id = '-1001935348815'
 
 
 texto4 = """
-🎲 Fique atento ao jogo 🎲
+💎ENCONTRANDO FALHA NA MATRIX...💎
+🐯POSSÍVEL ENTRADA EM 2 MINUTOS
 
-🐯 Fortune Tiger - Entrada em 2 minutos
-🔎 Estamos validando uma entrada
 
 [📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
 """
 
 texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
- 
+🔮 DINHEIRO NO BOLSO 🔮
+        ✅✅ GRENN! ✅✅
 """
 
 
 mensagem = """
-⚠️ ENTRADA CONFIRMADA ⚠️
+🔮 MATRIX QUEBRADA🔮
 
-🐯 𝗙𝗼𝗿𝘁𝘂𝗻𝗲 𝗧𝗶𝗴𝗲𝗿 ☘
-🎯 Estratégia: 𝗛𝗼𝗿𝗮́𝗿𝗶𝗼𝘀 𝗣𝗮𝗴𝗮𝗻𝘁𝗲𝘀
-🔥 𝗡º 𝗱𝗲 𝗝𝗼𝗴𝗮𝗱𝗮𝘀: {}
-⏰ Sinal válido até: {}
+
+🐯 FORTUNE TIGER ☘️
+🎯 Estratégia: Multiplicador de 100x
+🔥 Jogadas: {}
+⏰ Válido até: {}
 
 🌪 Faça no máximo {} jogadas!
 
 [📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
 
-[📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
+[ 📱 ABRIR FORTUNE TIGER🐯☘️](https://affiliates.nuts.bet/visit/?bta=36392&brand=nutsbet)
 """
 print("BOT-aff229-nuts")
 
