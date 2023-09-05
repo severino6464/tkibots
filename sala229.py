@@ -18,8 +18,8 @@ texto4 = """
 """
 
 texto5 = """
-🔮 DINHEIRO NO BOLSO 🔮
-        ✅✅ GRENN! ✅✅
+✅🤑BATEUUUU🤑✅
+CONSEGUIU PEGAR? Manda o print @suportevippkg
 """
 
 
