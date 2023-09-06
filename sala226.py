@@ -37,6 +37,10 @@ links = [
 ]
 
 
+text1 = """
+Faça seu cadastro [Clicando aqui](https://affiliates.nuts.bet/visit/?bta=36261&brand=nutsbet) 
+✍🏻 Os sinais só funcionam na nuts bet
+  """
 
 mensagem = """
 🎲 Entrada confirmada 🎲
@@ -75,6 +79,10 @@ mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+
+time.sleep(5)
+
+bot.send_message(chat_id=group_id, text=text1 ,parse_mode='Markdown')
     
 time.sleep(120)
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='Markdown')
