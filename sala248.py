@@ -25,8 +25,8 @@ mensagem = """
 
 ⚡ Intercalando
 
-[🔗 Fazer CADASTRO ✅](-)
-[🔗 Abrir FORTUNE TIGER](-)
+[🔗 Fazer CADASTRO ✅](https://nuts.bet/signup?btag=CX-36405_362211)
+[🔗 Abrir FORTUNE TIGER](https://nuts.bet/signup?btag=CX-36405_362211)
 
 """
 
