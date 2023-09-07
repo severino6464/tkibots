@@ -46,8 +46,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](=========)
-👉🏻: Link do jogo: [Mines](=======)
+📲: Plataforma correta: [Clique aqui](https://go.aff.br4-partners.com/3oa76614)
+👉🏻: Link do jogo: [Mines](https://go.aff.br4-partners.com/3oa76614)
 ⏱️ Válido até: {}
 
 """
