@@ -111,24 +111,22 @@ def send_signal():
 
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='Markdown')
 
-	possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+ 
+
+
+
+    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='Markdown')
+    time.sleep(120) 
+
 
 
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
     time.sleep(600)
-
-	possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-
-
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
-
+    
 
 
 
