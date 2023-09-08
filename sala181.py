@@ -26,26 +26,24 @@ mensagem = """
 ⚡ Intercalando
 
 [🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=35155&brand=nutsbet)
-[🔗 Abrir FORTUNE TIGER](https://nuts.bet/casino/game/2180615)
+[🔗 Abrir FORTUNE TIGER](https://affiliates.nuts.bet/visit/?bta=35155&brand=nutsbet)
 
 """
 
 
 
-while True:
-
-    print("182")
+print("182")
 
  
 
 
-    n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
+n_jogadas = random.randint(6, 20)
+n_jogadas2 = random.randint(4, 20)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
-    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
 
-    time.sleep(600)  # Espera 10 minutos (600 segundos)
+time.sleep(600)  # Espera 10 minutos (600 segundos)
 
