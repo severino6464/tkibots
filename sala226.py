@@ -39,7 +39,6 @@ links = [
 
 text1 = """
 Faça seu cadastro [Clicando aqui](https://affiliates.nuts.bet/visit/?bta=36261&brand=nutsbet) 
-Faça seu cadastro Clicando aqui 
 ✍🏻 Os sinais só funcionam na nuts bet
 
 Banca recomendada: R$40,00
