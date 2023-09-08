@@ -51,7 +51,7 @@ mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
 
-time.sleep(60)
+time.sleep(120)
 
 bot.send_message(chat_id=group_id, text=text4, parse_mode='Markdown')
 
