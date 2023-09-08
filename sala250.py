@@ -30,10 +30,10 @@ mensagem = """
 
 """
 
-text4 = ""
+text4 = """
 ✅ ENTRADA FINALIZADA ✅
  💚💚💚 GREEEEN 💚💚💚
-""
+"""
 
 
 
