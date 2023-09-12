@@ -4,23 +4,13 @@ import random
 import time
 
 
-CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # Replace with your Telegram Bot API key
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" 
 
 bot = telebot.TeleBot(CHAVE_API)
 
 channel_id = '-1001935348815'  
 
-possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
-]
 
-links = [
-    "https://exemplo1.com",
-]
 
 
 texto4 = """
@@ -29,6 +19,7 @@ texto4 = """
 
 [📱 CADASTRE-SE AQUI](http://bit.ly/cadastrofortuneassertivepkg)
 """
+
 
 texto5 = """
 ✅🤑BATEUUUU🤑✅
@@ -52,55 +43,46 @@ mensagem = """
 """
 
 def send_signal():
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
- 
-
-
 
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='Markdown')
     time.sleep(120) 
 
 
+    n_jogadas = random.randint(6, 20)
+    n_jogadas2 = random.randint(4, 20)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
     time.sleep(600)
 
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
- 
-
-
-
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='Markdown')
     time.sleep(120) 
 
 
+    n_jogadas = random.randint(6, 20)
+    n_jogadas2 = random.randint(4, 20)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
     time.sleep(600)
 
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
- 
-
-
-
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='Markdown')
     time.sleep(120) 
 
 
+    n_jogadas = random.randint(6, 20)
+    n_jogadas2 = random.randint(4, 20)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(120)
-    
+    time.sleep(600)
+
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='Markdown')
+   
+
 
 
 
@@ -110,7 +92,7 @@ def send_signal():
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
     signal_times = [
-        "10:00", "14:00", "18:16", "23:00"
+        "10:00", "14:00", "23:00" 
     ]
 
     if current_time in signal_times:
@@ -118,8 +100,8 @@ def check_and_send_signal():
 
 
 try:
-    check_and_send_signal()
-    # Wait for 1 minute before checking the time again
-    datetime.datetime.now() + datetime.timedelta(minutes=0)
+        check_and_send_signal()
+        # Wait for 1 minute before checking the time again
+        datetime.datetime.now() + datetime.timedelta(minutes=0)
 except Exception as e:
-    print(f"Error occurred: {str(e)}")
+        print(f"Error occurred: {str(e)}")
