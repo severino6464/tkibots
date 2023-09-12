@@ -43,6 +43,7 @@ mensagem = """
 💣 Minas: 0 
 
 {}
+
 🔄 Nº de Tentativas: 0x
 ⏰ Sinal Válido até: {}
 
