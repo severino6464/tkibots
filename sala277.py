@@ -40,11 +40,11 @@ links = [
 
 mensagem = """
 🚨 ENTRADA CONFIRMADA 🚨
-💣 Minas: 0 
+💣 Minas: 3
 
 {}
 
-🔄 Nº de Tentativas: 0x
+🔄 Nº de Tentativas: 3x
 ⏰ Sinal Válido até: {}
 
 🎯[Clique aqui para jogar: Mines Nutsbet](https://cutt.ly/MinesNutsBet)
