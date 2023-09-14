@@ -14,4 +14,4 @@ while True:
         print(f"Erro ao executar git pull: {e}")
 
 
-    time.sleep(300)
+    time.sleep(10)
