@@ -7,7 +7,7 @@ CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1001913792567'
+group_id = '-1001957104133'
 
 possibilidades_minas = [
 "‼️ RETIRAR EM 1.50x",
