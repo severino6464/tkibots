@@ -20,8 +20,6 @@ texto4 = """
 
 💰 4 ou 8 reais POR JOGADA
 
-🔗 LINKS: 📱 [Celular](https://affiliates.nuts.bet/visit/?bta=36355&brand=nutsbet&utm_campaign=tiger)
-
 💰 Cria a sua conta com bônus aqui!  👇
 
 🔗 [LINK](https://affiliates.nuts.bet/visit/?bta=36355&brand=nutsbet&utm_campaign=tiger)
@@ -39,8 +37,6 @@ mensagem = """
 ⏰ Válido até: {}
 
 💰 4 ou 8 reais POR JOGADA
-
-🔗 LINKS: 📱 [Celular](https://affiliates.nuts.bet/visit/?bta=36355&brand=nutsbet&utm_campaign=tiger)
 
 💰 Cria a sua conta com bônus aqui!  👇
 
