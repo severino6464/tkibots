@@ -36,15 +36,15 @@ SESSÃO ENCERRADA!
 
 
 mensagem = """
-💰 ENTRADA CONFIRMADA 💰
-🎰 Roleta: Brasileira
-Link: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet)
+ 🎯Entrada confirmada 🎯
+🖥  Roleta: ROLETA BRASILEIRA 🔴⚫️
 
 {}
 
-👉 Cobrir o zero
+🛟 Ate três proteções - Cobrir o zero !
 🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet)
+🤑 [Jogue Aqui com Bônus](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet)
+💸 [Cadastre-se Aqui](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet) 
 ⏱️ Válido até: {}
 """
 
@@ -57,35 +57,35 @@ def send_signal():
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
+    time.sleep(300)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
+    time.sleep(300)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
+    time.sleep(300)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
+    time.sleep(300)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
+    time.sleep(300)
 
 
 def check_and_send_signal():
