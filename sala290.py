@@ -7,7 +7,7 @@ check_resultados = []
 ultima_aposta = None  # Variável para rastrear a última aposta
 
 token = '5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8' #fox bot
-chat_id = '-1001541227340'
+chat_id = '-1001980489371'
 
 
 texto4 = """
