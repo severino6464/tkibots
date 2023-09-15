@@ -43,23 +43,22 @@ mensagem = """
 
 
 
-while True:
-
-    print("BOT-aff93-nuts")
-
-    bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
-    time.sleep(120) 
 
 
+print("BOT-aff93-nuts")
 
-    n_jogadas = random.randint(2, 20)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas)
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+time.sleep(120) 
 
-    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
 
-    time.sleep(60)  # Espera 5 minutos (300 segundos)
+n_jogadas = random.randint(2, 20)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas)
 
-    bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
-    time.sleep(120) 
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+
+time.sleep(60)  # Espera 5 minutos (300 segundos)
+
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+time.sleep(120) 
