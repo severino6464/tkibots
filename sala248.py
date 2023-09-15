@@ -3,48 +3,72 @@ import time
 import datetime
 import random
 
-CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" 
 
 bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001914855699'
 
+possibilidades_minas = [
+    "💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+    "💣💣⭐️💣⭐️\n💣⭐️⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+    "💣💣💣⭐️⭐️\n💣💣💣⭐️💣\n💣⭐️⭐️⭐️💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣💣💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣⭐️⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣💣💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "💣⭐️💣💣💣\n⭐️💣⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣",
+    "💣⭐️💣⭐️💣\n💣💣💣⭐️💣\n💣💣⭐️⭐️💣\n💣💣⭐️⭐️💣\n💣💣⭐️💣💣",
+    "⭐️⭐️⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "💣💣💣💣💣\n💣💣💣💣⭐️\n⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️⭐️💣💣💣\n💣⭐️💣💣💣\n💣⭐️⭐️⭐️💣\n💣💣💣💣💣\n💣💣💣💣💣",
+    "⭐️⭐️💣⭐️💣\n💣💣💣⭐️⭐️\n💣💣💣💣💣\n💣💣💣💣💣\n💣⭐️⭐️⭐️💣",
+    "💣💣💣💣⭐️\n⭐️💣💣⭐️💣\n⭐️⭐️⭐️💣💣\n💣⭐️💣💣💣\n💣⭐️💣💣💣",
+    "⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣💣💣\n💣⭐️💣⭐️💣",
+    "⭐️⭐️⭐️💣💣\n⭐️💣⭐️💣💣\n💣💣💣💣💣\n💣💣💣💣💣\n💣💣💣⭐️💣",
+    "⭐️💣💣💣💣\n⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣💣⭐️⭐️💣\n💣💣⭐️⭐️⭐️",
+    "💣💣💣💣⭐️\n⭐️💣💣⭐️💣\n⭐️💣⭐️⭐️💣\n💣💣💣💣💣\n💣💣⭐️⭐️💣",
+    "💣💣💣⭐️💣\n⭐️💣💣⭐️⭐️\n⭐️💣💣💣💣\n💣💣💣💣💣\n💣💣💣⭐️💣",
+    "⭐️💣💣💣💣\n💣💣💣💣💣\n⭐️💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣⭐️💣"
+]
 
+links = [
+    "https://exemplo1.com",
+   
+]
 
 
 
 mensagem = """
-🚨 ENTRADA CONFIRMADA 🚨
+🎲 Entrada confirmada 🎲
+🥇: Entrada 
 
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
+{}
+🎮: Tentativas: 2
+Jogar com 2 a 3 minas
 
-💰 {}x Normal
-💰 {}x Turbo
-
-⚡ Intercalando
-
-[🔗 Fazer CADASTRO ✅](https://nuts.bet/signup?btag=CX-36405_362211)
-[🔗 Abrir FORTUNE TIGER](https://nuts.bet/signup?btag=CX-36405_362211)
+📲: Plataforma correta: [Clique aqui](https://nuts.bet/signup?btag=CX-36405_362211)
+👉🏻: Link do jogo: [Mines](https://nuts.bet/signup?btag=CX-36405_362211)
+⏱️ Válido até: {}
 
 """
 
 
-
-
+text2 = """
+🔷🔹 Entrada Finalizada 🔹🔷
+     ✅✅ GRENN! ✅✅
+  """
 
 print("aff248")
 
- 
-
-
-n_jogadas = random.randint(6, 20)
-n_jogadas2 = random.randint(4, 20)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+link_aleatorio = random.choice(links)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
-
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-
-time.sleep(600)  # Espera 10 minutos (600 segundos)
+   
+time.sleep(120)
+bot.send_message(chat_id=group_id, text=text2 ,parse_mode='Markdown')
+time.sleep(300)  # Espera 5 minutos (300 segundos)
