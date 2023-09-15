@@ -16,7 +16,7 @@ texto4 = """
 🐯 Fortune Tiger - Entrada em 2 minutos
 🔎 Estamos validando uma entrada
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35903&brand=nutsbet)
+[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36756&brand=nutsbet)
 """
 
 texto5 = """
@@ -36,9 +36,9 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35903&brand=nutsbet)
+[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36756&brand=nutsbet)
 
-[📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=35903&brand=nutsbet)
+[📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=36756&brand=nutsbet)
 """
 
 
