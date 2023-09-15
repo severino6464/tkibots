@@ -68,7 +68,7 @@ if ultimos_resultados != check_resultados:
     x3 = determinar_cor(terceiro_numero)
     x4 = determinar_cor(quarto_numero)
 
-    if x1 == x2 == x3:
+    if x1 == x2 == x3 == x4:
         cor_aposta = "🔴" if x1 == "PRETO" else "⚫"
         ultima_aposta = x1
         mensagem = f"""
