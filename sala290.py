@@ -11,11 +11,9 @@ bot = telebot.TeleBot(CHAVE_API)
 channel_id = '-1001980489371'  
 
 possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
+    "Apostar na 1° e 2° dúzia",
+  	"Apostar na 1° e 3° dúzia",
+    "Apostar na 2° e 3° dúzia"
 ]
 
 
