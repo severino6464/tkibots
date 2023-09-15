@@ -52,7 +52,7 @@ time.sleep(120)
 
 
 
-n_jogadas = random.randint(2, 10)
+n_jogadas = random.randint(8, 14)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas)
