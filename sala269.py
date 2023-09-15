@@ -15,7 +15,10 @@ possibilidades_minas = [
     "Apostar em números altos [19-36]",
     "Apostar na duzia 1 e 3",
     "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
+    "Apostar na cor ⚫",
+  	"Entrada 1° e 2° coluna",
+  	"Entrada 1° e 3° coluna",
+  	"Entrada 2° e 3° coluna"
 ]
 
 
@@ -42,7 +45,6 @@ mensagem = """
 {}
 
 🛟 Ate três proteções - Cobrir o zero!
-🔁 Fazer até 3 gales
 🤑 [Jogue Aqui com Bônus](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet)
 💸 [Cadastre-se Aqui](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet) 
 ⏱️ Válido até: {}
