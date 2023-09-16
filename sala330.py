@@ -47,7 +47,7 @@ mensagem = """
 
 
 
-print("aff330)
+print("aff330")
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
