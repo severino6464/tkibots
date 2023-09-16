@@ -38,10 +38,9 @@ links = [
 
 
 
-mensagem = """[PERMITIDO]
+mensagem = """
 🎲 Entrada confirmada 🎲
 🥇: Entrada 
-[/PERMITIDO]
 {}
   
 🎮: Tentativas: 2
