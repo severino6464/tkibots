@@ -44,7 +44,7 @@ mensagem = """
 
 {}
 
-🛟 Ate três proteções - Cobrir o zero!
+🛟 Ate duas proteções - Cobrir o zero!
 🤑 [Jogue Aqui com Bônus](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet)
 💸 [Cadastre-se Aqui](https://affiliates.nuts.bet/visit/?bta=36496&brand=nutsbet) 
 ⏱️ Válido até: {}
