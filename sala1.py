@@ -38,10 +38,10 @@ links = [
 
 
 
-mensagem = """
+mensagem = """[PERMITIDO]
 🎲 Entrada confirmada 🎲
 🥇: Entrada 
-
+[/PERMITIDO]
 {}
   
 🎮: Tentativas: 2
