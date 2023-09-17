@@ -38,24 +38,19 @@ mensagem = """
 
 
 
-while True:
-
-    print("129")
-
  
 
 
-    n_jogadas = random.randint(3, 10)
-    n_jogadas2 = random.randint(3, 10)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
+n_jogadas = random.randint(3, 10)
+n_jogadas2 = random.randint(3, 10)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
-    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+time.sleep(345)  # Espera 10 minutos (600 segundos)
 
-    time.sleep(345)  # Espera 10 minutos (600 segundos)
-
-    bot.send_message(chat_id=group_id, text=text2, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=text2, parse_mode='Markdown')
     
-    time.sleep(120)
+time.sleep(120)
 
