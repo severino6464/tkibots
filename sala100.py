@@ -46,8 +46,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35878&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=35878&brand=nutsbet)
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36828&brand=nutsbet)
+👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36828&brand=nutsbet)
 ⏱️ Válido até: {}
 
 """
@@ -58,7 +58,7 @@ text2 = """
      ✅✅ GRENN! ✅✅
   """
 
-print("BOT-aff105-nuts")
+print("aff100")
 
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
