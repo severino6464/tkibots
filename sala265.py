@@ -47,7 +47,7 @@ mensagem = """
 Jogar com 2 a 3 minas
 
 📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36614&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36614&brand=nutsbet)
+👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36614&nci=5346)
 ⏱️ Válido até: {}
 
 """
