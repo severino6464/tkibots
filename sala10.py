@@ -10,35 +10,35 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1001811028389'
 
 
-texto4 = """.
-🎲 Fique atento ao jogo 🎲
+texto4 = """
+ðŸŽ² Fique atento ao jogo ðŸŽ²
 
-🐯 Fortune Tiger - Entrada em 2 minutos
-🔎 Estamos validando uma entrada
+ðŸ¯ Fortune Tiger - Entrada em 2 minutos
+ðŸ”Ž Estamos validando uma entrada
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
+[ðŸ“± Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
 """
 
 texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
+ðŸ”·ðŸ”¹ Entrada Finalizada ðŸ”¹ðŸ”·
+     âœ…âœ… GRENN! âœ…âœ…
  
 """
 
 
 mensagem = """
-�&nbsp;️ ENTRADA CONFIRMADA �&nbsp;️
+âš&nbsp;ï¸ ENTRADA CONFIRMADA âš&nbsp;ï¸
 
-🐯 𝗙𝗼𝗿𝘁𝘂𝗻𝗲 𝗧𝗶𝗴𝗲𝗿 ☘
-🎯 Estratégia: 𝗛𝗼𝗿𝗮́𝗿𝗶𝗼𝘀 𝗣𝗮𝗴𝗮𝗻𝘁𝗲𝘀
-🔥 𝗡º 𝗱𝗲 𝗝𝗼𝗴𝗮𝗱𝗮𝘀: {}
-⏰ Sinal válido até: {}
+ðŸ¯ ð—™ð—¼ð—¿ð˜ð˜‚ð—»ð—² ð—§ð—¶ð—´ð—²ð—¿ â˜˜
+ðŸŽ¯ EstratÃ©gia: ð—›ð—¼ð—¿ð—®Ìð—¿ð—¶ð—¼ð˜€ ð—£ð—®ð—´ð—®ð—»ð˜ð—²ð˜€
+ðŸ”¥ ð—¡Âº ð—±ð—² ð—ð—¼ð—´ð—®ð—±ð—®ð˜€: {}
+â° Sinal vÃ¡lido atÃ©: {}
 
-🌪 Faça no máximo {} jogadas!
+ðŸŒª FaÃ§a no mÃ¡ximo {} jogadas!
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
+[ðŸ“± Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
 
-[📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
+[ðŸ“± Jogar Fortune TigerðŸ¯â˜˜](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
 """
 
 
