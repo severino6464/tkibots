@@ -20,8 +20,7 @@ mensagem = """
 ⏰ Estratégia: Horários Pagantes
 ⚠️ Válido ate: {}
 
-💰 {}x Normal
-💰 {}x Turbo
+🎯 Mámixo jogaadas: {}
 
 ⚡ Intercalando
 
@@ -39,11 +38,10 @@ print("361")
  
 
 
-n_jogadas = random.randint(6, 20)
-n_jogadas2 = random.randint(4, 20)
+n_jogadas = random.randint(5, 10)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
+mensagem_formatada = mensagem.format(hora_validade,n_jogadas)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
 
