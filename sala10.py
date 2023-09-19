@@ -1,4 +1,4 @@
-import telebot
+<p>import telebot
 import time
 import datetime
 import random
@@ -10,13 +10,13 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1001811028389'
 
 
-texto4 = """
+texto4 = """.
 🎲 Fique atento ao jogo 🎲
 
 🐯 Fortune Tiger - Entrada em 2 minutos
 🔎 Estamos validando uma entrada
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&brand=nutsbet)
+[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
 """
 
 texto5 = """
@@ -27,7 +27,7 @@ texto5 = """
 
 
 mensagem = """
-⚠️ ENTRADA CONFIRMADA ⚠️
+�&nbsp;️ ENTRADA CONFIRMADA �&nbsp;️
 
 🐯 𝗙𝗼𝗿𝘁𝘂𝗻𝗲 𝗧𝗶𝗴𝗲𝗿 ☘
 🎯 Estratégia: 𝗛𝗼𝗿𝗮́𝗿𝗶𝗼𝘀 𝗣𝗮𝗴𝗮𝗻𝘁𝗲𝘀
@@ -36,9 +36,9 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&brand=nutsbet)
+[📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
 
-[📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=35071&brand=nutsbet)
+[📱 Jogar Fortune Tiger🐯☘](https://affiliates.nuts.bet/visit/?bta=35071&amp;brand=nutsbet)
 """
 
 
@@ -62,4 +62,4 @@ while True:
     time.sleep(60)  # Espera 5 minutos (300 segundos)
 
     bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
-    time.sleep(120) 
+    time.sleep(120) </p>
