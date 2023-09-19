@@ -1,4 +1,4 @@
-import telebot
+<p>import telebot
 import datetime
 import random
 import time
@@ -42,7 +42,7 @@ FAÇA SEU CADASTRO 👇
 """
 
 texto5 = """
-SESSÃO ENCERRADA!
+SESSÃO ENCERRADA!.
 
 SÓ GREEN!!! 🤑🤑🤑
 """
@@ -57,8 +57,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36075&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36075&brand=nutsbet)
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36075&amp;brand=nutsbet)
+👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36075&amp;brand=nutsbet)
 ⏱️ Válido até: {}
 """
 
@@ -201,3 +201,4 @@ try:
     datetime.datetime.now() + datetime.timedelta(minutes=0)
 except Exception as e:
     print(f"Error occurred: {str(e)}")
+</p>
