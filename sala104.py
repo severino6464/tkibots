@@ -42,7 +42,7 @@ FAÇA SEU CADASTRO 👇
 """
 
 texto5 = """
-SESSÃO ENCERRADA!.
+SESSÃO ENCERRADA!
 
 SÓ GREEN!!! 🤑🤑🤑
 """
