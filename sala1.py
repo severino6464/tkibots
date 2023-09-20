@@ -37,7 +37,6 @@ links = [
 ]
 
 
-//lock
 mensagem = """
 🎲 Entrada confirmada 🎲
 🥇: Entrada 
@@ -48,7 +47,6 @@ mensagem = """
 👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=35160&brand=nutsbet)
 ⏱️ Válido até: {}
 """
-//locked
 
 print("BOT-aff01-nuts")
 
