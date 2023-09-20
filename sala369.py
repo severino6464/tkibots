@@ -18,8 +18,6 @@ texto4 = """
 
 [📱 Cadastre-se aqui](https://affiliates.nuts.bet/visit/?bta=36801&brand=nutsbet)
 
-🚨O sinal do Robô Russo só funciona apenas na plataforma acima! Faça💰🤑
-
 
 """
 
@@ -47,7 +45,6 @@ mensagem = """
 
 [📱 Jogar Fortune ox](https://affiliates.nuts.bet/visit/?bta=36801&brand=nutsbet)
 
-🚨O sinal do Robô Russo só funciona apenas na plataforma acima! Faça💰🤑
 """
 
 print("369")
