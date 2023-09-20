@@ -81,7 +81,7 @@ if ultimos_resultados != check_resultados:
         🟢 Sempre Cobrir o Zero
         🚨 Aplicar até 2 gales
     
-        🎯[APOSTE AQUI](https://affiliates.nuts.bet/visit/?bta=35484&brand=nutsbet)
+        🎯[APOSTE AQUI](https://affiliates.nuts.bet/visit/?bta=35484&nci=5359)
         🎁 [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35484&brand=nutsbet)
 """
         enviar_mensagem_telegram(mensagem)
