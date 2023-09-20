@@ -37,7 +37,7 @@ mensagem = """
 ⚡️ {}X Turbo
 
 
-📲: Casa com a proteção quebrada: [Clique aqui](https://iluck.bet/)
+📲: Casa com a proteção quebrada: [Clique aqui](https://iluck.bet/?c=rafael999)
 """
 
 def send_signal():
