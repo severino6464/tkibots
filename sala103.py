@@ -1,4 +1,4 @@
-import telebot
+<p>import telebot
 import time
 import datetime
 import random
@@ -10,7 +10,7 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1001874086253'
 
 
-
+.
 links = [
     "https://exemplo1.com",
 ]
@@ -39,8 +39,8 @@ mensagem = """
 
 👉 Cobrir o zero
 🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=36037&brand=nutsbet)
-🖥️[Jogue Aqui](https://affiliates.nuts.bet/visit/?bta=36037&brand=nutsbet)
+🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=36037&amp;brand=nutsbet)
+🖥️[Jogue Aqui](https://affiliates.nuts.bet/visit/?bta=36037&amp;brand=nutsbet)
 ⏱️ Válido até: {}
 """
 
@@ -54,4 +54,4 @@ mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(600)
+time.sleep(600)</p>
