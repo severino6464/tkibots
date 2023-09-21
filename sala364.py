@@ -45,8 +45,6 @@ mensagem = """
 🔔 Entrada Confirmada 🔔  
 ✅ Entrar Agora  
 
-⏱️ Válido até: {}
-
 📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36841&brand=nutsbet)
 """
 
@@ -65,7 +63,7 @@ time.sleep(120)
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=1)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
 
