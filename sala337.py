@@ -47,18 +47,14 @@ mensagem = """
 print("aff337")
 
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
-time.sleep(60) 
-
-
+time.sleep(120) 
 
 n_jogadas = random.randint(2, 15)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas)
-
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-
 time.sleep(120)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
-time.sleep(120) 
+time.sleep(360) 
