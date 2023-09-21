@@ -28,6 +28,7 @@ mensagem = """
 [🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=35945&brand=nutsbet)
 [🔗 Abrir FORTUNE TIGER](https://affiliates.nuts.bet/visit/?bta=35945&brand=nutsbet)
 
+Aposte agora e aumente suas chances de vitória! 💰
 """
 
 
