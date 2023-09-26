@@ -21,7 +21,7 @@ possibilidades_minas = [
 texto4 = """
 ⚠️ ANALISANDO ENTRADAS⚠️
 
-🖥  Roleta: ROLETA A 🔴⚫️
+🖥  Roleta: roleta brasileira 🔴⚫️
 
 🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=36608&brand=nutsbet)
 """
@@ -33,7 +33,7 @@ SESSÃO ENCERRADA!
 
 mensagem = """
 🎯 Entrada confirmada 🎯
-🖥 Roleta: ROLETA A
+🖥 Roleta: roleta brasileira
 
 {}
 
