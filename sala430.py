@@ -7,54 +7,45 @@ CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1001825992963'
+group_id = '-1001519301364'
 
 
 
-links = [
-    "https://exemplo1.com",
-]
-
-
-possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
-]
-
-
-
-texto4 = """
-ATENÇÃO VAMOS INICIAR !
-"""
 
 
 mensagem = """
-🔥 ROBÔ CONFIRMOU 🔥
-🎰 Roleta: Brasileira
+🚨 ENTRADA CONFIRMADA 🚨
 
-{}
+🐯 Fortune Tiger 
+⏰ Estratégia: Horários Pagantes
+⚠️ Válido ate: {}
 
-👉 Cobrir o zero
-🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=37098&brand=nutsbet)
-🖥️[Jogue Aqui](https://nuts.bet/live-casino/game/2177465)
-⏱️ Válido até: {}
+💰 {}x Normal
+💰 {}x Turbo
+
+⚡ Intercalando
+
+[🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=37098&brand=nutsbet)
+[🔗 Abrir FORTUNE TIGER](https://nuts.bet/casino/game/2180615)
+
 """
 
 
 
 
-print("======")
-possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-link_aleatorio = random.choice(links)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+
+print("========")
+
+ 
+
+
+n_jogadas = random.randint(6, 20)
+n_jogadas2 = random.randint(4, 20)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(600)
+
+time.sleep(600)  # Espera 10 minutos (600 segundos)
+
