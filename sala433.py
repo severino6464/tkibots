@@ -64,15 +64,15 @@ mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
 print("BOT-TIGER-WALACE")
        
-time.sleep(6)  # Aguarda 1 minuto
+time.sleep(60)  # Aguarda 1 minuto
 
         
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
        
-time.sleep(24)  # Espera 5 minutos (300 segundos)
+time.sleep(240)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5 ,parse_mode='Markdown')
 
-time.sleep(12)
+time.sleep(120)
         
         
