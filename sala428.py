@@ -67,7 +67,7 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=37105&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=37105&brand=nutsbet)
+👉🏻: Link do jogo: [Mines](https://nuts.bet/casino/game/2172765)
 ⏱️ Válido até: {}
 
 
