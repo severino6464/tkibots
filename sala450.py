@@ -46,8 +46,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://www.jogomanga.com/c-BZPxboKv?lang=pt)
-👉🏻: Link do jogo: [Mines](https://www.jogomanga.com/c-BZPxboKv?lang=pt)
+📲: Plataforma correta: <a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">Clique aqui</a>
+👉🏻: Link do jogo: <a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">Mines</a>
 ⏱️ Válido até: {}
 
 """
@@ -67,7 +67,7 @@ hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
    
 time.sleep(120)
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='Markdown')
