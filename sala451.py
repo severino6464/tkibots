@@ -25,9 +25,8 @@ mensagem = """
 
 ⚡ Intercalando
 
-[🔗 Fazer CADASTRO ✅](https://bit.ly/3LDnAAn)
-[🔗 Abrir FORTUNE TIGER](https://bit.ly/3LDnAAn)
-
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Fazer CADASTRO ✅</a>
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Abrir FORTUNE TIGER</a>
 """
 
 
@@ -45,7 +44,7 @@ validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
 time.sleep(600)  # Espera 10 minutos (600 segundos)
 
