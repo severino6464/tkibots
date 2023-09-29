@@ -25,8 +25,8 @@ mensagem = """
 
 ⚡ Intercalando
 
-[🔗 Fazer CADASTRO ✅](https://www.jogomanga.com/c-BZPxboKv?lang=pt)
-[🔗 Abrir FORTUNE TIGER](https://www.jogomanga.com/c-BZPxboKv?lang=pt)
+[🔗 Fazer CADASTRO ✅](https://bit.ly/3LDnAAn)
+[🔗 Abrir FORTUNE TIGER](https://bit.ly/3LDnAAn)
 
 """
 
