@@ -44,7 +44,7 @@ mensagem = """
 
 {}
 🎮: Tentativas: 2
-Jogar com 2 a 5 minas
+Jogar com 2 a 3 minas
 
 📲: Plataforma correta: [Clique aqui](https://18kbet.online/player-from-agent/agent/3wcoa)
 👉🏻: Link do jogo: [Mines](https://18kbet.online/player-from-agent/agent/3wcoa)
