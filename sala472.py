@@ -4,8 +4,7 @@ import string
 from turtle import st
 import telebot
 import time
-import requests
-from selenium import webdriver
+
 from telebot import types
 import threading
 
