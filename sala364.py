@@ -59,7 +59,6 @@ mensagem = """
 🔔 Entrada Confirmada 🔔  
 ✅ Entrar Agora  
 
-⏱️ Válido até: {}
 
 📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36841&brand=nutsbet)
 """
