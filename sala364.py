@@ -140,9 +140,7 @@ def send_signal():
     time.sleep(120)
 
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='Markdown')
-	
-	time.sleep(60)
-
+    time.sleep(60)
     bot.send_message(chat_id=channel_id, text=texto6, parse_mode='Markdown')
 
 
