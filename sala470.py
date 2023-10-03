@@ -55,7 +55,7 @@ texto4 = """
 🐞 Jogo do Bicho
 🔎 Estamos validando uma entrada
 
-[📱 Cadastre-se aqui](======)
+[📱 Cadastre-se aqui](https://18kbet.online/player-from-agent/agent/167j6)
 
 🚨O sinal só funciona apenas na plataforma acima!
 """
@@ -68,8 +68,8 @@ mensagem = """
 {}
 
 🔁 Fazer até 2 gales
-🔗 [Cadastre-se antes de Jogar!](=========)
-🖥️[Jogue Aqui](==========)
+🔗 [Cadastre-se antes de Jogar!](https://18kbet.online/player-from-agent/agent/167j6)
+🖥️[Jogue Aqui](https://18kbet.online/player-from-agent/agent/167j6)
 ⏱️ Válido até: {}
 """
 
