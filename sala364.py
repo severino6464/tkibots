@@ -33,6 +33,8 @@ SESSÃO ENCERRADA!
 """
 
 texto6 = """
+📔 RELATÓRIO DE OPERAÇÕES 
+
 1° SINAL GREEN!! ✅
 2° SINAL GREEN!! ✅
 3° SINAL GREEN!! ✅
@@ -43,6 +45,8 @@ texto6 = """
 8° SINAL GREEN!! ✅
 9° SINAL GREEN!! ✅
 10° SINAL GREEN!! ✅
+
+Placar: ✅ 10 x 0 ❌ (100.00%)
 
 """
 
