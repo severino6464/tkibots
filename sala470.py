@@ -77,7 +77,8 @@ mensagem = """
 
 
 print("======")
-
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+time.sleep(120)
 possibilidade_mina_aleatoria = gerar_tres_opcoes_aleatorias(possibilidades_minas)
 link_aleatorio = random.choice(links)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
