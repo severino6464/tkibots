@@ -46,9 +46,7 @@ texto6 = """
 9º ENTRADA - GREEN ✅
 10° ENTRADA - GREEN ✅
 
-
 Placar: ✅ 10 x 0 ❌ (100.00%)
-
 """
 
 mensagem = """
