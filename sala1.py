@@ -42,7 +42,7 @@ mensagem = """
 🥇: Entrada 
 {}
   
-🎮: Tentativas: 2
+🎮: Tentativas: 22
 📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35160&brand=nutsbet)
 👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=35160&brand=nutsbet)
 ⏱️ Válido até: {}
