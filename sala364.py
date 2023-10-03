@@ -32,6 +32,19 @@ texto5 = """
 SESSÃO ENCERRADA!
 """
 
+texto6 = """
+1° SINAL GREEN!! ✅
+2° SINAL GREEN!! ✅
+3° SINAL GREEN!! ✅
+4° SINAL GREEN!! ✅
+5° SINAL GREEN!! ✅
+6° SINAL GREEN!! ✅
+7° SINAL GREEN!! ✅
+8° SINAL GREEN!! ✅
+9° SINAL GREEN!! ✅
+10° SINAL GREEN!! ✅
+
+"""
 
 mensagem = """
 ✅ Entrada Confirmada 
@@ -124,6 +137,10 @@ def send_signal():
     time.sleep(120)
 
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='Markdown')
+	
+	time.sleep(60)
+
+    bot.send_message(chat_id=channel_id, text=texto6, parse_mode='Markdown')
 
 
 
