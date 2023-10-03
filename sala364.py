@@ -35,16 +35,17 @@ SESSÃO ENCERRADA!
 texto6 = """
 📔 RELATÓRIO DE OPERAÇÕES 
 
-1° SINAL GREEN!! ✅
-2° SINAL GREEN!! ✅
-3° SINAL GREEN!! ✅
-4° SINAL GREEN!! ✅
-5° SINAL GREEN!! ✅
-6° SINAL GREEN!! ✅
-7° SINAL GREEN!! ✅
-8° SINAL GREEN!! ✅
-9° SINAL GREEN!! ✅
-10° SINAL GREEN!! ✅
+1º ENTRADA - GREEN ✅
+2º ENTRADA - GREEN ✅ 
+3º ENTRADA - GREEN ✅
+4º ENTRADA - GREEN ✅
+5º ENTRADA - GREEN ✅
+6º ENTRADA - GREEN ✅
+7º ENTRADA - GREEN ✅
+8º ENTRADA - GREEN ✅
+9º ENTRADA - GREEN ✅
+10° ENTRADA - GREEN ✅
+
 
 Placar: ✅ 10 x 0 ❌ (100.00%)
 
