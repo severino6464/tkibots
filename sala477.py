@@ -16,8 +16,8 @@ texto4 = """
 
 
 texto5 = """
-🥷🏻🍩 Entrada Finalizada 🍩🥷🏻
-     ✅✅ LUCROOO! ✅✅
+🥷🏻🍩 <b>Entrada Finalizada</b> 🍩🥷🏻
+     ✅✅ <b>LUCROOO!</b> ✅✅
 """
 
 
