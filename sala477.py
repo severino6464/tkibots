@@ -55,7 +55,7 @@ mensagem = """
 
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
-time.sleep(60) 
+time.sleep(120) 
 
 n_jogadas = random.randint(2, 6)
 
@@ -78,7 +78,6 @@ mensagem_formatada = mensagem.format(n_jogadas, hora_validade1,hora_validade2,ho
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
-time.sleep(1800)  # Espera 5 minutos (300 segundos)
+time.sleep(1860)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
-time.sleep(1860)
