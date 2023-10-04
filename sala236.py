@@ -11,18 +11,12 @@ bot = telebot.TeleBot(CHAVE_API)
 channel_id = '-1001825767051'  
 
 possibilidades_minas = [
-    "Apostar na 1° e 3° dúzia",
+	"Apostar na 1° e 3° dúzia",
     "Apostar na 1° e 2° dúzia",
     "Apostar na 2° e 3° dúzia",
-    "Apostar na 1° dúzia",
-    "Apostar na 2° dúzia",
-    "Apostar na 3° dúzia",
-    "Apostar na 1° coluna",
     "Apostar na 1° e 2° coluna",
-    "Apostar na 2° coluna",
-    "Apostar na 3° coluna",
     "Apostar na 1° e 3° coluna",
-    "Apostar na 2° e 3° coluna",
+    "Apostar na 2° e 3° coluna"
 ]
 
 
