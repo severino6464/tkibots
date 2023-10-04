@@ -60,6 +60,11 @@ texto4 = """
 🚨O sinal só funciona apenas na plataforma acima!
 """
 
+texto5 = """
+🔷🔹 Entrada Finalizada 🔹🔷
+     ✅✅ GRENN! ✅✅
+ Você que fez GREEN envie um print no @suportereidossinais1
+"""
 
 mensagem = """
 🔥 SINAL CONFIRMADO 🔥
@@ -69,7 +74,7 @@ mensagem = """
 
 🔁 Fazer até 2 gales
 🔗 [Cadastre-se antes de Jogar!](https://18kbet.online/player-from-agent/agent/167j6)
-🖥️[Jogue Aqui](https://18kbet.online/player-from-agent/agent/167j6)
+🖥️[Jogue Aqui](https://www.18kbet.online/casino/lobby/casino/category/JOGO%20DO%20BICHO/game/1278?demo=false)
 ⏱️ Válido até: {}
 """
 
@@ -88,4 +93,6 @@ mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(480)
+time.sleep(300)
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+time.sleep(180)
