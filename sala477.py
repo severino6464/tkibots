@@ -74,7 +74,7 @@ mensagem_formatada = mensagem.format(n_jogadas, hora_validade1,hora_validade2,ho
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
-time.sleep(1200)  # Espera 5 minutos (300 segundos)
+time.sleep(1080)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(600)
