@@ -147,34 +147,34 @@ def handle_button_click(call):
 
 def enviar_periodicamente():
 
-        try:
-            possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-            link_aleatorio = random.choice(links)
-            validade = datetime.datetime.now() + datetime.timedelta(minutes=4)
-            hora_validade = validade.strftime("%H:%M")
-            mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-            mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-            mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+    try:
+        possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+        link_aleatorio = random.choice(links)
+        validade = datetime.datetime.now() + datetime.timedelta(minutes=4)
+        hora_validade = validade.strftime("%H:%M")
+        mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+        mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+        mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-            bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
-            print("BOT-MINES-NATHAN-1")
+        bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
+        print("BOT-MINES-NATHAN-1")
        
-            time.sleep(120)  # Aguarda 1 minuto
+        time.sleep(120)  # Aguarda 1 minuto
 
         
-            bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+        bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
        
-            time.sleep(120)  # Espera 5 minutos (300 segundos)
+        time.sleep(120)  # Espera 5 minutos (300 segundos)
 
-            enviar_mensagem() 
+        enviar_mensagem() 
 
-            time.sleep(200)
+        time.sleep(200)
         
         
-        except Exception as e:
-            print("Ocorreu um erro fatal:", e)
-            print("REINICIANDO O PROGRAMA")
-            reiniciar_programa()
+    except Exception as e:
+        print("Ocorreu um erro fatal:", e)
+        print("REINICIANDO O PROGRAMA")
+        reiniciar_programa()
 
 # Inicia um thread separado para enviar a mensagem periodicamente
 thread_envio = threading.Thread(target=enviar_periodicamente)
