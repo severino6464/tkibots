@@ -146,7 +146,7 @@ def handle_button_click(call):
         bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id, reply_markup=keyboard)
 
 def enviar_periodicamente():
-    while True:
+
         try:
             possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
             link_aleatorio = random.choice(links)
