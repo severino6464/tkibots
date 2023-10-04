@@ -18,7 +18,7 @@ texto4 = """
 🎲 Fique atento ao jogo 🎲
 💣 Mines - Entrada em 2 minutos
 🔎 Estamos validando uma entrada
-!🖥 Link de cadastro:[Clique aqui](https://18kbet.online/player-from-agent/agent/167j6)
+🖥 Link de cadastro:[Clique aqui](https://18kbet.online/player-from-agent/agent/167j6)
 """
 
 texto5 = """
