@@ -15,8 +15,6 @@ texto4 = """
 
 🔎 Estamos validando uma entrada
 
-[📱 Cadastre-se aqui](https://ninjacrash.net/sinais)
-
 🚨O sinal só funciona apenas na plataforma acima!
 """
 
