@@ -11,7 +11,7 @@ group_id = '-1001953285155'
 
 
 texto4 = """
-⚠️ ATENÇÃO VAMOS INICIAR ⚠️
+⚠️ <b>OPORTUNIDADE IDENTIFICADA!</b> ⚠️
 
 🔎 Estamos validando uma entrada
 
@@ -30,12 +30,12 @@ texto5 = """
 
 
 mensagem = """
-🥷🏻  Entrada Confirmada! 🍩
+🥷🏻 <b>Entrada Confirmada!</b> 🍩
 
-🎯 Estratégia: Minutos Pagantes
-🔥 Número de cortes: {}
+🎯 <b>Estratégia</b>: Minutos Pagantes
+🔥 <b>Número de cortes</b>: {}
 
-🕑 HORÁRIOS PAGANTES:
+🕑 <b>HORÁRIOS PAGANTES</b>:
 
 🍩{}
 🍩{}
@@ -46,16 +46,18 @@ mensagem = """
 🍩{}
 
 
-<a href="https://bit.ly/REGISTRONINJA">🎰 CADASTRE-SE PARA JOGAR:</a>
+🎰 <b>CADASTRE-SE PARA JOGAR</b>:
+➡ https://bit.ly/REGISTRONINJA
 
-<a href="https://bit.ly/APRENDAJOGAR">🎰 NÃO SABE JOGAR? APRENDA AGORA!</a>
+🎰 <b>NÃO SABE JOGAR? APRENDA AGORA!</b>
+➡  https://bit.ly/APRENDAJOGAR
 """
 
 
 
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
-time.sleep(120) 
+time.sleep(60) 
 
 n_jogadas = random.randint(2, 6)
 
@@ -78,6 +80,7 @@ mensagem_formatada = mensagem.format(n_jogadas, hora_validade1,hora_validade2,ho
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
-time.sleep(1860)  # Espera 5 minutos (300 segundos)
+time.sleep(1800)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+time.sleep(1860)
