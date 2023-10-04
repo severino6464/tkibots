@@ -56,7 +56,7 @@ mensagem = """
 
 
 print("=======")
-bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(60) 
 
 n_jogadas = random.randint(2, 6)
