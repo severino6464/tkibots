@@ -32,6 +32,11 @@ mensagem = """
 🔥 Jogadas: {}
 ⏰ Válido até: {}
 
+💰 {}x Normal
+💰 {}x Turbo
+
+⚡ Intercalando
+
 🌪 Faça no máximo {} jogadas!
 
 <a href="https://go.aff.br4-partners.com/w1pjlefq">📱 CADASTRE-SE AQUI</a>
@@ -44,30 +49,36 @@ def send_signal():
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(300) 
     n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
+    n_jogadas2 = random.randint(4, 15)
+    n_jogadas3 = random.randint(4, 20)
+    n_jogadas4 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas2)
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas3, n_jogadas4, n_jogadas2)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(420)
 
     n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
+    n_jogadas2 = random.randint(4, 15)
+    n_jogadas3 = random.randint(4, 20)
+    n_jogadas4 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas2)
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas3, n_jogadas4, n_jogadas2)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(420)
 
     n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
+    n_jogadas2 = random.randint(4, 15)
+    n_jogadas3 = random.randint(4, 20)
+    n_jogadas4 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas2)
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas3, n_jogadas4, n_jogadas2)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
