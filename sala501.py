@@ -13,7 +13,7 @@ channel_id = '-1001977464309'
 texto4 = """
 🐯💎<b>ATENÇÃO SESSÃO DO TIGER VAI INICIAR EM 5 MINUTOS</b>💎🐯
 
-<a href="https://go.aff.br4-partners.com/w1pjlefq">📱 CADASTRE-SE AQUI</a>
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 CADASTRE-SE AQUI</a>
 """
 
 texto5 = """
@@ -39,9 +39,9 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-<a href="https://go.aff.br4-partners.com/w1pjlefq">📱 CADASTRE-SE AQUI</a>
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 CADASTRE-SE AQUI</a>
 
-<a href="https://go.aff.br4-partners.com/w1pjlefq">📱 ABRIR FORTUNE TIGER🐯☘️</a>
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 ABRIR FORTUNE TIGER🐯☘️</a>
 """
 
 def send_signal():
