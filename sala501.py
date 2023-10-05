@@ -53,7 +53,6 @@ def send_signal():
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(420)
 
-    time.sleep(300) 
     n_jogadas = random.randint(6, 20)
     n_jogadas2 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
@@ -64,7 +63,6 @@ def send_signal():
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(420)
 
-    time.sleep(300) 
     n_jogadas = random.randint(6, 20)
     n_jogadas2 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
