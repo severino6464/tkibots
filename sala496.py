@@ -61,9 +61,10 @@ time.sleep(60)
 n_jogadas = random.randint(1, 12)
 n_jogadas2 = random.randint(1, 6)
 n_jogadas3 = random.randint(1, 6)
+n_jogadas4 = random.randint(1, 6)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(n_jogadas,n_jogadas2,n_jogadas3,hora_validade, n_jogadas)
+mensagem_formatada = mensagem.format(n_jogadas,n_jogadas2,n_jogadas3,hora_validade, n_jogadas4)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
 
