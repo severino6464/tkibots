@@ -35,7 +35,7 @@ mensagem = """
 """
 
 texto5 = """
-🍀🍀 <b>Entradas Finalizadas</b> 🍀🍀
+🍀🍀 <b>Entrada Finalizada</b> 🍀🍀
      ✅✅ <b>SÓÓÓ LUCROOO!</b> ✅✅
 
 """
@@ -54,7 +54,7 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, pparse_mode='HTML', disable_web_page_preview=True)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(780)
@@ -64,7 +64,7 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, pparse_mode='HTML', disable_web_page_preview=True)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(780)
@@ -74,7 +74,7 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, pparse_mode='HTML', disable_web_page_preview=True)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(30)
