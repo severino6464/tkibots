@@ -44,6 +44,9 @@ mensagem = """
 
 🎰 <b>NÃO SABE JOGAR? APRENDA AGORA!</b>
 ➡  https://bit.ly/APRENDAJOGAR
+
+📱<b>USE NOSSO APP DE SINAIS GRATUITO:</b>
+➡️ https://bit.ly/APPSTARK
 """
 
 
