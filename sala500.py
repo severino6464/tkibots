@@ -30,7 +30,7 @@ mensagem = """
 ⚡ Intercalando
 
 <a href="https://go.aff.br4-partners.com/w1pjlefq">🔗 Fazer CADASTRO ✅</a>
-<a href="https://go.aff.br4-partners.com/w1pjlefq">🔗 Abrir FORTUNE TIGER</a>
+<a href="https://go.aff.br4-partners.com/w1pjlefq">🔗 Abrir LUCKY NEKO</a>
 
 """
 
