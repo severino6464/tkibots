@@ -1,6 +1,6 @@
 import telebot
 
-# Substitua 'SEU_TOKEN' pelo token do seu bot do Telegram
+
 bot = telebot.TeleBot('6583137021:AAEOopzWOThN6VQ081Ir4CZD65NSdVXUoJo')
 
 # Variável de estado para controlar o fluxo da conversa
