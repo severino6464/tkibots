@@ -42,6 +42,8 @@ mensagem = """
 <a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">🎰 <b>CADASTRE-SE PARA JOGAR</b></a>
 
 <a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">NÃO SABE JOGAR? APRENDA AGORA!</a>
+
+Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
 
 
