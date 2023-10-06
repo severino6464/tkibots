@@ -55,6 +55,8 @@ Jogar com 2 a 3 minas
 
 <a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">📲: Plataforma correta</a>
 <a href="https://go.aff.bullsbetaffiliate.com/jr8vlg2z">👉🏻: Link do jogo</a>
+
+Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
 
 
