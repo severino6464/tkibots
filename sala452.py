@@ -11,80 +11,86 @@ bot = telebot.TeleBot(CHAVE_API)
 channel_id = '-1001869121732'  
 
 texto4 = """
-🚨🍀 ATENÇÃO VAMOS INICIAR OS SINAIS DO LUCKY NEKO 🍀🚨
+🐯💎<b>ATENÇÃO SESSÃO DO TIGER VAI INICIAR EM 5 MINUTOS</b>💎🐯
 
-FAÇA SEU CADASTRO 👇
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Fazer CADASTRO </a>
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 CADASTRE-SE AQUI</a>
+"""
 
+texto5 = """
+<b>✅🤑BATEUUUU🤑✅</b>
+"""
+
+texto6= """
+🐯 <b>SESSÃO DO FORTUNE TIGER ENCERRADA!</b> 🐯
 """
 
 mensagem = """
-🚨 ENTRADA CONFIRMADA 🚨
+🔮Entrda Confirmada🔮
 
-🍀 Lucky Neko
-⚠️ Válido ate: {}
+🐯 FORTUNE TIGER ☘️
+🔥 Jogadas: {}
+⏰ Válido até: {}
 
 💰 {}x Normal
 💰 {}x Turbo
 
 ⚡ Intercalando
 
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Fazer CADASTRO ✅</a>
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Abrir LUCKY NEKO</a>
+🌪 Faça no máximo {} jogadas!
 
-"""
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 CADASTRE-SE AQUI</a>
 
-texto5 = """
-🍀🍀 <b>Entrada Finalizada</b> 🍀🍀
-     ✅✅ <b>SÓÓÓ LUCROOO!</b> ✅✅
-
-"""
-
-texto6 = """
-🍀 <b>SESSÃO DO LUCKY NEKO ENCERRADA!</b> 🍀
-
+<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 ABRIR FORTUNE TIGER🐯☘️</a>
 """
 
 def send_signal():
+
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(300) 
-
     n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
+    n_jogadas2 = random.randint(4, 15)
+    n_jogadas3 = random.randint(4, 20)
+    n_jogadas4 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas3, n_jogadas4, n_jogadas2)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120)
+    time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(780)
+    time.sleep(420)
 
     n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
+    n_jogadas2 = random.randint(4, 15)
+    n_jogadas3 = random.randint(4, 20)
+    n_jogadas4 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas3, n_jogadas4, n_jogadas2)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120)
+    time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(780)
+    time.sleep(420)
 
     n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
+    n_jogadas2 = random.randint(4, 15)
+    n_jogadas3 = random.randint(4, 20)
+    n_jogadas4 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas3, n_jogadas4, n_jogadas2)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(540)
+    time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(30)
+
     bot.send_message(chat_id=channel_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
+
 
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
     signal_times = [
-        "02:00", "05:00", "08:00", "11:00", "14:00", "17:00", "20:00", "23:00"
+        "00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00" 
     ]
 
     if current_time in signal_times:
@@ -92,8 +98,8 @@ def check_and_send_signal():
 
 
 try:
-    check_and_send_signal()
-    # Wait for 1 minute before checking the time again
-    datetime.datetime.now() + datetime.timedelta(minutes=0)
+        check_and_send_signal()
+        # Wait for 1 minute before checking the time again
+        datetime.datetime.now() + datetime.timedelta(minutes=0)
 except Exception as e:
-    print(f"Error occurred: {str(e)}")
+        print(f"Error occurred: {str(e)}")
