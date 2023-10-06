@@ -18,7 +18,7 @@ texto4 = """
 🎲 Fique atento ao jogo 🎲
 💣 Mines - Entrada em 2 minutos
 🔎 Estamos validando uma entrada
-🖥 Link de cadastro:[Clique aqui](https://18kbet.online/player-from-agent/agent/167j6)
+<a href="https://18kbet.online/player-from-agent/agent/167j6">🖥 Link de cadastro</a>
 """
 
 texto5 = """
@@ -66,8 +66,8 @@ mensagem = """
 
 🎮: Tentativas: 2
 Jogar com 2 minas
-📲: Plataforma correta: [Clique aqui](https://18kbet.online/player-from-agent/agent/167j6)
-👉🏻: Link do jogo: [Mines](https://www.18kbet.online/casino/lobby/casino/category/MAIS%20JOGADOS%20CASSINO%20/game/15880?demo=false)
+<a href="https://18kbet.online/player-from-agent/agent/167j6">📲 Plataforma correta</a>
+<a href="https://www.18kbet.online/casino/lobby/casino/category/MAIS%20JOGADOS%20CASSINO%20/game/15880?demo=false">👉🏻 Link do jogo</a>
 ⏱️ Válido até: {}
 Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
@@ -153,13 +153,13 @@ def enviar_periodicamente():
             mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
             mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-            bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
+            bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='HTML', disable_web_page_preview=True)
             print("BOT-MINES-NATHAN-1")
        
             time.sleep(120)  # Aguarda 1 minuto
 
         
-            bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+            bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
        
             time.sleep(120)  # Espera 5 minutos (300 segundos)
 
