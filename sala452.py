@@ -25,7 +25,7 @@ texto6= """
 """
 
 mensagem = """
-🔮Entrda Confirmada🔮
+🔮Entrada Confirmada🔮
 
 🐯 FORTUNE TIGER ☘️
 🔥 Jogadas: {}
