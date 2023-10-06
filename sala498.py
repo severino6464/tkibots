@@ -54,7 +54,7 @@ Jogar com 2 a 3 minas
 ⏱️ Válido até: {}
 
 <a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">📲: Plataforma correta</a>
-<a href="https://bullsbet.net/casino/spribe/mines">👉🏻: Link do jogo</a>
+<a href="https://go.aff.bullsbetaffiliate.com/jr8vlg2z">👉🏻: Link do jogo</a>
 """
 
 
