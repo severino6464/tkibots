@@ -69,9 +69,7 @@ Jogar com 2 minas
 📲: Plataforma correta: [Clique aqui](https://18kbet.online/player-from-agent/agent/167j6)
 👉🏻: Link do jogo: [Mines](https://www.18kbet.online/casino/lobby/casino/category/MAIS%20JOGADOS%20CASSINO%20/game/15880?demo=false)
 ⏱️ Válido até: {}
-
-
-
+Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
 links = [
     "https://exemplo1.com",
