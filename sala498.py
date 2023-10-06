@@ -49,7 +49,7 @@ Jogar com 2 a 3 minas
 ⏱️ Válido até: {}
 
 <a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">📲: Plataforma correta</a>
-<a href="https://nuts.bet/casino/game/2172765">👉🏻: Link do jogo</a>
+<a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">👉🏻: Link do jogo</a>
 """
 
 
