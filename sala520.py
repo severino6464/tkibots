@@ -17,7 +17,7 @@ texto4 = """
 
 🐭 Fortune mouse
 
-<a href="========">📱 Cadastre-se aqui</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Cadastre-se aqui</a>
 """
 
 texto5 = """
@@ -40,9 +40,9 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-<a href="========">📱 Cadastre-se aqui</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Cadastre-se aqui</a>
 
-<a href="========">📱 Jogar Fortune mouse 🐰 </a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Jogar Fortune mouse 🐰 </a>
 """
 
 def send_signal():
