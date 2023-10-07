@@ -66,6 +66,13 @@ text2 = """
  Você que fez GREEN envie um print no @suportereidossinais1
   """
 
+text3 = """
+🚨<b>Sorteio de uma banca de 100 reais esta semana para quem depositar 20 e enviar um print no:</b> 
+
+@suportereidossinais1
+💰💰💰💰💰💰💰💰💰💰💰💰
+  """
+
 print("=====")
 bot.send_message(chat_id=group_id, text=texto1, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120)
@@ -77,7 +84,8 @@ mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-   
-time.sleep(120)
+time.sleep(30)
+bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(90)
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(180)  # Espera 5 minutos (300 segundos)
