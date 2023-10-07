@@ -51,9 +51,7 @@ mensagem = """
 """
 
 def send_signal():
-
-    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(300) 
+    
     n_jogadas = random.randint(1, 12)
     n_jogadas2 = random.randint(1, 6)
     n_jogadas3 = random.randint(1, 6)
@@ -61,6 +59,7 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(n_jogadas,n_jogadas2,n_jogadas3,hora_validade, n_jogadas4)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(480)
@@ -72,6 +71,7 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(n_jogadas,n_jogadas2,n_jogadas3,hora_validade, n_jogadas4)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(480)
@@ -83,6 +83,7 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(n_jogadas,n_jogadas2,n_jogadas3,hora_validade, n_jogadas4)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(480)
@@ -94,9 +95,10 @@ def send_signal():
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(n_jogadas,n_jogadas2,n_jogadas3,hora_validade, n_jogadas4)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(60)
+    time.sleep(480)
 
     bot.send_message(chat_id=channel_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
     
