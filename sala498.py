@@ -85,7 +85,7 @@ mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(30)
-bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
+bot.send_message(chat_id=group_id, text=text3 ,parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(90)
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(180)  # Espera 5 minutos (300 segundos)
