@@ -40,7 +40,7 @@ mensagem = """
 
 
 🎰 <b>CADASTRE-SE PARA JOGAR</b>:
-➡ https://bit.ly/REGISTRONINJA
+➡ https://bit.ly/CADASTRODOCINHO
 
 🎰 <b>NÃO SABE JOGAR? APRENDA AGORA!</b>
 ➡  https://bit.ly/APRENDAJOGAR
