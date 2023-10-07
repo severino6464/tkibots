@@ -42,7 +42,7 @@ mensagem = """
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Cadastre-se aqui</a>
 
-<a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Jogar Fortune mouse 🐰 </a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Jogar Fortune Rabbit 🐰 </a>
 """
 
 def send_signal():
