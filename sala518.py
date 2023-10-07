@@ -13,8 +13,6 @@ texto4 = """
 ⚠️ ANALISANDO ENTRADAS⚠️
 
 🎰 Roleta: Brasileira 
-
-🖥 Link de cadastro:[Clique aqui](=======)
 """
 
 # Função para puxar os dados da roleta
@@ -72,12 +70,6 @@ if ultimos_resultados != check_resultados:
         🎰 Roleta: Brasileira 
 
         Entrar na cor: {cor_aposta}
-
-        🟢 Sempre Cobrir o Zero
-        🚨 Aplicar até 2 gales
-    
-        🎯[APOSTE AQUI](===)
-        🎁 [Clique aqui](===)
 """
         enviar_mensagem_telegram(mensagem)
         print(mensagem)
