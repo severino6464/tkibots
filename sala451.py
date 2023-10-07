@@ -18,6 +18,16 @@ FAÇA SEU CADASTRO 👇
 
 """
 
+texto5 = """
+🍀🍀 <b>Entradas Finalizadas</b> 🍀🍀
+     ✅✅ <b>SÓÓÓ LUCROOO!</b> ✅✅
+
+"""
+
+texto6= """
+🍀 <b>SESSÃO DO LUCKY NEKO ENCERRADA!</b> 🍀
+"""
+
 mensagem = """
 🚨 ENTRADA CONFIRMADA 🚨
 
@@ -34,57 +44,56 @@ mensagem = """
 
 """
 
-texto5 = """
-🍀🍀 <b>Entradas Finalizadas</b> 🍀🍀
-     ✅✅ <b>SÓÓÓ LUCROOO!</b> ✅✅
-
-"""
-
-texto6 = """
-🍀 <b>SESSÃO DO LUCKY NEKO ENCERRADA!</b> 🍀
-
-"""
-
 def send_signal():
+
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(300) 
-
     n_jogadas = random.randint(6, 20)
     n_jogadas2 = random.randint(4, 20)
+    n_jogadas3 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2, n_jogadas3)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120)
+    time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(780)
+    time.sleep(420)
 
+    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(300) 
     n_jogadas = random.randint(6, 20)
     n_jogadas2 = random.randint(4, 20)
+    n_jogadas3 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2, n_jogadas3)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120)
+    time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(780)
+    time.sleep(420)
 
+    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(300) 
     n_jogadas = random.randint(6, 20)
     n_jogadas2 = random.randint(4, 20)
+    n_jogadas3 = random.randint(4, 20)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem.format(hora_validade, n_jogadas, n_jogadas2, n_jogadas3)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120)
+    time.sleep(480)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(30)
+    time.sleep(420)
+
+
     bot.send_message(chat_id=channel_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
+
 
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
     signal_times = [
-        "02:00", "05:00", "08:00", "11:00", "14:00", "17:00", "20:00", "23:00"
+        "02:00", "07:00", "08:00", "11:00", "14:00", "17:00", "20:00", "23:00"
     ]
 
     if current_time in signal_times:
@@ -92,8 +101,8 @@ def check_and_send_signal():
 
 
 try:
-    check_and_send_signal()
-    # Wait for 1 minute before checking the time again
-    datetime.datetime.now() + datetime.timedelta(minutes=0)
+        check_and_send_signal()
+        # Wait for 1 minute before checking the time again
+        datetime.datetime.now() + datetime.timedelta(minutes=0)
 except Exception as e:
-    print(f"Error occurred: {str(e)}")
+        print(f"Error occurred: {str(e)}")
