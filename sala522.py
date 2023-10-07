@@ -80,6 +80,16 @@ def send_signal():
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(240)
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(360)
+
+    n_jogadas = random.randint(6, 20)
+    n_jogadas2 = random.randint(4, 20)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=4)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas2)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(240)
+    bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(60)
 
     bot.send_message(chat_id=channel_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
