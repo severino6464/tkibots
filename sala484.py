@@ -7,7 +7,7 @@ import sys
 import os
 from telebot import types
 
-CHAVE_API = "6136907819:AAGp5VVlDD0Lfpg_bIGabDEaFPyWa-w7s5g"
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" 
 bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001588880744'
@@ -18,7 +18,7 @@ texto4 = """
 🎲 Fique atento ao jogo 🎲
 💣 Mines - Entrada em 2 minutos
 🔎 Estamos validando uma entrada
-!🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=35107&brand=nutsbet)
+<a href="https://18kbet.online/player-from-agent/agent/167j6">🖥 Link de cadastro</a>
 """
 
 texto5 = """
@@ -66,13 +66,10 @@ mensagem = """
 
 🎮: Tentativas: 2
 Jogar com 2 minas
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35107&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://nuts.bet/casino/game/2172765)
+<a href="https://18kbet.online/player-from-agent/agent/167j6">📲 Plataforma correta</a>
+<a href="https://www.18kbet.online/casino/lobby/casino/category/MAIS%20JOGADOS%20CASSINO%20/game/15880?demo=false">👉🏻 Link do jogo</a>
 ⏱️ Válido até: {}
-
-📲 [Jogue pelo APP](https://xngbet.appnuts.cloud/ap/casa/) 
-
-
+Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
 links = [
     "https://exemplo1.com",
@@ -146,35 +143,34 @@ def handle_button_click(call):
         bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id, reply_markup=keyboard)
 
 def enviar_periodicamente():
+        try:
+            possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+            link_aleatorio = random.choice(links)
+            validade = datetime.datetime.now() + datetime.timedelta(minutes=4)
+            hora_validade = validade.strftime("%H:%M")
+            mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+            mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+            mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-    try:
-        possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-        link_aleatorio = random.choice(links)
-        validade = datetime.datetime.now() + datetime.timedelta(minutes=4)
-        hora_validade = validade.strftime("%H:%M")
-        mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-        mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-        mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
-
-        bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
-        print("BOT-MINES-NATHAN-1")
+            bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='HTML', disable_web_page_preview=True)
+            print("BOT-MINES-NATHAN-1")
        
-        time.sleep(120)  # Aguarda 1 minuto
+            time.sleep(120)  # Aguarda 1 minuto
 
         
-        bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+            bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
        
-        time.sleep(120)  # Espera 5 minutos (300 segundos)
+            time.sleep(120)  # Espera 5 minutos (300 segundos)
 
-        enviar_mensagem() 
+            enviar_mensagem() 
 
-        time.sleep(200)
+            time.sleep(200)
         
         
-    except Exception as e:
-        print("Ocorreu um erro fatal:", e)
-        print("REINICIANDO O PROGRAMA")
-        reiniciar_programa()
+        except Exception as e:
+            print("Ocorreu um erro fatal:", e)
+            print("REINICIANDO O PROGRAMA")
+            reiniciar_programa()
 
 # Inicia um thread separado para enviar a mensagem periodicamente
 thread_envio = threading.Thread(target=enviar_periodicamente)
