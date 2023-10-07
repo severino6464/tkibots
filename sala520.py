@@ -15,7 +15,7 @@ texto4 = """
 
 🎲 Fique atento ao jogo 🎲
 
-🐭 Fortune mouse
+🐰 Fortune Rabbit
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37480&brand=nutsbet">📱 Cadastre-se aqui</a>
 """
@@ -33,7 +33,7 @@ texto6= """
 mensagem = """
 ⚠️ <b>ENTRADA CONFIRMADA</b> ⚠️
 
-🐰 Fortune mouse 🐰
+🐰 Fortune Rabbit 🐰
 
 🔥 𝗡º 𝗱𝗲 𝗝𝗼𝗴𝗮𝗱𝗮𝘀: {}
 ⏰ Sinal válido até: {}
