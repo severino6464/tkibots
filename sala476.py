@@ -28,7 +28,8 @@ texto5 = """
  """
 
 texto6 = """
-🚨<b>Sorteio de uma banca de 100 reais neste domingo para quem depositar 20 e enviar um print no 👇
+🚨<b>🚨Sorteio de uma banca de 100 reais esta semana para quem depositar 20 e enviar um print no 
+👇
 @suportereidossinais1</b>
 💰💰💰💰💰💰💰💰💰💰💰💰
 """
