@@ -49,7 +49,7 @@ mensagem = """
 
 def send_signal():
 
-    bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120) 
 
 
