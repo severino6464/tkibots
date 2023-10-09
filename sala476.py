@@ -24,7 +24,14 @@ texto4 = """
 texto5 = """
 🔷🔹 Entrada Finalizada 🔹🔷
      ✅✅ GRENN! ✅✅
- Você que fez GREEN envie um print no @suportereidossinais1 """
+ Você que fez GREEN envie um print no @suportereidossinais1 
+ """
+
+texto6 = """
+🚨<b>Sorteio de uma banca de 100 reais neste domingo para quem depositar 20 e enviar um print no 👇
+@suportereidossinais1</b>
+💰💰💰💰💰💰💰💰💰💰💰💰
+"""
 
 possibilidades_minas = [
     "💣💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
@@ -159,8 +166,10 @@ def enviar_periodicamente():
 
         
             bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-       
-            time.sleep(120)  # Espera 5 minutos (300 segundos)
+            time.sleep(30)
+            bot.send_message(chat_id=group_id, text=texto6 ,parse_mode='HTML', disable_web_page_preview=True)
+
+            time.sleep(90)  # Espera 5 minutos (300 segundos)
 
             enviar_mensagem() 
 
