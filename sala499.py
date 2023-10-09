@@ -18,6 +18,13 @@ texto5 = """
      ✅✅ <b>LUCROOO!</b> ✅✅
 """
 
+texto6 = """
+🚨Sorteio de uma banca de 100 reais esta semana para quem depositar 20 e enviar um print no 
+
+@suportereidossinais1
+💰💰💰💰💰💰💰💰💰💰💰💰
+"""
+
 mensagem = """
 🥷🏻 <b>Entrada Confirmada!</b> 🍩
 
@@ -56,7 +63,10 @@ bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_p
 time.sleep(120)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(1080)
+time.sleep(30)
+
+bot.send_message(chat_id=group_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(420)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(600)
+time.sleep(1230)
