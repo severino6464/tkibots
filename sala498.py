@@ -67,10 +67,9 @@ text2 = """
   """
 
 text3 = """
-🚨<b>Sorteio de uma banca de 100 reais esta semana para quem depositar 20 e enviar um print no:</b> 
-
+🚨<b>🚨Receba O DOBRO ao depositar 20 reais, para ganhar, basta mandar um print de depósito no suporte👇
 @suportereidossinais1
-💰💰💰💰💰💰💰💰💰💰💰💰
+💰💰💰💰💰💰💰💰💰💰💰💰</b> 
   """
 
 print("=====")
