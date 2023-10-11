@@ -9,6 +9,7 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001507321262'
 
+sticker_file_id = 'CAACAgIAAxkBAAMfZSb4VppXyng9TmBwSA12Ss3y2hkAAhoDAAKc1ucKpX8qfdF9KAIwBA'
 
 texto4 = """
 🎲 Fique atento ao jogo 🎲
@@ -24,7 +25,6 @@ texto5 = """
      ✅✅ GRENN! ✅✅
  
 """
-
 
 mensagem = """
 ⚠️ ENTRADA CONFIRMADA ⚠️
@@ -62,4 +62,5 @@ bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown
 time.sleep(120)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
 time.sleep(120) 
