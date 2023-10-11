@@ -27,27 +27,33 @@ possibilidades_minas = [
 
 
 texto4 = """
-ATENÇÃO VAMOS INICIAR !
+⚠️ <b>ATENÇÃO VAMOS INICIAR!</b> ⚠️
 """
 
 
 mensagem = """
-🔥 ROBÔ CONFIRMOU 🔥
+🔥 <b>ROBÔ CONFIRMOU</b> 🔥
 🎰 Roleta: Brasileira
 
 {}
 
+⏱️ Válido até: {}
+
 👉 Cobrir o zero
 🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=37487&brand=nutsbet)
-🖥️[Jogue Aqui](https://nuts.bet/live-casino/game/2177465)
-⏱️ Válido até: {}
+
+<a href="https://affiliates.nuts.bet/visit/?bta=37487&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+
+<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+
 """
 
 
 
 
 print("======")
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(60)
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
@@ -56,7 +62,7 @@ mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(480)
+time.sleep(420)
