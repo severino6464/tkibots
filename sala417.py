@@ -62,7 +62,7 @@ def send_signal():
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
-    horarios_sinal = ["09:30", "14:30", "20:30", "21:33"]
+    horarios_sinal = ["09:30", "14:30", "20:30", "21:34"]
     
     horario_mais_proximo = min(horarios_sinal, key=lambda x: (datetime.datetime.strptime(x, "%H:%M") - datetime.datetime.strptime(current_time, "%H:%M")).total_seconds())
     
