@@ -92,7 +92,7 @@ def handle_callback_query(call):
         markup = types.InlineKeyboardMarkup()
         button = types.InlineKeyboardButton("ACESSAR GRUPO AGORA ", url="https://t.me/playonabet")
         markup.add(button)
-        bot.send_message(call.message.chat.id,texto0,reply_markup=markup)
+        bot.send_message(call.message.chat.id,"",reply_markup=markup)
 
         time.sleep(60)
 
@@ -114,7 +114,7 @@ def handle_callback_query(call):
         markup = types.InlineKeyboardMarkup()
         button = types.InlineKeyboardButton(texto4, url="https://onabet.cxclick.com/visit/?bta=36671&brand=onabet")
         markup.add(button)
-        bot.send_message(call.message.chat.id,texto0,reply_markup=markup)
+        bot.send_message(call.message.chat.id,"",reply_markup=markup)
 
         state[call.message.chat.id] = 2  # Reinicie o estado
 
@@ -144,7 +144,7 @@ def handle_callback_query(call):
         markup = types.InlineKeyboardMarkup()
         button = types.InlineKeyboardButton("ACESSAR  ", url="https://t.me/playonabet")
         markup.add(button)
-        bot.send_message(call.message.chat.id,texto0,reply_markup=markup)
+        bot.send_message(call.message.chat.id,"",reply_markup=markup)
 
 
 
@@ -156,7 +156,7 @@ def handle_callback_query(call):
         markup = types.InlineKeyboardMarkup()
         button = types.InlineKeyboardButton("Clica no botão abaixo e acesse o grupo enquanto ainda está gratuito. 👇 ", url="https://t.me/playonabet")
         markup.add(button)
-        bot.send_message(call.message.chat.id,texto0,reply_markup=markup)
+        bot.send_message(call.message.chat.id,"",reply_markup=markup)
        
        
 
