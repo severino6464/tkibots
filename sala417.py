@@ -59,7 +59,7 @@ def send_signal():
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
-    horarios_sinal = ["09:30", "14:30", "20:30"]
+    horarios_sinal = ["09:30", "14:30", "20:30", "21:39"]
     
     # Encontre o próximo horário de sinal
     proximo_horario = min([horario for horario in horarios_sinal if horario > current_time] or horarios_sinal, key=lambda x: datetime.datetime.strptime(x, "%H:%M"))
