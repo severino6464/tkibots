@@ -92,7 +92,7 @@ def handle_callback_query(call):
         markup = types.InlineKeyboardMarkup()
         button = types.InlineKeyboardButton("ACESSAR GRUPO AGORA ", url="https://t.me/playonabet")
         markup.add(button)
-        bot.send_message(call.message.chat.id,texto0,reply_markup=markup)
+        bot.send_message(call.message.chat.id,reply_markup=markup)
 
         time.sleep(60)
 
