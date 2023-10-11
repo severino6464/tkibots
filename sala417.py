@@ -3,6 +3,7 @@ import datetime
 import random
 import time
 
+
 CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" 
 
 bot = telebot.TeleBot(CHAVE_API)
@@ -17,6 +18,8 @@ possibilidades_minas = [
     "Apostar na cor ⚫"
 ]
 
+
+
 texto4 = """
 ⚠️ <b>ATENÇÃO VAMOS INICIAR</b> ⚠️
 
@@ -29,6 +32,7 @@ texto5 = """
 ✅✅ <b>SESSÃO ENCERRADA!</b> ✅✅
 """
 
+
 mensagem = """
 💰 SINAL CONFIRMOU 💰
 🎰 Roleta: Brasileira
@@ -39,14 +43,87 @@ mensagem = """
 ⚠️ Sempre cobrir o zero
 🔁 Fazer até 2 proteções
 
+
 <a href="https://affiliates.nuts.bet/visit/?bta=37469&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37469&nci=5359"><b>🏦Abra a roleta</b></a>
 """
 
 def send_signal():
+
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120) 
+
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
@@ -57,20 +134,21 @@ def send_signal():
 
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 
+
+
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
-    horarios_sinal = ["09:30", "14:30", "20:30", "21:39"]
-    
-    # Encontre o próximo horário de sinal
-    proximo_horario = min([horario for horario in horarios_sinal if horario > current_time] or horarios_sinal, key=lambda x: datetime.datetime.strptime(x, "%H:%M"))
-    
-    if proximo_horario == current_time:
+    signal_times = [
+        "09:30", "14:30", "20:30"
+    ]
+
+    if current_time in signal_times:
         send_signal()
 
 
 try:
-    check_and_send_signal()
-    # Aguarde 1 minuto antes de verificar o horário novamente
-    time.sleep(60)
+        check_and_send_signal()
+        # Wait for 1 minute before checking the time again
+        datetime.datetime.now() + datetime.timedelta(minutes=0)
 except Exception as e:
-    print(f"Ocorreu um erro: {str(e)}")
+        print(f"Error occurred: {str(e)}")
