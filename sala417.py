@@ -55,9 +55,6 @@ def send_signal():
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(180)
 
-    # Repita este bloco para cada sinal
-    # ...
-
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 
 def check_and_send_signal():
