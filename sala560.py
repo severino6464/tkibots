@@ -51,7 +51,6 @@ Jogar com 2 a 3 minas
 ⏱️ Válido até: {}
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37638&brand=nutsbet">📲: Plataforma correta</a>
-<a href="https://nuts.bet/casino/game/2172765">👉🏻: Link do jogo</a>
 """
 
 
