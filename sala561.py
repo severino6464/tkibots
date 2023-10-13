@@ -9,7 +9,7 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001971786325'
 
-
+sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
 
 links = [
     "https://exemplo1.com",
@@ -27,25 +27,33 @@ possibilidades_minas = [
 
 
 texto4 = """
-ATENÇÃO VAMOS INICIAR !
+⚠️ <b>ATENÇÃO VAMOS INICIAR!</b> ⚠️
 """
 
 
 mensagem = """
-🔥 ROBÔ CONFIRMOU 🔥
+🔥 <b>ROBÔ CONFIRMOU</b> 🔥
 🎰 Roleta: Roulette Live
 
 {}
 
+⏱️ Válido até: {}
+
 👉 Cobrir o zero
 🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=36775&brand=nutsbet)
-🖥️[Jogue Aqui](https://affiliates.nuts.bet/visit/?bta=36775&brand=nutsbet)
-⏱️ Válido até: {}
+
+<a href="https://affiliates.nuts.bet/visit/?bta=36775&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+
+<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+
 """
 
 
-print("BOT-aff80-nuts")
+
+
+print("======")
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(60)
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
@@ -54,5 +62,7 @@ mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(600)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(120)
+bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+time.sleep(420)
