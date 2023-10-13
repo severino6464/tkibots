@@ -11,58 +11,49 @@ group_id = '-1001964868923'
 
 sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
 
-links = [
-    "https://exemplo1.com",
-]
-
-
-possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
-]
-
-
-
 texto4 = """
-⚠️ <b>ATENÇÃO VAMOS INICIAR!</b> ⚠️
+🎲 Fique atento ao jogo 🎲
+
+🐭 Fortune mouse
+🔎 Estamos validando uma entrada
+
+<a href="https://affiliates.nuts.bet/visit/?bta=37487&brand=nutsbet">📱 Cadastre-se aqui</a>
+"""
+
+texto5 = """
+🔷🔹 Entrada Finalizada 🔹🔷
+     ✅✅ GRENN! ✅✅
+ 
 """
 
 
 mensagem = """
-🔥 <b>ROBÔ CONFIRMOU</b> 🔥
-🎰 Roleta: Brasileira
+⚠️ ENTRADA CONFIRMADA ⚠️
 
-{}
+🐭 Fortune mouse
 
-⏱️ Válido até: {}
+🔥 𝗡º 𝗱𝗲 𝗝𝗼𝗴𝗮𝗱𝗮𝘀: {}
+⏰ Sinal válido até: {}
 
-👉 Cobrir o zero
-🔁 Fazer até 3 gales
+🌪 Faça no máximo {} jogadas!
 
-<a href="https://affiliates.nuts.bet/visit/?bta=37487&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37487&brand=nutsbet">📱 Cadastre-se aqui</a>
 
-<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
-
+<a href="https://affiliates.nuts.bet/visit/?bta=37487&brand=nutsbet">📱 Jogar Fortune mouse 🐭 </a>
 """
 
+print("===========")
 
-
-
-print("======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(60)
-possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-link_aleatorio = random.choice(links)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+time.sleep(60) 
 
+n_jogadas = random.randint(2, 15)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(n_jogadas, hora_validade, n_jogadas)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)
+time.sleep(120)  # Espera 5 minutos (300 segundos)
+
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(420)
+time.sleep(120) 
