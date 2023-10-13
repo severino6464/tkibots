@@ -19,8 +19,7 @@ texto5 = """
 """
 
 texto6 = """
-🚨Sorteio de uma banca de 100 reais esta semana para quem depositar 20 e enviar um print no 
-
+🚨Receba O DOBRO ao depositar 20 reais, para ganhar, basta mandar um print de depósito no suporte👇
 @suportereidossinais1
 💰💰💰💰💰💰💰💰💰💰💰💰
 """
