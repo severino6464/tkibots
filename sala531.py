@@ -9,52 +9,34 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001947452878'
 
-
-
-links = [
-    "https://exemplo1.com",
-]
-
-
-possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
-]
-
-
-
-texto4 = """
-ATENÇÃO VAMOS INICIAR !
-"""
-
+sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
 
 mensagem = """
-🔥 ROBÔ CONFIRMOU 🔥
-🎰 Roleta: Brasileira
+🚨 <b>ENTRADA CONFIRMADA</b> 🚨
 
-{}
+🐯 Fortune Tiger 
+⏰ Estratégia: Horários Pagantes
+⚠️ Válido ate: {}
 
-👉 Cobrir o zero
-🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=37513&brand=nutsbet)
-🖥️[Jogue Aqui](https://nuts.bet/live-casino/game/2177465)
-⏱️ Válido até: {}
+💰 {}x Normal
+💰 {}x Turbo
+
+⚡ Intercalando
+
+<a href="https://affiliates.nuts.bet/visit/?bta=37513&brand=nutsbet">🔗 Fazer CADASTRO ✅</a>
+<a href="https://nuts.bet/casino/game/2180615">🔗 Abrir FORTUNE TIGER</a>
 """
 
+print("========")
 
-
-
-print("======")
-possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-link_aleatorio = random.choice(links)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+ 
+n_jogadas = random.randint(6, 20)
+n_jogadas2 = random.randint(4, 20)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(600)
+time.sleep(120)
+bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+time.sleep(480)
