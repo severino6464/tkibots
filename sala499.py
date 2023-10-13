@@ -28,7 +28,6 @@ mensagem = """
 🥷🏻 <b>Entrada Confirmada!</b> 🍩
 
 🎯 <b>Estratégia</b>: Minutos Pagantes
-🔥 <b>Número de cortes</b>: {}
 
 🕑 <b>HORÁRIOS PAGANTES</b>:
 
@@ -41,7 +40,6 @@ mensagem = """
 Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
 
-n_jogadas = random.randint(2, 6)
 
 entrada1 = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade1 = entrada1.strftime("%H:%M")
@@ -55,7 +53,7 @@ n_jogadas3 = random.randint(2, 6)
 n_jogadas4 = random.randint(2, 6)
 
 
-mensagem_formatada = mensagem.format(n_jogadas, hora_validade1, n_jogadas2, hora_validade2, n_jogadas3, hora_validade3, n_jogadas4)
+mensagem_formatada = mensagem.format(hora_validade1, n_jogadas2, hora_validade2, n_jogadas3, hora_validade3, n_jogadas4)
 
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
