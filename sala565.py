@@ -23,7 +23,7 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="https://18kbet.online/player-from-agent/agent/14f2u">🔗 Fazer CADASTRO ✅</a>
+<a href="https://18kbet.online/player-from-agent/agent/14f2u">🔗 Fazer CADASTRO </a>
 <a href="https://18kbet.online/player-from-agent/agent/14f2u">🔗 Abrir FORTUNE TIGER</a>
 """
 
