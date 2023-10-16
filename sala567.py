@@ -63,12 +63,20 @@ if ultimos_resultados != check_resultados:
     segundo_numero = ultimos_resultados[1]
     terceiro_numero = ultimos_resultados[2]
     quarto_numero = ultimos_resultados[3]
+    quinto_numero = ultimos_resultados[4]
+    sexto_numero = ultimos_resultados[5]
+    setimo_numero = ultimos_resultados[6]
+    oitavo_numero = ultimos_resultados[7]
     x1 = determinar_cor(primeiro_numero)
     x2 = determinar_cor(segundo_numero)
     x3 = determinar_cor(terceiro_numero)
     x4 = determinar_cor(quarto_numero)
+    x5 = determinar_cor(quinto_numero)
+    x6 = determinar_cor(sexto_numero)
+    x7 = determinar_cor(setimo_numero)
+    x8 = determinar_cor(oitavo_numero)
 
-    if x1 == x2 == x3 == x4:
+    if x1 == x2 == x3 == x4 == x5 == x6 == x7 == x8:
         cor_aposta = "🔴" if x1 == "PRETO" else "⚫"
         ultima_aposta = x1
         mensagem = f"""
