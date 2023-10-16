@@ -10,6 +10,11 @@ bot = telebot.TeleBot(CHAVE_API)
 
 channel_id = '-1001932869361'  
 
+texto2 = """
+✅✅✅ MAIS UM GRANDE GANHO PRA CONTA!!! 
+Confia na call hahaha, Me manda um depoimento aqui!
+👉 [Clique aqui](https://abrir.link/PD90e)
+"""
 
 texto3 = """
 ✅✅✅ MAIS UM GRANDE GANHO PRA CONTA!!! 
@@ -31,7 +36,7 @@ Não conseguiu subir sua banca ainda? Me chama aqui!
 
 def send_signal():
     # Escolher aleatoriamente entre texto4 e texto5
-    random_text = random.choice([texto3, texto4, texto5])
+    random_text = random.choice([texto2, texto3, texto4, texto5])
     # Enviar a mensagem para o canal especificado
     bot.send_message(chat_id=channel_id, text=random_text, parse_mode='Markdown')
 
