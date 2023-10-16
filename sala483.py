@@ -39,8 +39,8 @@ mensagem = """
 
 👉 Cobrir o zero
 🔁 Fazer até 3 gales
-🔗 [Cadastre-se antes de Jogar!](https://18kbet.online/player-from-agent/agent/3vlsy)
-🖥️[Jogue Aqui](https://18kbet.online/player-from-agent/agent/3vlsy)
+🔗 [Cadastre-se antes de Jogar!](https://affiliates.nuts.bet/visit/?bta=36858&brand=nutsbet)
+🖥️[Jogue Aqui](https://affiliates.nuts.bet/visit/?bta=36858&brand=nutsbet)
 ⏱️ Válido até: {}
 """
 
