@@ -36,7 +36,7 @@ possibilidades_minas = [
 texto4 = """
 ⭐️💣 <b>ATENÇÃO VAMOS INICIAR A SESSÃO DO MINES</b> ⭐️💣
 
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">📱 CADASTRE-SE AQUI</a>
+<a href="https://go.aff.br4-partners.com/w1pjlefq?afp1=dedeof">📱 CADASTRE-SE AQUI</a>
 """
 
 texto5 = """
