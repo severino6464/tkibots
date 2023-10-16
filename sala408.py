@@ -46,8 +46,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://18kbet.online/player-from-agent/agent/3vlsy)
-👉🏻: Link do jogo: [Mines](https://18kbet.online/player-from-agent/agent/3vlsy)
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36858&brand=nutsbet)
+👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36858&brand=nutsbet)
 ⏱️ Válido até: {}
 
 """
