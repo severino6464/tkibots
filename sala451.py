@@ -14,7 +14,7 @@ texto4 = """
 🚨🍀 ATENÇÃO VAMOS INICIAR OS SINAIS DO LUCKY NEKO 🍀🚨
 
 FAÇA SEU CADASTRO 👇
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Fazer CADASTRO </a>
+<a href="https://go.aff.br4-partners.com/w1pjlefq?afp1=dedeof">🔗 Fazer CADASTRO </a>
 
 """
 
@@ -39,8 +39,8 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Fazer CADASTRO ✅</a>
-<a href="https://www.jogomanga.com/c-BZPxboKv?lang=pt">🔗 Abrir LUCKY NEKO</a>
+<a href="https://go.aff.br4-partners.com/w1pjlefq?afp1=dedeof">🔗 Fazer CADASTRO ✅</a>
+<a href="https://go.aff.br4-partners.com/w1pjlefq?afp1=dedeof">🔗 Abrir LUCKY NEKO</a>
 
 """
 
