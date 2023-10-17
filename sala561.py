@@ -10,6 +10,8 @@ bot = telebot.TeleBot(CHAVE_API)
 
 channel_id = '-1001971786325'
 
+sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
+
 possibilidades_minas = [
     "Apostar em números baixos [1-18]",
     "Apostar em números altos [19-36]",
@@ -60,6 +62,17 @@ def send_signal():
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(360)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
     time.sleep(480)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
@@ -67,28 +80,28 @@ def send_signal():
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(600)
+    time.sleep(120)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(480)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(600)
+    time.sleep(120)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(480)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(600)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
     time.sleep(180)
+
 
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 
