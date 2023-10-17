@@ -50,6 +50,8 @@ Jogar com 2 a 3 minas
 
 ⏱️ Válido até: {}
 
+
+🎮 Os sinais só funcionam nessa casa 👇🏻👇🏻
 <a href="https://affiliates.nuts.bet/visit/?bta=37667&brand=nutsbet">📲: Plataforma correta</a>
 """
 
