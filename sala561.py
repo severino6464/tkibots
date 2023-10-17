@@ -63,7 +63,7 @@ def send_signal():
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
-    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    bot.send_sticker(chat_id=channel_id, sticker=sticker_file_id)
     time.sleep(360)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
@@ -72,7 +72,7 @@ def send_signal():
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
-    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    bot.send_sticker(chat_id=channel_id, sticker=sticker_file_id)
     time.sleep(480)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
@@ -81,7 +81,7 @@ def send_signal():
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
-    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    bot.send_sticker(chat_id=channel_id, sticker=sticker_file_id)
     time.sleep(480)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
@@ -90,7 +90,7 @@ def send_signal():
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
-    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    bot.send_sticker(chat_id=channel_id, sticker=sticker_file_id)
     time.sleep(480)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
@@ -99,7 +99,7 @@ def send_signal():
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
-    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    bot.send_sticker(chat_id=channel_id, sticker=sticker_file_id)
     time.sleep(180)
 
 
