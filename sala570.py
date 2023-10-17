@@ -29,6 +29,8 @@ texto4 = """
 ✈️ Aviator 
 🔎 identificando entrada
 
+🎮 Os sinais só funcionam nessa casa 👇🏻👇🏻
+
 🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=37667&brand=nutsbet)
 """
 
@@ -51,6 +53,8 @@ mensagem = """
 ✅ Entrar Agora  
 
 ⏱️ Válido até: {}
+
+🎮 Os sinais só funcionam nessa casa 👇🏻👇🏻
 
 📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=37667&brand=nutsbet))
 """
