@@ -23,6 +23,8 @@ mensagem = """
 
 ⚡ Intercalando
 
+🎮 Os sinais só funcionam nessa casa 👇🏻👇🏻
+
 <a href="https://affiliates.nuts.bet/visit/?bta=37667&brand=nutsbet">🔗 Fazer CADASTRO </a>
 """
 
