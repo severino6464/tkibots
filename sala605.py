@@ -24,7 +24,6 @@ mensagem = """
 ⚡ Intercalando
 
 <a href="https://bcraft.g2afse.com/click?pid=15&offer_id=36">🔗 Fazer CADASTRO ✅</a>
-<a href="https://nuts.bet/casino/game/2180615">🔗 Abrir FORTUNE TIGER</a>
 """
 
 print("========")
