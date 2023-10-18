@@ -25,7 +25,7 @@ texto4 = """
 
 <a href="https://carregar.me/cadastraragoraja"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
-<a href="https://carregar.me/cadastraragoraja"><b>🏦 Abrir jogo</b></a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37469&nci=5359"><b>🏦 Abrir jogo</b></a>
 """
 
 texto5 = """
@@ -46,7 +46,7 @@ mensagem = """
 
 <a href="https://carregar.me/cadastraragoraja"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
-<a href="https://carregar.me/cadastraragoraja"><b>🏦Abra a roleta</b></a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37469&nci=5359"><b>🏦Abra a roleta</b></a>
 """
 
 def send_signal():
