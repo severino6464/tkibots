@@ -7,36 +7,66 @@ CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1001915315846'
+group_id = '-1002049445235'
 
-sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
+possibilidades_minas = [
+"🟦",
+"🟥"
+     
+ 
+]
 
-mensagem = """
-🚨 <b>ENTRADA CONFIRMADA</b> 🚨
 
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
 
-💰 {}x Normal
-💰 {}x Turbo
+texto4 = """
+⚠️ Fique atento ao jogo ⚠️
 
-⚡ Intercalando
+⚽ FOOTBALL STUDIO
+🔎 identificando entrada
 
-<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates">🔗 Fazer CADASTRO ✅</a>
-<a href="https://boasortebet.com/casino/game/1982849?provider=MrSlotty">🔗 Abrir FORTUNE TIGER</a>
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+👉🏻: Link jogo: [Cards](https://boasortebet.com/live-casino/game/1954684?provider=Evolution)
 """
 
-print("========")
 
+texto5 = """
+🔷🔹 Entrada Finalizada 🔹🔷
+     ✅✅ GRENN! ✅✅
  
-n_jogadas = random.randint(6, 20)
-n_jogadas2 = random.randint(4, 20)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+"""
 
-time.sleep(120)
-bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(480)
+
+
+mensagem = """
+✅ Entrada Confirmada 
+
+👉 Entrada:{}
+
+⚠️ MÁXIMO 2 GALES 
+🔔 Entrada Confirmada 🔔  
+✅ Entrar Agora  
+
+⏱️ Válido até: {}
+
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35644&brand=nutsbet&utm_campaign=aplicativo)
+"""
+
+print("BOT-AFF49-NUTS")
+
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+time.sleep(120) 
+
+
+
+  
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=1)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+
+time.sleep(60)  # Espera 5 minutos (300 segundos)
+
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+time.sleep(120) 
