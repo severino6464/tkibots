@@ -46,7 +46,7 @@ texto5 = """
 
 mensagem = """
 ⚽️💰 <b>Entrada confirmada</b> ⚽️💰
-🏁 Seleção: Portugal
+🏁 Seleção: {}
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
 🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out-Street</b></a>
@@ -56,17 +56,24 @@ mensagem = """
   
 """
 
+selecoes = [
+    "Áustria", "Azerbaijão", "Bélgica", "Croácia", "Tcheco", "Dinamarca",
+    "Inglaterra", "Finlândia", "França", "Alemanha", "Irlanda", "Itália",
+    "Holanda", "Polônia", "Portugal", "Montenegro", "Escócia", "Sérvia",
+    "Espanha", "Suécia", "Suíça", "Turquia", "Ucrânia", "Uzbequistão"
+]
+
 print("=======")
-bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)
+
 
 possibilidades_minas = gerar_possibilidades_minas()
 mensagem_formatada = "\n\n".join(possibilidades_minas)
 
+selecao_aleatoria = random.choice(selecoes)
 n_jogadas = random.randint(1, 3)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade, n_jogadas, mensagem_formatada)
+mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120)  # Espera 5 minutos (300 segundos)
 
