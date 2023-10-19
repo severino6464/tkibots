@@ -58,18 +58,18 @@ text2 = """
      ✅✅ GRENN! ✅✅
   """
 
-while True:
-    print("=====")
 
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    link_aleatorio = random.choice(links)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-    mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
-    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+print("=====")
+
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+link_aleatorio = random.choice(links)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
     
-    time.sleep(120)
-    bot.send_message(chat_id=group_id, text=text2 ,parse_mode='Markdown')
-    time.sleep(300)  # Espera 5 minutos (300 segundos)
+time.sleep(120)
+bot.send_message(chat_id=group_id, text=text2 ,parse_mode='Markdown')
+time.sleep(300)  # Espera 5 minutos (300 segundos)
