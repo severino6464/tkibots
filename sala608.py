@@ -48,7 +48,7 @@ mensagem = """
 
 ⏱️ Válido até: {}
 
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=35644&brand=nutsbet&utm_campaign=aplicativo)
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
 """
 
 print("BOT-AFF49-NUTS")
