@@ -51,7 +51,7 @@ mensagem = """
 🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
 """
 
-print("BOT-AFF49-NUTS")
+print("")
 
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
 time.sleep(120) 
