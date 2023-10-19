@@ -52,7 +52,7 @@ mensagem = """
 
 🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out</b></a>
   
-🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out</b></a>
+🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&nci=5384"><b>Penalty Shoot-Out</b></a>
   
 👇🏻 <b>Provável sequência</b> 👇🏻
 
