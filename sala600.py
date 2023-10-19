@@ -49,7 +49,11 @@ mensagem = """
 🏁 Seleção: {}
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
-🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out-Street</b></a>
+
+🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out</b></a>
+  
+🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out</b></a>
+  
 👇🏻 <b>Provável sequência</b> 👇🏻
 
 {}
