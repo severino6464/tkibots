@@ -17,7 +17,6 @@ possibilidades_minas = [
 ]
 
 
-
 texto4 = """
 ⚠️ Fique atento ao jogo ⚠️
 
@@ -58,7 +57,6 @@ time.sleep(120)
 
 
 
-  
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=1)
 hora_validade = validade.strftime("%H:%M")
