@@ -68,7 +68,7 @@ def enviar_sinal(resultado, contagem_verde, contagem_vermelho):
         return contagem_verde, contagem_vermelho
 
 def gerar_relatorio(contagem_verde, contagem_vermelho):
-    data_atual = datetime.datetime now().strftime("%d/%m/%Y")
+    data_atual = datetime.datetime.now().strftime("%d/%m/%Y")
     relatorio = f"📔 RELATÓRIO DE OPERAÇÕES ({data_atual})\n\n"
 
     for resultado in sinais_enviados:
