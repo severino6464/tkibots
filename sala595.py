@@ -46,7 +46,7 @@ text1 = """
 
 ⏱ Sinal em 2 Minutos
 
-💻 Única plataforma que funciona - Barão da Bet -<a href="https://baraodabet.com/main?openedModals=%2Fsign-up"><b>REGISTRE-SE</b></a>
+💻 Única plataforma que funciona - Princal Bet -<a href="https://bcraft.g2afse.com/click?pid=20&offer_id=14&sub1=TerrodaBanca"><b>REGISTRE-SE</b></a>
 """
 
 mensagem = """
@@ -57,7 +57,7 @@ mensagem = """
 {}
 
 🎮: Tentativas: 5
-📲: Casa correta <a href="https://baraodabet.com/main?openedModals=%2Fsign-up"><b>Clicando aqui</b></a>
+📲: Casa correta <a href="https://bcraft.g2afse.com/click?pid=20&offer_id=14&sub1=TerrodaBanca"><b>Clicando aqui</b></a>
 💻: Depósito mínimo <b>R$ 20,00</b> 👆🏻
 
 ⏱️ Válido até: {}
