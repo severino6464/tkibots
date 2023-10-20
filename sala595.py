@@ -46,7 +46,7 @@ text1 = """
 
 ⏱ Sinal em 2 Minutos
 
-💻 Única plataforma que funciona - Princal Bet -<a href="https://bcraft.g2afse.com/click?pid=20&offer_id=14&sub1=TerrodaBanca"><b>REGISTRE-SE</b></a>
+💻 Única plataforma que funciona - Principal Bet -<a href="https://bcraft.g2afse.com/click?pid=20&offer_id=14&sub1=TerrodaBanca"><b>REGISTRE-SE</b></a>
 """
 
 mensagem = """
