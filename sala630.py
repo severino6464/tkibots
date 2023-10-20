@@ -7,7 +7,7 @@ import requests
 CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # Substitua pelo seu token de bot
 bot = telebot.TeleBot(CHAVE_API)
 
-channel_id = '-1001896242506'  # Substitua pelo ID do seu canal
+channel_id = '-1001953877651'  # Substitua pelo ID do seu canal
 
 possibilidades_minas = [
     "Apostar na 1° e 2° coluna",
