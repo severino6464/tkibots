@@ -37,6 +37,6 @@ hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
-time.sleep(30)
+time.sleep(50)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(30)
+time.sleep(10)
