@@ -39,4 +39,4 @@ bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', d
 
 time.sleep(120)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(480)
+time.sleep(60)
