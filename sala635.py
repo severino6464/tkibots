@@ -40,7 +40,7 @@ texto5 = """
 mensagem = """
 🔔Entrada Confirmada 🔔
 👉 Entrada:{}
-Cobrir Empate 🟤
+👉Cobrir Empate 🟤
 
 
 ⏱️ Válido até: {}
