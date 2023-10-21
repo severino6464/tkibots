@@ -21,18 +21,17 @@ possibilidades_minas = [
 texto4 = """
 ⚠️ Fique atento ao jogo ⚠️
 
-🎲 BAC BO
+🎲 Manccini Dados
 🔎 identificando entrada
 
 
-<a href="https://go.aff.bullsbetaffiliate.com/433v7x66">🔗 Fazer CADASTRO ✅</a>
+<a href="https://go.aff.bullsbetaffiliate.com/433v7x66">🔗 Clique aqui para jogar ✅</a>
 
 """
 
 
 texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
+✅GRENN DO MANCCINI 🙅🏽‍♂️
  
 """
 
