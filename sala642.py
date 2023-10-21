@@ -39,7 +39,7 @@ def puxar_dados():
 texto4 = """
 ⚠️ <b>ATENÇÃO VAMOS INICIAR</b> ⚠️
 
-<a href=""><b>💸 Clique aqui para abrir a corretora!</b></a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37885&brand=nutsbetaffiliates"><b>💸 Clique aqui para abrir a corretora!</b></a>
 """
 
 mensagem = """
@@ -52,7 +52,7 @@ mensagem = """
 🧨 Último número: {}
 ⏱️ Válido até: {}
 
-<a href=""><b>💸 Clique aqui para abrir a corretora!</b></a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37885&brand=nutsbetaffiliates"><b>💸 Clique aqui para abrir a corretora!</b></a>
 """
 
 # Lista para armazenar os sinais enviados
