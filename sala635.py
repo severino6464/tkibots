@@ -38,17 +38,14 @@ texto5 = """
 
 
 mensagem = """
-✅ Entrada Confirmada 
-
+🔔Entrada Confirmada 🔔
 👉 Entrada:{}
+Cobrir Empate 🟤
 
-⚠️ MÁXIMO 2 GALES 
-🔔 Entrada Confirmada 🔔  
-✅ Entrar Agora  
 
 ⏱️ Válido até: {}
 
-<a href="https://go.aff.bullsbetaffiliate.com/433v7x66">🔗 Fazer CADASTRO ✅</a>
+<a href="https://go.aff.bullsbetaffiliate.com/433v7x66">🔗 Clique aqui para jogar ✅</a>
 """
 
 
