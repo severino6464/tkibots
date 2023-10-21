@@ -50,6 +50,10 @@ mensagem = """
 <a href="https://go.aff.bullsbetaffiliate.com/swyo7rdh"><b>💸 Clique aqui para abrir a corretora!</b></a>
 """
 
+texto5 = """
+<b>✅🤑BATEUUUU🤑✅</b>
+"""
+
 # Lista para armazenar os sinais enviados
 sinais_enviados = []
 
@@ -96,11 +100,19 @@ def enviar_sinais_e_relatorio():
     for _ in range(6):
         resultado = {'hora': datetime.datetime.now().strftime("%H:%M"), 'resultado': 'GREEN ✅' if contagem_verde < 5 else 'RED ❌'}
         
-        contagem_verde, contagem_vermelho = enviar_sinal(resultado, contagem_verde, contagem_vermelho)
+        # Enviar uma entrada confirmada
+        enviar_sinal(resultado, contagem_verde, contagem_vermelho)
+        
+        if resultado['resultado'] == 'GREEN ✅':
+            # Aguardar 60 segundos antes de enviar texto5
+            time.sleep(120)
+            bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
         
         time.sleep(10 * 60)
 
     enviar_relatorio(contagem_verde, contagem_vermelho)
+
+
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
