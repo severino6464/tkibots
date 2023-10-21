@@ -7,7 +7,7 @@ CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1002060601382'
+group_id = '-1002132545405'
 
 sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
 
