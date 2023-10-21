@@ -7,7 +7,7 @@ import requests
 CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # Substitua pelo seu token de bot
 bot = telebot.TeleBot(CHAVE_API)
 
-channel_id = '-1001953877651'  # Substitua pelo ID do seu canal
+channel_id = '-1001896242506'  # Substitua pelo ID do seu canal
 
 possibilidades_minas = [
     "Apostar na 1° e 2° coluna",
@@ -104,14 +104,10 @@ def enviar_sinais_e_relatorio():
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
-    signal_times = ["09:00", "14:00", "17:30"]
+    signal_times = ["09:00", "14:00", "23:20"]
 
     if current_time in signal_times:
         enviar_sinais_e_relatorio()
 
-while True:
-    try:
-        check_and_send_signal()
-        time.sleep(60)
-    except Exception as e:
-        print(f"Erro ocorreu: {str(e)}")
+# Chame a função check_and_send_signal a partir do seu código principal sempre que necessário
+check_and_send_signal()
