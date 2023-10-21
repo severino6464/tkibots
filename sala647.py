@@ -23,8 +23,8 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="https://go.aff.bullsbetaffiliate.com/mw6qyrhy">🔗 Fazer CADASTRO ✅</a>
-<a href="https://go.aff.bullsbetaffiliate.com/mw6qyrhy">🔗 Abrir FORTUNE TIGER</a>
+<a href="https://go.aff.bullsbetaffiliate.com/q6tth77a">🔗 Fazer CADASTRO ✅</a>
+<a href="https://go.aff.bullsbetaffiliate.com/q6tth77a">🔗 Abrir FORTUNE TIGER</a>
 """
 
 print("========")
