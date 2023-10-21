@@ -33,7 +33,7 @@ def puxar_dados():
 texto4 = """
 ⚠️ <b>ATENÇÃO VAMOS INICIAR</b> ⚠️
 
-<a href="https://go.aff.bullsbetaffiliate.com/mw6qyrhy"><b>💸 Clique aqui para abrir a corretora!</b></a>
+<a href="https://go.aff.bullsbetaffiliate.com/0yazuche"><b>💸 Clique aqui para abrir a corretora!</b></a>
 """
 
 mensagem = """
@@ -47,7 +47,7 @@ mensagem = """
 🧨 Último número: {}
 ⏱️ Válido até: {}
 
-<a href="https://go.aff.bullsbetaffiliate.com/mw6qyrhy"><b>💸 Clique aqui para abrir a corretora!</b></a>
+<a href="https://go.aff.bullsbetaffiliate.com/0yazuche"><b>💸 Clique aqui para abrir a corretora!</b></a>
 """
 
 # Lista para armazenar os sinais enviados
