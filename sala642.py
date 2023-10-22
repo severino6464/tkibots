@@ -16,9 +16,6 @@ possibilidades_minas = [
     "Apostar na 1° e 2° dúzia",
     "Apostar na 1° e 3° dúzia",
     "Apostar na 2° e 3° dúzia",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
 ]
 
 url = "https://casino.betfair.com/api/tables-details"
