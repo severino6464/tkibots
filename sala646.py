@@ -93,7 +93,7 @@ def enviar_sinais_e_relatorio():
     # Aguardar 5 minutos antes de iniciar os sinais
     time.sleep(5 * 60)
 
-    for _ in range(6):
+    for _ in range(5):
         resultado = {'hora': datetime.datetime.now().strftime("%H:%M"), 'resultado': 'GREEN ✅' if contagem_verde < 5 else 'RED ❌'}
         
         contagem_verde, contagem_vermelho = enviar_sinal(resultado, contagem_verde, contagem_vermelho)
