@@ -91,4 +91,4 @@ time.sleep(120)
 
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(360)
+time.sleep(240)
