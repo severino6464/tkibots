@@ -66,4 +66,4 @@ bot.send_message(chat_id=group_id, text=texto6, parse_mode='HTML', disable_web_p
 time.sleep(420)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(1230)
+time.sleep(60)
