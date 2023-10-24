@@ -98,7 +98,7 @@ def enviar_sinais_e_relatorio():
         
         contagem_verde, contagem_vermelho = enviar_sinal(resultado, contagem_verde, contagem_vermelho)
         
-        time.sleep(10 * 60)
+        time.sleep(3 * 60)
 
     enviar_relatorio(contagem_verde, contagem_vermelho)
 
