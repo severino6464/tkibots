@@ -15,7 +15,7 @@ sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQ
 texto4 = """
 🐯💎<b>ATENÇÃO SESSÃO DO TIGER VAI INICIAR EM 5 MINUTOS</b>💎🐯
 
-<a href="https://go.aff.bullsbetaffiliate.com/1s92s915">📱 CADASTRE-SE AQUI</a>
+<a href="https://go.aff.bullsbetaffiliate.com/z4uzwns4">📱 CADASTRE-SE AQUI</a>
 """
 
 texto5 = """
