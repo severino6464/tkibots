@@ -35,9 +35,9 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-<a href="https://go.aff.bullsbetaffiliate.com/1s92s915">📱 CADASTRE-SE AQUI</a>
+<a href="https://go.aff.bullsbetaffiliate.com/z4uzwns4">📱 CADASTRE-SE AQUI</a>
 
-<a href="https://go.aff.bullsbetaffiliate.com/1s92s915">📱 ABRIR FORTUNE TIGER🐯☘️</a>
+<a href="https://go.aff.bullsbetaffiliate.com/z4uzwns4">📱 ABRIR FORTUNE TIGER🐯☘️</a>
 """
 
 def send_signal():
