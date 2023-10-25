@@ -18,7 +18,7 @@ texto4 = """
 🧙‍♂️ Fique atento o Mago Achou uma entrada 🧙‍♂️
 💣 Mines 
 🔎 Estamos validando
-🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=36156&brand=nutsbet)
+🖥 Link de cadastro:<a href="https://affiliates.nuts.bet/visit/?bta=36156&brand=nutsbet">🔗 Fazer CADASTRO ✅</a>
 """
 
 texto5 = """
@@ -139,8 +139,8 @@ def enviar_periodicamente():
         mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
         mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-        bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
-        print("BOT-MINES-NATHAN-1")
+        bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='HTML', disable_web_page_preview=True)
+        print("Omagodomines")
        
         time.sleep(120)  
 
