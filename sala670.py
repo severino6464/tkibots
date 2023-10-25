@@ -58,7 +58,7 @@ possibilidades_minas = [
 
 
 mensagem = """
-🎲 Entrada confirmada 🎲
+🧙‍♂️ Entrada confirmada 🧙‍ 
 🥇: Entrada 
 
 {}
