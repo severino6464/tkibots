@@ -15,9 +15,9 @@ group_id = '-1001943077650'
 
 
 texto4 = """
-🎲 Fique atento ao jogo 🎲
-💣 Mines - Entrada em 2 minutos
-🔎 Estamos validando uma entrada
+🧙‍♂️ Fique atento o Mago Achou uma entrada 🧙‍♂️
+💣 Mines 
+🔎 Estamos validando
 🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=36156&brand=nutsbet)
 """
 
