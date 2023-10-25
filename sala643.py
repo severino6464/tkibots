@@ -17,11 +17,9 @@ links = [
 
 
 possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
+    "1° e 3° coluna",
+    "1° e 2° coluna",
+    "2° e 3° coluna"
 ]
 
 
