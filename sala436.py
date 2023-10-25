@@ -19,8 +19,10 @@ links = [
 possibilidades_minas = [
     "1° e 2° dúzia",
     "1° e 3° dúzia",
-    "2° e 3° dúzia"
-
+    "2° e 3° dúzia",
+    "1° e 3° coluna",
+    "1° e 2° coluna",
+    "2° e 3° coluna"
 ]
 
 
