@@ -52,7 +52,7 @@ mensagem = """
 
 🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out</b></a>
   
-🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&nci=5384"><b>Penalty Shoot-Out</b></a>
+🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&nci=5386"><b>Penalty Shoot-Out</b></a>
   
 👇🏻 <b>Provável sequência</b> 👇🏻
 
@@ -61,11 +61,12 @@ mensagem = """
 """
 
 selecoes = [
-    "Áustria", "Azerbaijão", "Bélgica", "Croácia", "Tcheco", "Dinamarca",
+    "Argentina", "Áustria", "Bélgica", "Brasil", "Croácia", "Tcheco", "Dinamarca",
     "Inglaterra", "Finlândia", "França", "Alemanha", "Irlanda", "Itália",
-    "Holanda", "Polônia", "Portugal", "Montenegro", "Escócia", "Sérvia",
-    "Espanha", "Suécia", "Suíça", "Turquia", "Ucrânia", "Uzbequistão"
+    "Holanda", "Polônia", "Portugal", "Escócia", "Sérvia", "Espanha",
+    "Suécia", "Suíça", "Turquia", "Ucrânia", "Uruguai"
 ]
+
 
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
