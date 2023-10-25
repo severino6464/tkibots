@@ -18,7 +18,11 @@ possibilidades_minas = [
     "Apostar na cor ⚫"
 ]
 
-
+links = [
+    "https://example.com/link1",
+    "https://example.com/link2",
+    "https://example.com/link3"
+]
 
 texto4 = """
 ATENÇÃO VAMOS INICIAR 
