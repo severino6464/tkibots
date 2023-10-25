@@ -65,8 +65,8 @@ mensagem = """
   
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36156&brand=nutsbet)
-👉🏻: Link do jogo: [Mines](https://nuts.bet/casino/game/2172765?provider=Spribe)
+📲: Plataforma correta: <a href="https://affiliates.nuts.bet/visit/?bta=36156&brand=nutsbet">🔗 Clique aqui ✅</a>
+👉🏻: Link do jogo:<a href="https://nuts.bet/casino/game/2172765?provider=Spribe">Mines</a> 
 ⏱️ Válido até: {}
 """
 links = [
@@ -145,7 +145,7 @@ def enviar_periodicamente():
         time.sleep(120)  
 
         
-        bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+        bot.send_message(chat_id=group_id, text=mensagem_formatada,parse_mode='HTML', disable_web_page_preview=True)
        
         time.sleep(120) 
 
