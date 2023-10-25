@@ -7,7 +7,7 @@ import sys
 import os
 from telebot import types
 
-CHAVE_API = "6136907819:AAGp5VVlDD0Lfpg_bIGabDEaFPyWa-w7s5g"
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001943077650'
