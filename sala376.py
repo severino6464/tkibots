@@ -30,10 +30,6 @@ ENTRE NO JOGO👇🏻
 [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36463&brand=nutsbet)
 """
 
-texto5 = """
-SESSÃO ENCERRADA!
-"""
-
 
 mensagem = """
 💰 ENTRADA CONFIRMADA 💰
@@ -48,70 +44,16 @@ Link: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36463&brand=nutsbet)
 ⏱️ Válido até: {}
 """
 
-def send_signal():
+print("======")
+bot.send_message(chat_id=channel_id, text=texto4, parse_mode='markdown')
+time.sleep(60)
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+link_aleatorio = random.choice(links)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='Markdown')
-    time.sleep(120) 
-
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(598)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(600)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(120)
-
-    bot.send_message(chat_id=channel_id, text=texto5, parse_mode='Markdown')
-
-
-def check_and_send_signal():
-    current_time = datetime.datetime.now().strftime("%H:%M")
-    signal_times = [
-        "08:00", "11:00", "18:00", "21:00", "23:00"
-    ]
-
-    if current_time in signal_times:
-        send_signal()
-
-
-try:
-        check_and_send_signal()
-        # Wait for 1 minute before checking the time again
-        datetime.datetime.now() + datetime.timedelta(minutes=0)
-except Exception as e:
-        print(f"Error occurred: {str(e)}")
+bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='markdown')
+time.sleep(240)
