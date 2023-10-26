@@ -33,8 +33,8 @@ SITE ➡️ <a href="https://affiliates.nuts.bet/visit/?bta=38017&brand=nutsbet"
 """
 
 text2 = """
-O último padrão mines passou da validade. 
-Aguarde o próximo padrão!
+O último padrão mines passou da
+validade. Aguarde o próximo padrão!
   """
 
 print("=====")
