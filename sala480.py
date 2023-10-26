@@ -26,7 +26,7 @@ mensagem = """
 ⚡ Intercalando
 
 [🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=37353&brand=nutsbet)
-[🔗 Abrir FORTUNE TIGER](https://nuts.bet/casino/game/2180615)
+[🔗 Jogue pelo App](https://vexbet.site/WOLVBET/)
 
 """
 
