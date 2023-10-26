@@ -23,7 +23,7 @@ texto4 = """
 ⚽ FOOTBALL STUDIO
 🔎 identificando entrada
 
-🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
 👉🏻: Link jogo: [Cards](https://boasortebet.com/live-casino/game/1954684?provider=Evolution)
 """
 
