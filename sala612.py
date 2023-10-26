@@ -17,7 +17,7 @@ texto4 = """
 🐂 Fortune OX
 🔎 Estamos validando uma entrada
 
-<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates">📱 Cadastre-se aqui</a>
+<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet">📱 Cadastre-se aqui</a>
 
 🚨O sinal do robô só funciona apenas na plataforma acima! Faça💰🤑
 
@@ -44,7 +44,7 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates">📱 Cadastre-se aqui</a>
+<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet">📱 Cadastre-se aqui</a>
 
 <a href="https://boasortebet.com/casino/game/1982889?provider=MrSlotty">📱 Jogar Fortune ox</a>
 
