@@ -47,7 +47,7 @@ mensagem = """
 
 ⏱️ Válido até: {}
 
-📲: Plataforma correta: [Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+📲: Plataforma correta: [Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
 👉🏻: Link jogo: [Bacbo](https://boasortebet.com/live-casino/game/1579262?provider=Evolution)
 """
 
