@@ -49,7 +49,7 @@ mensagem = """
 🏁 Seleção: Portugal
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
-🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37127&brand=nutsbet"><b>Penalty Shoot-Out-Street</b></a>
+🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37127&nci=5386"><b>Penalty Shoot-Out-Street</b></a>
 👇🏻 <b>Provável sequência</b> 👇🏻
 
 {}
