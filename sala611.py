@@ -36,7 +36,7 @@ mensagem = """
 
 🌪 Faça no máximo {} jogadas!
 
-<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates">📱 Cadastre-se aqui</a>
+<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet">📱 Cadastre-se aqui</a>
 
 <a href="https://boasortebet.com/casino/game/2106930?provider=MrSlotty">📱 Jogar Fortune mouse 🐰 </a>
 """
