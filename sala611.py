@@ -16,7 +16,7 @@ texto4 = """
 🐭 Fortune mouse
 🔎 Estamos validando uma entrada
 
-<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates">📱 Cadastre-se aqui</a>
+<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet">📱 Cadastre-se aqui</a>
 """
 
 texto5 = """
