@@ -23,7 +23,7 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates">🔗 Fazer CADASTRO ✅</a>
+<a href="https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet">🔗 Fazer CADASTRO ✅</a>
 <a href="https://boasortebet.com/casino/game/1982849?provider=MrSlotty">🔗 Abrir FORTUNE TIGER</a>
 """
 
