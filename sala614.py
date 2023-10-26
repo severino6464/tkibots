@@ -24,7 +24,7 @@ texto4 = """
 🐉 Dragon Tiger
 🔎 identificando entrada
 
-🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
 👉🏻: Link do jogo: [Dragon tiger](https://boasortebet.com/live-casino/game/2106432?provider=Pragmatic)
 """
 
@@ -49,7 +49,7 @@ mensagem = """
 ⏱️ Válido até: {}
 
 
-🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
 👉🏻: Link do jogo: [Dragon tiger](https://boasortebet.com/live-casino/game/2106432?provider=Pragmatic)
 
 """
