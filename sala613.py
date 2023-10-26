@@ -15,7 +15,7 @@ texto4 = """
 
 🎰 Roleta: Brasileira 
 
-🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
 """
 
 
@@ -81,7 +81,7 @@ if ultimos_resultados != check_resultados:
         🟢 Sempre Cobrir o Zero
         🚨 Aplicar até 2 gales
     
-        🎯[APOSTE AQUI](https://boasortebet.com/live-casino/game/1579030?provider=Infingames)
+        🎯[APOSTE AQUI](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
         🎁 [Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
 """
         enviar_mensagem_telegram(mensagem)
