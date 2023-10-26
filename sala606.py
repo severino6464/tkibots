@@ -46,7 +46,7 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebetaffiliates)
+📲: Plataforma correta: [Clique aqui](https://go.boasortebet.com/visit/?bta=35099&brand=boasortebet)
 👉🏻: Link do jogo: [Mines](https://boasortebet.com/casino/game/1695457?provider=Spribe)
 ⏱️ Válido até: {}
 
