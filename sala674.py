@@ -52,7 +52,7 @@ mensagem = """
 
 ⏱️ Válido até: {}
 
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=37127&brand=nutsbet))
+✈️ Link do jogo: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=37127&nci=5344))
 """
 
 
