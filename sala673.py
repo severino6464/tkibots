@@ -33,8 +33,8 @@ SITE ➡️ <a href="https://affiliates.nuts.bet/visit/?bta=38017&brand=nutsbet"
 """
 
 text2 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
+O último padrão mines passou da validade. 
+Aguarde o próximo padrão!
   """
 
 print("=====")
