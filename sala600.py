@@ -60,6 +60,33 @@ mensagem = """
   
 """
 
+texto6= """
+🚨🚨 HORARIOS DE FUNCIONAMENTO MÉTODO PENALTY🚨🚨
+
+
+✅ Ai boca atenção que vai começar a sessão do método ✅
+✅ sessão todos os dias ✅
+
+⏰ 09:00 - 9:40 
+
+⏰ 13:00 - 13:40
+
+⏰ 19:00- 19:40
+
+⏰ 22:00 - 22:40
+
+
+MÉTODO AVIATOR:
+https://t.me/+FfjehVUGzWY4NTdh
+
+MÉTODO PENALTY: 
+https://t.me/+vguYFi-7FFw0MDJh
+
+
+
+📌 Vídeo ensinando como funciona fixado no topo do GRUPO✅
+"""
+
 selecoes = [
     "Argentina", "Áustria", "Bélgica", "Brasil", "Croácia", "Tcheco", "Dinamarca",
     "Inglaterra", "Finlândia", "França", "Alemanha", "Irlanda", "Itália",
@@ -72,10 +99,8 @@ def send_signal():
     print("=======")
     bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)
-
     possibilidades_minas = gerar_possibilidades_minas()
     mensagem_formatada = "\n\n".join(possibilidades_minas)
-
     selecao_aleatoria = random.choice(selecoes)
     n_jogadas = random.randint(1, 3)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
@@ -83,11 +108,124 @@ def send_signal():
     mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
     bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(120)  # Espera 5 minutos (300 segundos)
-
     bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(10)
     bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
     time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)
+    possibilidades_minas = gerar_possibilidades_minas()
+    mensagem_formatada = "\n\n".join(possibilidades_minas)
+    selecao_aleatoria = random.choice(selecoes)
+    n_jogadas = random.randint(1, 3)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120)  # Espera 5 minutos (300 segundos)
+    bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(10)
+    bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+    time.sleep(50)
+
+    bot.send_message(chat_id=group_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
 
 
 def check_and_send_signal():
