@@ -46,7 +46,7 @@ text1 = """
 
 ⏱ Sinal em 2 Minutos
 
-💻 Única plataforma que funciona - Principal Bet -<a href="https://baraodabet.com/auth/referral?ref_id=653bd416251de&visitor_id={$visitorid}#653bd416251de"><b>REGISTRE-SE</b></a>
+💻 Única plataforma que funciona - Principal Bet -<a href="https://www.redirectmais.com/run/baraodabet1"><b>REGISTRE-SE</b></a>
 """
 
 mensagem = """
@@ -57,7 +57,7 @@ mensagem = """
 {}
 
 🎮: Tentativas: 5
-📲: Casa correta <a href="https://baraodabet.com/auth/referral?ref_id=653bd416251de&visitor_id={$visitorid}#653bd416251de"><b>Clicando aqui</b></a>
+📲: Casa correta <a href="https://www.redirectmais.com/run/baraodabet1"><b>Clicando aqui</b></a>
 💻: Depósito mínimo <b>R$ 20,00</b> 👆🏻
 
 ⏱️ Válido até: {}
