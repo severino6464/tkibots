@@ -46,7 +46,7 @@ text1 = """
 
 ⏱ Sinal em 2 Minutos
 
-💻 Única plataforma que funciona - Principal Bet -<a href="https://www.redirectmais.com/run/baraodabet1"><b>REGISTRE-SE</b></a>
+💻 Única plataforma que funciona - Barão Bet -<a href="https://www.redirectmais.com/run/baraodabet1"><b>REGISTRE-SE</b></a>
 """
 
 mensagem = """
