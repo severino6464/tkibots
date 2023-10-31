@@ -38,7 +38,7 @@ links = [
 
 
 mensagem = """
-🎲 Entrada confirmadaa 🎲
+🎲 Entrada confirmada 🎲
 🥇: Entrada 
 {}
   
