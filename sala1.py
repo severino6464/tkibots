@@ -48,7 +48,7 @@ mensagem = """
 ⏱️ Válido até: {}
 """
 
-print("BOT-aff01-nuts")
+print("BOT-aff01-aanuts")
 
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
