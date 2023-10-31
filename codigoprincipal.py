@@ -17,7 +17,7 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 threads = []
 
 # Loop para criar threads para cada sala e iniciar a execução em loop
-for sala_numero in range(300, num_salas + 1):
+for sala_numero in range(500, num_salas + 1):
     sala_codigo = f"sala{sala_numero}.py"
     thread = threading.Thread(target=executar_sala, args=(sala_codigo,))
     threads.append(thread)
