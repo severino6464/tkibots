@@ -1,6 +1,8 @@
 import subprocess
 import os
 import threading
+import time
+
 
 # Função para executar um código de sala em loop
 def executar_sala(sala_codigo):
@@ -19,9 +21,13 @@ threads = []
 # Loop para criar threads para cada sala e iniciar a execução em loop
 for sala_numero in range(1, num_salas + 1):
     sala_codigo = f"sala{sala_numero}.py"
+
+    time.sleep(0.5)
+    
     thread = threading.Thread(target=executar_sala, args=(sala_codigo,))
     threads.append(thread)
     thread.start()
+    
 
 # Aguardar todas as threads terminarem (que não acontecerá nesse caso)
 for thread in threads:
