@@ -41,12 +41,9 @@ texto6 = """
 4º ENTRADA - GREEN ✅
 5º ENTRADA - GREEN ✅
 6º ENTRADA - GREEN ✅
-7º ENTRADA - GREEN ✅
-8º ENTRADA - GREEN ✅
-9º ENTRADA - GREEN ✅
-10° ENTRADA - GREEN ✅
 
-Placar: ✅ 10 x 0 ❌ (100.00%)
+
+Placar: ✅ 6 x 0 ❌ (100.00%)
 """
 
 texto7 = """
@@ -71,43 +68,6 @@ def send_signal():
 
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='Markdown')
     time.sleep(120) 
-
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(60)
-    bot.send_message(chat_id=channel_id, text=texto7, parse_mode='Markdown')
-    time.sleep(180)
-    
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(60)
-    bot.send_message(chat_id=channel_id, text=texto7, parse_mode='Markdown')
-    time.sleep(180)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(60)
-    bot.send_message(chat_id=channel_id, text=texto7, parse_mode='Markdown')
-    time.sleep(180)
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='Markdown')
-    time.sleep(60)
-    bot.send_message(chat_id=channel_id, text=texto7, parse_mode='Markdown')
-    time.sleep(180)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
