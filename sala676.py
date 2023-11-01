@@ -24,7 +24,7 @@ mensagem = """
 ⚡ Intercalando
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37127&brand=nutsbet">🔗 Fazer CADASTRO ✅</a>
-<a href="https://nuts.bet/casino/game/2180615">🔗 Abrir FORTUNE TIGER</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=37127&nci=5343">🔗 Abrir FORTUNE TIGER</a>
 """
 
 print("========")
