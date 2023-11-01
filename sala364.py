@@ -135,7 +135,7 @@ def send_signal():
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
     signal_times = [
-        "10:00", "15:00", "20:00", "11:30"
+        "10:00", "15:00", "20:00"
     ]
 
     if current_time in signal_times:
