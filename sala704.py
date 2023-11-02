@@ -63,7 +63,7 @@ time.sleep(120)
 possibilidades_minas = gerar_possibilidades_minas()
 mensagem_formatada = "\n\n".join(possibilidades_minas)
 
-n_jogadas = random.randint(1, 3)
+n_jogadas = random.randint(2, 2)
 validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(hora_validade, n_jogadas, mensagem_formatada)
