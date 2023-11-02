@@ -33,7 +33,7 @@ def gerar_possibilidades_minas():
 texto4 = """
 ⚠️ <b>Fique atento ao jogo</b> ⚠️
 
-⚽️ Penalty Shoot-Out 
+⚽️ Penalty Shoot-Out-Street 
 🔎 identificando entrada
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet">📲 <b>Link de cadastro</b></a>
@@ -50,9 +50,9 @@ mensagem = """
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
 
-🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out</b></a>
+🔗 Link de acesso: <a href="https://affiliates.nuts.bet/visit/?bta=37072&brand=nutsbet"><b>Penalty Shoot-Out-Street</b></a>
   
-🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&nci=5386"><b>Penalty Shoot-Out</b></a>
+🔗 Link de acesso ao jogo: <a href="https://affiliates.nuts.bet/visit/?bta=37072&nci=5386"><b>Penalty Shoot-Out-Street</b></a>
   
 👇🏻 <b>Provável sequência</b> 👇🏻
 
