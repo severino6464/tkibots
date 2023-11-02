@@ -46,7 +46,7 @@ texto5 = """
 
 mensagem = """
 ⚽️💰 <b>Entrada confirmada</b> ⚽️💰
-🏁 Seleção: Portugal
+🏁 Seleção: Brasil
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
 🔗 Link de acesso: <a href="https://playmasters.bet/cadastro?afiliado=Y781"><b>Penalty Shoot-Out-Street</b></a>
