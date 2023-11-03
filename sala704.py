@@ -36,7 +36,7 @@ texto4 = """
 ⚽️ Penalty Shoot-Out 
 🔎 identificando entrada
 
-<a href="https://playmasters.bet/cadastro?afiliado=Y781">📲 <b>Link de cadastro</b></a>
+<a href="https://www.segurobet.com/?btag=1077540&accounts=%2A&register=%2A">📲 <b>Link de cadastro</b></a>
 """
 
 texto5 = """
@@ -49,7 +49,7 @@ mensagem = """
 🏁 Seleção: Brasil
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
-🔗 Link de acesso: <a href="https://playmasters.bet/cadastro?afiliado=Y781"><b>Penalty Shoot-Out-Street</b></a>
+🔗 Link de acesso: <a href="https://www.segurobet.com/?btag=1077540&accounts=%2A&register=%2A"><b>Penalty Shoot-Out-Street</b></a>
 👇🏻 <b>Provável sequência</b> 👇🏻
 
 {}
