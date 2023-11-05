@@ -68,11 +68,12 @@ mensagem = """
 
 
 text2 = """
-✅✅ <b>NOSSA INTELIGÊNCIA ACERTOU</b> ✅✅ 
+✅✅ NOSSA INTELIGÊNCIA ACERTOU ✅✅ 
 
-🥇Você que fez GREEN REAJA abaixo e envie um print em nosso suporte <b>@gustavothierry</b>
+🥇Você que fez GREEN REAJA abaixo e envie um print em nosso suporte @gustavothierry
 
-🍀 Quem lucrou acima de R$ 89,00 reage aqui em baixo 👇🏻
+🍀 Quem lucrou acima de R$ 50,00 reage aqui em baixo 👇🏻
+
   """
 
 print("=====")
