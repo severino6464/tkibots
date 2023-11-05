@@ -46,7 +46,7 @@ text1 = """
 
 ⏱ Sinal em 2 Minutos
 
-💻 Única plataforma que funciona - Barão Bet -<a href="https://www.redirectmais.com/run/baraodabet1"><b>REGISTRE-SE</b></a>
+💻 Única plataforma que funciona - Barão Bet -<a href="https://www.redirectmais.com/run/baraodabetV5"><b>REGISTRE-SE</b></a>
 """
 
 mensagem = """
@@ -57,7 +57,7 @@ mensagem = """
 {}
 
 🎮: Tentativas: 5
-📲: Casa correta <a href="https://www.redirectmais.com/run/baraodabet1"><b>Clicando aqui</b></a>
+📲: Casa correta <a href="https://www.redirectmais.com/run/baraodabetV5"><b>Clicando aqui</b></a>
 💻: Depósito mínimo <b>R$ 20,00</b> 👆🏻
 
 ⏱️ Válido até: {}
@@ -68,11 +68,12 @@ mensagem = """
 
 
 text2 = """
-✅✅ <b>NOSSA INTELIGÊNCIA ACERTOU</b> ✅✅ 
+✅✅ NOSSA INTELIGÊNCIA ACERTOU ✅✅ 
 
-🥇Você que fez GREEN REAJA abaixo e envie um print em nosso suporte <b>@gustavothierry</b>
+🥇Você que fez GREEN REAJA abaixo e envie um print em nosso suporte @gustavothierry
 
-🍀 Quem lucrou acima de R$ 89,00 reage aqui em baixo 👇🏻
+🍀 Quem lucrou acima de R$ 50,00 reage aqui em baixo 👇🏻
+
   """
 
 print("=====")
