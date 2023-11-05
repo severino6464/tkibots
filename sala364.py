@@ -35,15 +35,14 @@ SESSÃO ENCERRADA!
 texto6 = """
 📔 RELATÓRIO DE OPERAÇÕES 
 
-1º ENTRADA - GREEN ✅
-2º ENTRADA - GREEN ✅ 
-3º ENTRADA - GREEN ✅
-4º ENTRADA - GREEN ✅
-5º ENTRADA - GREEN ✅
-6º ENTRADA - GREEN ✅
+1º ENTRADA > WIN ✅
+2º ENTRADA > WIN ✅
+3º ENTRADA > WIN ✅
+4º ENTRADA > WIN ✅
+5º ENTRADA > WIN ✅
+6º ENTRADA > WIN ✅
 
-
-Placar: ✅ 6 x 0 ❌ (100.00%)
+Placar: ✅ 6 x 0 ❌ (100.00%)
 """
 
 texto7 = """
