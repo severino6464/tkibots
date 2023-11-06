@@ -36,7 +36,7 @@ possibilidades_minas = [
 texto4 = """
 ⭐️💣 <b>ATENÇÃO VAMOS INICIAR A SESSÃO DO MINES</b> ⭐️💣
 
-<a href="https://go.aff.br4-partners.com/w1pjlefq">📱 CADASTRE-SE AQUI</a>
+<a href="https://hallsbet.com/?r=maummumc">📱 CADASTRE-SE AQUI</a>
 """
 
 texto5 = """
@@ -60,8 +60,8 @@ Jogar com 2 a 3 minas
 
 ⏱️ Válido até: {}
 
-<a href="https://go.aff.br4-partners.com/w1pjlefq">📲 Plataforma correta</a>
-<a href="https://go.aff.br4-partners.com/w1pjlefq">👉🏻 Link do jogo</a>
+<a href="https://hallsbet.com/?r=maummumc">📲 Plataforma correta</a>
+<a href="https://hallsbet.com/?r=maummumc">👉🏻 Link do jogo</a>
 """
 
 def send_signal():
