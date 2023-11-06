@@ -14,7 +14,7 @@ texto4 = """
 🚨🍀 ATENÇÃO VAMOS INICIAR OS SINAIS DO LUCKY NEKO 🍀🚨
 
 FAÇA SEU CADASTRO 👇
-<a href="https://go.aff.br4-partners.com/w1pjlefq">🔗 Fazer CADASTRO </a>
+<a href="https://hallsbet.com/?r=maummumc">🔗 Fazer CADASTRO </a>
 
 """
 
@@ -39,8 +39,8 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="https://go.aff.br4-partners.com/w1pjlefq">🔗 Fazer CADASTRO ✅</a>
-<a href="https://go.aff.br4-partners.com/w1pjlefq">🔗 Abrir LUCKY NEKO</a>
+<a href="https://hallsbet.com/?r=maummumc">🔗 Fazer CADASTRO ✅</a>
+<a href="https://hallsbet.com/?r=maummumc">🔗 Abrir LUCKY NEKO</a>
 
 """
 
