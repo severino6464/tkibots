@@ -24,7 +24,7 @@ texto4 = """
 🎲 BAC BO
 🔎 identificando entrada
 
-🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/affiliatev2/#!/app/dashboard)
+🖥 Link de cadastro:[Clique aqui](https://go.boasortebet.com/visit/?bta=35879&brand=boasortebet)
 """
 
 
@@ -47,7 +47,7 @@ mensagem = """
 
 ⏱️ Válido até: {}
 
-📲: Plataforma correta: [Clique aqui](https://go.boasortebet.com/affiliatev2/#!/app/dashboard)
+📲: Plataforma correta: [Clique aqui](https://go.boasortebet.com/visit/?bta=35879&brand=boasortebet)
 """
 
 
