@@ -56,7 +56,7 @@ bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_p
 time.sleep(60)
 possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
 link_aleatorio = random.choice(links)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
 mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
