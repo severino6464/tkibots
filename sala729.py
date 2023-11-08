@@ -32,7 +32,7 @@ texto4 = """
 
 
 mensagem = """
-🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+🎯 Entrada confirmada 🎯
 🎰 Roleta: Brasileira
 
 {}
