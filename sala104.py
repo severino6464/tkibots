@@ -1,4 +1,4 @@
-<p>import telebot
+import telebot
 import datetime
 import random
 import time
