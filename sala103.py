@@ -10,7 +10,7 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1001874086253'
 
 
-.
+
 links = [
     "https://exemplo1.com",
 ]
@@ -54,4 +54,4 @@ mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(600)</p>
+time.sleep(600)
