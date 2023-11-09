@@ -10,6 +10,7 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1002140605295'
 
+
 possibilidades_minas = [
 "‼️ RETIRAR EM 1.50x",
 "‼️ RETIRAR EM 2.00x",
@@ -30,7 +31,7 @@ texto4 = """
 ✈️ Aviator 
 🔎 identificando entrada
 
-🖥 Link de cadastro:[Clique aqui](https://go.aff.bullsbetaffiliate.com/p79vpxd3)
+<a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3"><b>🖥 Link de cadastro</b></a>
 """
 
 
@@ -53,7 +54,7 @@ mensagem = """
 
 ⏱️ Válido até: {}
 
-📲: Plataforma correta: [Clique aqui](https://go.aff.bullsbetaffiliate.com/p79vpxd3))
+<a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3"><b>🖥 Link de cadastro</b></a>
 """
 
 
@@ -62,7 +63,7 @@ mensagem = """
 
 print("=======")
 
-bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120) 
 
 
@@ -73,9 +74,12 @@ validade = datetime.datetime.now() + datetime.timedelta(minutes=1)
 hora_validade = validade.strftime("%H:%M")
 mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
 
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
 time.sleep(60)  # Espera 5 minutos (300 segundos)
 
-bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120) 
+
+
+
