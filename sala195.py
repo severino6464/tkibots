@@ -46,7 +46,7 @@ text1 = """
 
 ⏱ Sinal em 2 Minutos
 
-💻 Única plataforma que funciona - Principal Bet -<a href="https://go.aff.7k-partners.com/qoya2ag3"><b>REGISTRE-SE</b></a>
+💻 Única plataforma que funciona - Cassino Pix -<a href="https://go.aff.7k-partners.com/qoya2ag3"><b>REGISTRE-SE</b></a>
 """
 
 mensagem = """
