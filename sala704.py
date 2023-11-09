@@ -13,9 +13,9 @@ sticker_file_id = 'CAACAgIAAxkBAAMsZTC6XdKmOE1SHeCfUBcpU4Y79f0AAloHAAJjK-IJRP8CD
 
 def gerar_possibilidades_minas():
     possibilidades_minas = []
-    for _ in range(3):
+    for _ in range(2):
         # Inicializa a matriz com "🟢" para representar células vazias
-        matriz_mina = [["🟢"] * 5 for _ in range(3)]
+        matriz_mina = [["🟢"] * 5 for _ in range(2)]
         
         # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
         linha = random.randint(0, 2)
