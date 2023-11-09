@@ -15,7 +15,7 @@ def gerar_possibilidades_minas():
     possibilidades_minas = []
     for _ in range(2):
         # Inicializa a matriz com "🟢" para representar células vazias
-        matriz_mina = [["🟢"] * 5 for _ in range(2)]
+        matriz_mina = [["🟢"] * 5 for _ in range(3)]
         
         # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
         linha = random.randint(0, 2)
@@ -46,7 +46,7 @@ texto5 = """
 
 mensagem = """
 ⚽️💰 <b>Entrada confirmada</b> ⚽️💰
-🏁 Seleção: Portugal
+🏁 Seleção: Brasil
 ⏰ Válido até: {}
 🔁 N° de tentativas: {}
 🔗 Link de acesso: <a href="https://www.segurobet.com/?btag=1077540&accounts=%2A&register=%2A"><b>Penalty Shoot-Out-Street</b></a>
