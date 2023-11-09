@@ -32,7 +32,7 @@ texto4 = """
 
 
 mensagem = """
-🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+🔥 <b>ENTRADA CONFIRMADA</b> 🔥
 🎰 Roleta: Live Roulette
 
 {}
