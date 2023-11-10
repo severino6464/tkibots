@@ -13,7 +13,7 @@ group_id = '-1001930953036'
 texto4 = """
 🎲 Fique atento ao jogo 🎲
 
-🐭 Fortune mouse
+🐰 Fortune Rabbit 🐰
 🔎 Estamos validando uma entrada
 
 <a href="https://go.boasortebet.com/visit/?bta=35949&brand=boasortebet">📱 Cadastre-se aqui</a>
@@ -29,7 +29,7 @@ texto5 = """
 mensagem = """
 ⚠️ ENTRADA CONFIRMADA ⚠️
 
-🐰 Fortune mouse 🐰
+🐰 Fortune Rabbit 🐰
 
 🔥 𝗡º 𝗱𝗲 𝗝𝗼𝗴𝗮𝗱𝗮𝘀: {}
 ⏰ Sinal válido até: {}
