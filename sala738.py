@@ -51,7 +51,7 @@ Jogar com 2 a 3 minas
 ⏱️ Válido até: {}
 
 <a href="https://bit.ly/PlataformaSecreta_vip">📲: Plataforma correta</a>
-<a href="https://nuts.bet/casino/game/2172765">👉🏻: Link do jogo</a>
+<a href="https://bit.ly/MinesPlataformaSecreta01">👉🏻: Link do jogo</a>
 """
 
 
