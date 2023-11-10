@@ -24,7 +24,7 @@ mensagem = """
 ⚡ Intercalando
 
 <a href="https://bit.ly/PlataformaSecreta_vip">🔗 Fazer CADASTRO ✅</a>
-<a href="https://nuts.bet/casino/game/2180615">🔗 Abrir FORTUNE TIGER</a>
+<a href="https://bit.ly/TigerPlataformasecreta01">🔗 Abrir FORTUNE TIGER</a>
 """
 
 print("========")
