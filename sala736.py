@@ -29,7 +29,7 @@ texto4 = """
 ✈️ Aviator 
 🔎 identificando entrada
 
-<a href="https://bit.ly/PlataformaSecreta_vip"><b>🖥 Link de cadastro</b></a>
+<a href="https://bit.ly/PlataformaSecreta_Pro"><b>🖥 Link de cadastro</b></a>
 """
 
 texto5 = """
@@ -48,7 +48,7 @@ mensagem = """
 
 ⏱️ Válido até: {}
 
-<a href="https://bit.ly/PlataformaSecreta_vip"><b>🖥 Link de cadastro</b></a>
+<a href="https://bit.ly/PlataformaSecreta_Pro"><b>🖥 Link de cadastro</b></a>
 """
 
 links = [
