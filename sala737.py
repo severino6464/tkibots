@@ -23,7 +23,7 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="https://bit.ly/PlataformaSecreta_vip">🔗 Fazer CADASTRO ✅</a>
+<a href="https://bit.ly/PlataformaSecreta_Pro">🔗 Fazer CADASTRO ✅</a>
 <a href="https://bit.ly/TigerPlataformasecreta01">🔗 Abrir FORTUNE TIGER</a>
 """
 
