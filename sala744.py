@@ -24,7 +24,7 @@ Validade: 3 minutos
 """
 
 texto3 = """
-ENTRADA ENCERRADA
+ENTRADA ENCERRADA!
 """
 
 
