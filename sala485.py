@@ -43,7 +43,6 @@ mensagem = """
 🐯 Link do jogo: [Clique aqui](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
 📲 Única plataforma que funciona o sinal: [Tiger Fortune](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
 
-🚀 [jogue pelo app](https://xngbet.appnuts.cloud/ap/casa/)
 
 """
 
