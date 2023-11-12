@@ -26,7 +26,7 @@ texto5 = """""
 
 Você que fez GREEN envie um print em nosso suporte 👉👉 [FALE CONOSCO](https://l1nk.dev/vipgratis)
 
-🎁 GANHE ATÉ R$5000,00 [AQUI](https://18kbet.online/player-from-agent/agent/167j6)
+🎁 GANHE ATÉ R$5000,00 [AQUI](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
 
 
 """
@@ -40,8 +40,8 @@ mensagem = """
     ⚡{}x Turbo
     🚥Intercalando 
 
-🐯 Link do jogo: [Clique aqui](https://www.18kbet.online/casino/lobby/casino/category/MAIS%20JOGADOS%20CASSINO%20/game/14142?demo=false)
-📲 Única plataforma que funciona o sinal: [Tiger Fortune](https://18kbet.online/player-from-agent/agent/167j6)
+🐯 Link do jogo: [Clique aqui](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
+📲 Única plataforma que funciona o sinal: [Tiger Fortune](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
 
 🚀 [jogue pelo app](https://xngbet.appnuts.cloud/ap/casa/)
 
