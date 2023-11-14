@@ -26,7 +26,7 @@ texto5 = """""
 
 Você que fez GREEN envie um print em nosso suporte 👉👉 [FALE CONOSCO](https://l1nk.dev/vipgratis)
 
-🎁 GANHE ATÉ R$5000,00 [AQUI](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
+🎁 GANHE ATÉ R$5000,00 [AQUI](https://go.aff.br4-partners.com/bwo8x4n1?utm_source=T)
 
 
 """
@@ -40,8 +40,8 @@ mensagem = """
     ⚡{}x Turbo
     🚥Intercalando 
 
-🐯 Link do jogo: [Clique aqui](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
-📲 Única plataforma que funciona o sinal: [Tiger Fortune](https://go.aff.bullsbetaffiliate.com/p79vpxd3?source_id=tiger50xtelegram)
+🐯 Link do jogo: [Clique aqui](https://go.aff.br4-partners.com/bwo8x4n1?utm_source=T)
+📲 Única plataforma que funciona o sinal: [Tiger Fortune](https://go.aff.br4-partners.com/bwo8x4n1?utm_source=T)
 
 
 """
