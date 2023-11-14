@@ -35,7 +35,7 @@ mensagem = """
 🍩{} - 🔪 {} cortes
 🍩{} - 🔪 {} cortes
 
-<a href="https://go.aff.bullsbetaffiliate.com/dd3iubhb">🎰 <b>CADASTRE-SE PARA JOGAR</b></a>
+<a href="https://go.aff.br4-partners.com/bwo8x4n1?utm_source=N">🎰 <b>CADASTRE-SE PARA JOGAR</b></a>
 
 Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 """
