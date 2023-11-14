@@ -40,7 +40,7 @@ texto1 = """
 🎲 Fique atento ao jogo 🎲
 💣 Mines - Entrada em 2 minutos
 🔎 Estamos validando uma entrada
-<a href="https://go.aff.bullsbetaffiliate.com/p79vpxd3">🖥 Link de cadastro</a>
+<a href="https://go.aff.br4-partners.com/bwo8x4n1?utm_source=M">🖥 Link de cadastro</a>
 """
 
 mensagem = """
