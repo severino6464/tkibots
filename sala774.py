@@ -44,6 +44,9 @@ mensagem = """
 
 <a href="https://affiliates.nuts.bet/visit/?bta=37918&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
 
+<a href="https://nuts.bet/live-casino/game/2354526">🖥 Jogue aqui!</a>
+
+
 """
 
 
