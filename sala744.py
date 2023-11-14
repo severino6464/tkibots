@@ -31,5 +31,5 @@ ENTRADA ENCERRADA!
 bot.send_message(chat_id=group_id, text=texto1, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(10)
 bot.send_message(chat_id=group_id, text=texto2, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(180)
+time.sleep(120)
 bot.send_message(chat_id=group_id, text=texto3, parse_mode='HTML', disable_web_page_preview=True)
