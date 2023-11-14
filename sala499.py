@@ -19,7 +19,7 @@ texto5 = """
 """
 
 texto6 = """
-🚨Receba O DOBRO ao depositar 20 reais, para ganhar, basta mandar um print de depósito no suporte👇
+🚨Receba O DOBRO ao depositar 30 reais, para ganhar, basta mandar um print de depósito no suporte👇
 @suportereidossinais1
 💰💰💰💰💰💰💰💰💰💰💰💰
 """
