@@ -20,8 +20,7 @@ mensagem_2 = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui]({})
-👉🏻: Link do jogo: ({})
+📲: Plataforma correta: ({})
 ⏱️ Válido até: {}
 
 """
@@ -89,7 +88,7 @@ def enviar_mensagens():
     link_aleatorio = random.choice(links)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, link_aleatorio, link_aleatorio, hora_validade)
+    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, link_aleatorio, hora_validade)
 
     data = {
         "phone": "https://chat.whatsapp.com/IhyaFM3JdksBXQ8rdRA7rI",
