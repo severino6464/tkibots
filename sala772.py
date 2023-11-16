@@ -7,7 +7,7 @@ import requests
 CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # Substitua pelo seu token de bot
 bot = telebot.TeleBot(CHAVE_API)
 
-channel_id = '-1002052729835'  # Substitua pelo ID do seu canal
+channel_id = '-1002052729835'   # Substitua pelo ID do seu canal
 
 possibilidades_minas = [
     "Apostar na 1° e 2° dúzia",
@@ -62,22 +62,14 @@ def enviar_sinal(resultado, contagem_verde, contagem_vermelho):
     if ultimos_resultados:
         ultimo_numero = ultimos_resultados[0]
         possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-        
-        if resultado['resultado'] == 'RED ❌' and contagem_vermelho >= 1:
-            # Se já atingiu o limite de contagem vermelha, não envia o sinal
-            return contagem_verde, contagem_vermelho
-
         mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, ultimo_numero, resultado['hora'])
         bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
         sinais_enviados.append(resultado)
-        
         if resultado['resultado'] == 'GREEN ✅':
             contagem_verde += 1
         elif resultado['resultado'] == 'RED ❌':
             contagem_vermelho += 1
-
         return contagem_verde, contagem_vermelho
-
 
 def gerar_relatorio(contagem_verde, contagem_vermelho):
     data_atual = datetime.datetime.now().strftime("%d/%m/%Y")
@@ -105,7 +97,7 @@ def enviar_sinais_e_relatorio():
     # Aguardar 5 minutos antes de iniciar os sinais
     time.sleep(5 * 60)
 
-    for _ in range(5):
+    for _ in range(6):
         resultado = {'hora': datetime.datetime.now().strftime("%H:%M"), 'resultado': 'GREEN ✅' if contagem_verde < 5 else 'RED ❌'}
         
         # Enviar uma entrada confirmada
@@ -124,10 +116,11 @@ def enviar_sinais_e_relatorio():
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
-    signal_times = ["09:00", "14:00", "18:00", "13:05"]
+    signal_times = ["10:30", "15:30","19:00","13:18"]
 
     if current_time in signal_times:
         enviar_sinais_e_relatorio()
 
 # Chame a função check_and_send_signal a partir do seu código principal sempre que necessário
 check_and_send_signal()
+
