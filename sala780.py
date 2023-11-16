@@ -7,7 +7,8 @@ mensagem_1 = """
 💎ENCONTRANDO FALHA NA MATRIX...💎
 🐯POSSÍVEL ENTRADA EM 2 MINUTOS
 
-[📱 CADASTRE-SE AQUI](https://affiliates.nuts.bet/visit/?bta=38459&brand=nutsbet)
+📱 CADASTRE-SE AQUI 
+https://go.boasortebet.com/visit/?bta=35293&brand=boasortebet
 """
 
 mensagem_2 = """
@@ -22,13 +23,12 @@ mensagem_2 = """
 
 ⚡ Intercalando
 
-[🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=38459&brand=nutsbet)
-[🔗 Abrir FORTUNE TIGER](https://nuts.bet/casino/game/2180615)
-
+🔗 Fazer CADASTRO ✅
+https://go.boasortebet.com/visit/?bta=35293&brand=boasortebet
 """
 
 links = [
-    "https://affiliates.nuts.bet/visit/?bta=38459&brand=nutsbet",
+    "https://go.boasortebet.com/visit/?bta=35293&brand=boasortebet",
     
 ]
 
