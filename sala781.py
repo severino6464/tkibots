@@ -8,8 +8,7 @@ mensagem_1 = """
  💣 Mines
 🔎 Estamos validando uma entrada
 
-📱 CADASTRE-SE AQUI
-https://go.boasortebet.com/visit/?bta=35293&brand=boasortebet
+📲: Plataforma correta: ({})
 """
 
 mensagem_2 = """
@@ -70,8 +69,11 @@ def enviar_mensagens():
     }
 
     # Enviar a mensagem_1
+
+    link_aleatorio = random.choice(links)
+    mensagem_formatada = mensagem_2.format(link_aleatorio)
     data = {
-        "phone": "https://chat.whatsapp.com/IhyaFM3JdksBXQ8rdRA7rI",
+        "phone": "120363199458276224-group",
         "message": mensagem_1
     }
     response = requests.post(url, headers=headers, json=data)
@@ -88,10 +90,10 @@ def enviar_mensagens():
     link_aleatorio = random.choice(links)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, link_aleatorio, hora_validade)
+    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, link_aleatorio, link_aleatorio, hora_validade)
 
     data = {
-        "phone": "https://chat.whatsapp.com/IhyaFM3JdksBXQ8rdRA7rI",
+        "phone": "120363199458276224-group",
         "message": mensagem_formatada
     }
 
