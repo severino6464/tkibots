@@ -8,7 +8,7 @@ mensagem_1 = """
  💣 Mines
 🔎 Estamos validando uma entrada
 
-📲: Plataforma correta: ({})
+📲: Plataforma correta: {}
 """
 
 mensagem_2 = """
@@ -19,7 +19,7 @@ mensagem_2 = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: ({})
+📲: Plataforma correta: {}
 ⏱️ Válido até: {}
 
 """
@@ -69,12 +69,12 @@ def enviar_mensagens():
     }
 
     # Enviar a mensagem_1
-
     link_aleatorio = random.choice(links)
-    mensagem_formatada = mensagem_2.format(link_aleatorio)
+    mensagem_formatada = mensagem_1.format(link_aleatorio)
+    
     data = {
         "phone": "120363199458276224-group",
-        "message": mensagem_1
+        "message": mensagem_formatada
     }
     response = requests.post(url, headers=headers, json=data)
 
