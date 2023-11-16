@@ -4,27 +4,26 @@ import random
 import datetime
 
 mensagem_1 = """
-💎ENCONTRANDO FALHA NA MATRIX...💎
-🐯POSSÍVEL ENTRADA EM 2 MINUTOS
+⚠️ Fique atento ao jogo ⚠️
+ 💣 Mines
+🔎 Estamos validando uma entrada
 
 📱 CADASTRE-SE AQUI
 https://go.boasortebet.com/visit/?bta=35293&brand=boasortebet
 """
 
 mensagem_2 = """
-🚨 ENTRADA CONFIRMADA 🚨
+🎲 Entrada confirmada 🎲
+🥇: Entrada 
 
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
+{}
+🎮: Tentativas: 2
+Jogar com 2 a 3 minas
 
-💰 {}x Normal
-💰 {}x Turbo
+📲: Plataforma correta: [Clique aqui]({})
+👉🏻: Link do jogo: ({})
+⏱️ Válido até: {}
 
-⚡ Intercalando
-
-📱 CADASTRE-SE AQUI
-https://go.boasortebet.com/visit/?bta=35293&brand=boasortebet
 """
 
 links = [
@@ -38,6 +37,29 @@ text2 = """
      ✅✅ GRENN! ✅✅
   """
 
+possibilidades_minas = [
+    "💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+    "💣💣⭐️💣⭐️\n💣⭐️⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+    "💣💣💣⭐️⭐️\n💣💣💣⭐️💣\n💣⭐️⭐️⭐️💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣💣💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣⭐️⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣💣💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "💣⭐️💣💣💣\n⭐️💣⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣",
+    "💣⭐️💣⭐️💣\n💣💣💣⭐️💣\n💣💣⭐️⭐️💣\n💣💣⭐️⭐️💣\n💣💣⭐️💣💣",
+    "⭐️⭐️⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "💣💣💣💣💣\n💣💣💣💣⭐️\n⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️⭐️💣💣💣\n💣⭐️💣💣💣\n💣⭐️⭐️⭐️💣\n💣💣💣💣💣\n💣💣💣💣💣",
+    "⭐️⭐️💣⭐️💣\n💣💣💣⭐️⭐️\n💣💣💣💣💣\n💣💣💣💣💣\n💣⭐️⭐️⭐️💣",
+    "💣💣💣💣⭐️\n⭐️💣💣⭐️💣\n⭐️⭐️⭐️💣💣\n💣⭐️💣💣💣\n💣⭐️💣💣💣",
+    "⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣💣💣\n💣⭐️💣⭐️💣",
+    "⭐️⭐️⭐️💣💣\n⭐️💣⭐️💣💣\n💣💣💣💣💣\n💣💣💣💣💣\n💣💣💣⭐️💣",
+    "⭐️💣💣💣💣\n⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣💣⭐️⭐️💣\n💣💣⭐️⭐️⭐️",
+    "💣💣💣💣⭐️\n⭐️💣💣⭐️💣\n⭐️💣⭐️⭐️💣\n💣💣💣💣💣\n💣💣⭐️⭐️💣",
+    "💣💣💣⭐️💣\n⭐️💣💣⭐️⭐️\n⭐️💣💣💣💣\n💣💣💣💣💣\n💣💣💣⭐️💣",
+    "⭐️💣💣💣💣\n💣💣💣💣💣\n⭐️💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣⭐️💣"
+]
+
+
 
 
   
@@ -50,7 +72,7 @@ def enviar_mensagens():
 
     # Enviar a mensagem_1
     data = {
-        "phone": "120363199458276224-group",
+        "phone": "https://chat.whatsapp.com/IhyaFM3JdksBXQ8rdRA7rI",
         "message": mensagem_1
     }
     response = requests.post(url, headers=headers, json=data)
@@ -62,14 +84,15 @@ def enviar_mensagens():
 
     time.sleep(120)  # Aguardar 2 minutos
 
-    n_jogadas = random.randint(6, 20)
-    n_jogadas2 = random.randint(4, 20)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+    # Enviar a mensagem_2 formatada
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    link_aleatorio = random.choice(links)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem_2.format(hora_validade,n_jogadas, n_jogadas2)
+    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, link_aleatorio, link_aleatorio, hora_validade)
 
     data = {
-        "phone": "120363199458276224-group",
+        "phone": "https://chat.whatsapp.com/IhyaFM3JdksBXQ8rdRA7rI",
         "message": mensagem_formatada
     }
 
@@ -80,7 +103,7 @@ def enviar_mensagens():
     else:
         print(f"Falha ao enviar a mensagem 2 formatada. Código de status: {response.status_code}")
 
-    time.sleep(600)  # Aguardar 40 segundos após o envio da mensagem formatada
+    time.sleep(300)  # Aguardar 40 segundos após o envio da mensagem formatada
 
 
 enviar_mensagens()
