@@ -99,7 +99,7 @@ def enviar_sinais_e_relatorio():
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
 
     # Aguardar 5 minutos antes de iniciar os sinais
-    time.sleep(5 * 60)
+    time.sleep(2 * 60)
 
     for _ in range(5):
         enviar_sinal()
