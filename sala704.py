@@ -9,7 +9,7 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001909513640'
 
-sticker_file_id = 'CAACAgIAAxkBAAMsZTC6XdKmOE1SHeCfUBcpU4Y79f0AAloHAAJjK-IJRP8CDh-ifn8wBA'
+sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
 
 
 def formatar_matriz(matriz):
