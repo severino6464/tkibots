@@ -33,7 +33,7 @@ texto4 = """
 
 mensagem = """
 🔥 <b>ROBÔ CONFIRMOU</b> 🔥
-🎰 Roleta: Brasileira
+🎰 Roleta: Live
 
 {}
 
