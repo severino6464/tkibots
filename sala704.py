@@ -9,39 +9,43 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001909513640'
 
-sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
-
-
-def formatar_matriz(matriz):
-    return "\n".join(f"{i + 1} " + "".join(f"{col}" if col != "🛢" else "🛢" for col in linha) for i, linha in enumerate(matriz))
-
+sticker_file_id = 'CAACAgIAAxkBAAMsZTC6XdKmOE1SHeCfUBcpU4Y79f0AAloHAAJjK-IJRP8CDh-ifn8wBA'
 
 def gerar_possibilidades_minas():
     possibilidades_minas = []
-    for _ in range(2):
-        # Inicializa a matriz com "🛢" para representar células vazias
-        matriz_mina = [["🛢"] * 3 for _ in range(2)]
+    for _ in range(3):
+        # Inicializa a matriz com "🟢" para representar células vazias
+        matriz_mina = [["🟢"] * 5 for _ in range(3)]
 
-        # Escolhe aleatoriamente uma coluna para o diamante (💎) na linha 1
-        coluna_diamante_1 = random.randint(0, 2)
-        matriz_mina[0][coluna_diamante_1] = "💎"
+        # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
+        linha = random.randint(0, 2)
+        coluna = random.randint(0, 4)
 
-        # Escolhe aleatoriamente uma coluna para o diamante (💎) na linha 2
-        coluna_diamante_2 = random.randint(0, 2)
-        matriz_mina[1][coluna_diamante_2] = "💎"
+        # Define a posição da bola na matriz
+        matriz_mina[linha][coluna] = "⚽️"
 
-        possibilidades_minas.append(matriz_mina)
+        # Formata a matriz como texto
+        possibilidade_mina = "\n".join("".join(linha) for linha in matriz_mina)
+        possibilidades_minas.append(possibilidade_mina)
 
     return possibilidades_minas
 
+selecoes = [
+    "Argentina", "Áustria", "Bélgica", "Brasil",
+    "Croácia", "Tcheco", "Dinamarca", "Inglaterra",
+    "Finlândia", "França", "Alemanha", "Irlanda",
+    "Itália", "Holanda", "Polônia", "Portugal",
+    "Escócia", "Sérvia", "Espanha", "Suécia",
+    "Suíça", "Turquia", "Ucrânia", "Uruguai"
+]
 
 texto4 = """
 ⚠️ <b>Fique atento ao jogo</b> ⚠️
 
-💎 Mr Thimble
+⚽️ Penalty Shoot-Out 
 🔎 identificando entrada
 
-<a href="https://waybet.io/?r=nzmptwyl">📲 <b>Link de cadastro</b></a>
+<a href="https://www.segurobet.com/?btag=1077540&accounts=%2A&register=%2A">📲 <b>Link de cadastro</b></a>
 """
 
 texto5 = """
@@ -50,29 +54,31 @@ texto5 = """
 """
 
 mensagem = """
-💰 Entrada confirmada 💰
+⚽️💰 <b>Entrada confirmada</b> ⚽️💰
+🏁 Seleção: {}
 ⏰ Válido até: {}
-🔁 N° de tentativas: 2
+🔁 N° de tentativas: {}
+🔗 Link de acesso: <a href="https://www.segurobet.com/?btag=1077540&accounts=%2A&register=%2A"><b>Penalty Shoot-Out-Street</b></a>
 👇🏻 <b>Provável sequência</b> 👇🏻
 
 {}
-
-🔗 Link de acesso: <a href="https://waybet.io/?r=nzmptwyl"><b>Mr Thimble</b></a>
+  
 """
 
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(60)
+time.sleep(120)
 
 possibilidades_minas = gerar_possibilidades_minas()
+mensagem_formatada = "\n\n".join(possibilidades_minas)
 
-for i, matriz_mina in enumerate(possibilidades_minas, start=1):
-    mensagem_formatada = formatar_matriz(matriz_mina)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(hora_validade, mensagem_formatada)
-    bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120)  # Espera 5 minutos (300 segundos)
+n_jogadas = random.randint(1, 3)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+hora_validade = validade.strftime("%H:%M")
+selecao_aleatoria = random.choice(selecoes)
+mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(120)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(10)
