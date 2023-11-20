@@ -67,9 +67,9 @@ text2 = """
   """
 
 text3 = """
-<b>🚨Receba O DOBRO ao depositar 30 reais, para ganhar, basta mandar um print de depósito no suporte👇
-@suportereidossinais1
-💰💰💰💰💰💰💰💰💰💰💰💰</b> 
+<b>✅Receba 5  greens garantidos ao vivo comigo.
+Deposite 30 reais mande um print no suporte que vou liberar nossos sinais ao vivo de graça para você👇
+@suportereidossinais1</b> 
   """
 
 print("=====")
