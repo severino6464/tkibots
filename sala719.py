@@ -23,9 +23,9 @@ possibilidades_minas = [
 texto4 = """
 ⚠️ <b>ATENÇÃO VAMOS INICIAR</b> ⚠️
 
-<a href="======"><b>🔗 Cadastre-se antes de Jogar!</b></a>
+<a href="https://affiliates.nuts.bet/visit/?bta=35483&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
-<a href="https://nuts.bet/live-casino/game/2177465"><b>🏦 Abra a roleta</b></a>
+<a href="https://affiliates.nuts.bet/visit/?bta=35483&nci=5359"><b>🏦Abra a roleta</b></a>
 """
 
 texto5 = """
