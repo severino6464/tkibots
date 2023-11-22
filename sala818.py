@@ -35,7 +35,7 @@ possibilidades_minas = [
 ]
 
 def enviar_mensagens():
-    url = 'https://api.z-api.io/instances/SEU_ID_DA_INSTANCIA/token/SEU_TOKEN_DA_INSTANCIA/send-text'  # Substitua com suas informações reais
+     url = 'https://api.z-api.io/instances/3C6139F323A8F08189B42A5707B8D550/token/A705A869C06CC34BF55690C8/send-text'
     headers = {
         'Client-Token': 'F9dfef0feecb44fbe8ad1accdb380e4f7S',
         'Content-Type': 'application/json'
