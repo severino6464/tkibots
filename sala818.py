@@ -80,7 +80,7 @@ def enviar_mensagens():
     # Substitua "SEU_STICKER_ID" pelo ID do seu adesivo no WhatsApp
     data = {
         "phone": "120363197773071755-group",  # Substitua com o número de telefone real
-        "message": "CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA"
+        "message": ""
     }
 
     response = requests.post(url, headers=headers, json=data)
