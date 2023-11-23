@@ -8,7 +8,7 @@ mensagem_1 = """
  💣 Mines
 🔎 Estamos validando uma entrada
 
-📲: Plataforma correta: ({})
+📲: Plataforma correta: https://go.boasortebet.com/visit/?bta=35563&brand=boasortebet
 """
 
 mensagem_2 = """
@@ -19,7 +19,7 @@ mensagem_2 = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: ({})
+📲: Plataforma correta: https://go.boasortebet.com/visit/?bta=35563&brand=boasortebet
 ⏱️ Válido até: {}
 
 """
@@ -90,7 +90,7 @@ def enviar_mensagens():
     link_aleatorio = random.choice(links)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, link_aleatorio, link_aleatorio, hora_validade)
+    mensagem_formatada = mensagem_2.format(possibilidade_mina_aleatoria, hora_validade)
 
     data = {
         "phone": "120363198754060065-group",
