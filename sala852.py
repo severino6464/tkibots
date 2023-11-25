@@ -12,7 +12,7 @@ texto4 = """
 🔎 Estamos validando uma entrada
 
 Cadastre-se aqui
-
+https://go.boasortebet.com/visit/?bta=35892&brand=boasortebet
 
 """
 
@@ -32,7 +32,7 @@ mensagem = """
 🌪 Faça no máximo {} jogadas!
 
 Cadastre-se aqui
-
+https://go.boasortebet.com/visit/?bta=35892&brand=boasortebet
 
 """
 
