@@ -9,7 +9,7 @@ texto4 = """
 
 mensagem = """
 🔥 *ROBÔ CONFIRMOU* 🔥
-🎰 Roleta: Live
+🎰 Roleta: Brasileira
 
 {}
 
