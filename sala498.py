@@ -67,9 +67,9 @@ text2 = """
   """
 
 text3 = """
-<b>✅Receba 5  greens garantidos ao vivo comigo.
-Deposite 30 reais mande um print no suporte que vou liberar nossos sinais ao vivo de graça para você👇
-@suportereidossinais1</b> 
+<b>Deposite 30 reais e clique no link abaixo para entrar nas lives e concorrer a prêmios 👇
+</b> 
+<a href="https://t.me/+P4rH7M6Iz0QyOWIx">CLIQUE AQUI</a>
   """
 
 print("=====")
