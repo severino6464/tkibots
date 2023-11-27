@@ -46,6 +46,15 @@ mensagem = """
 
 """
 
+text3 = """
+<b>✅5 GREENS AO VIVO TODOS OS DIAS DE GRAÇA
+
+Deposite 30 reais e clique no link abaixo para entrar nas lives e concorrer a prêmios 👇
+
+</b> 
+<a href="https://t.me/+P4rH7M6Iz0QyOWIx">CLIQUE AQUI</a>
+  """
+
 
       
    
