@@ -66,7 +66,7 @@ Jogar com 2 a 3 minas
 👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=36722&nci=5346)
 ⏱️ Válido até: {}
 
-📲 [Jogue pelo APP](https://xngbet.appnuts.cloud/ap/casa/) 
+📲 [Jogue pelo App Exclusivo!](https://vexbet.site/hackermatrix/) 
 
 """
 links = [
