@@ -1,101 +1,42 @@
-import requests
+import telebot
 import time
 import datetime
 import random
 
-possibilidades_minas = [
-    "‼️ RETIRAR EM 1.50x",
-    "‼️ RETIRAR EM 2.00x",
-    "‼️ RETIRAR EM 2.00x",
-    "‼️ RETIRAR EM 3.50x",
-    "‼️ RETIRAR EM 1.04x",
-    "‼️ RETIRAR EM 2.30x",
-    "‼️ RETIRAR EM 5.00x"
-]
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 
-texto4 = """
-⚠️ Fique atento ao jogo ⚠️
+bot = telebot.TeleBot(CHAVE_API)
 
-✈️ Aviator 
-🔎 identificando entrada
+group_id = '-1002024811283'
 
-Cadastre-se aqui!
-https://go.boasortebet.com/visit/?bta=35563&brand=boasortebet
-"""
-
-texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GREEN! ✅✅
-"""
+sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
 
 mensagem = """
-✅ Entrada Confirmada 
+🚨 <b>ENTRADA CONFIRMADA</b> 🚨
 
-{}
+🐯 Fortune Tiger 
+⏰ Estratégia: Horários Pagantes
+⚠️ Válido ate: {}
 
-⚠️ MÁXIMO 2 GALES 
-🔔 Entrada Confirmada 🔔  
-✅ Entrar Agora  
+💰 {}x Normal
+💰 {}x Turbo
 
-⏱️ Válido até: {}
+⚡ Intercalando
 
-Cadastre-se aqui!
-https://go.boasortebet.com/visit/?bta=35563&brand=boasortebet
+<a href="https://affiliates.nuts.bet/visit/?bta=38747&brand=nutsbet">🔗 Fazer CADASTRO ✅</a>
+
 """
 
-def enviar_mensagens():
-    url = 'https://api.z-api.io/instances/3C6139F323A8F08189B42A5707B8D550/token/A705A869C06CC34BF55690C8/send-text'
-    headers = {
-        'Client-Token': 'F9dfef0feecb44fbe8ad1accdb380e4f7S',
-        'Content-Type': 'application/json'
-    }
+print("========")
 
-    # Enviar a mensagem de texto4
-    data = {
-        "phone": "120363183582582799-group",  # Substitua com o número de telefone real
-        "message": texto4
-    }
-    response = requests.post(url, headers=headers, json=data)
+ 
+n_jogadas = random.randint(6, 20)
+n_jogadas2 = random.randint(4, 20)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+hora_validade = validade.strftime("%H:%M")
+mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
-    if response.status_code == 200:
-        print("Mensagem 1 enviada com sucesso!")
-    else:
-        print(f"Falha ao enviar a mensagem 1. Código de status: {response.status_code}")
-
-    time.sleep(120)  # Aguardar 2 minutos
-
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=1)
-    hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-
-    data = {
-        "phone": "120363183582582799-group",  # Substitua com o número de telefone real
-        "message": mensagem_formatada
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-
-    if response.status_code == 200:
-        print("Mensagem 2 formatada enviada com sucesso!")
-    else:
-        print(f"Falha ao enviar a mensagem 2 formatada. Código de status: {response.status_code}")
-
-    time.sleep(60)  # Aguardar 1 minuto
-
-    # Enviar a mensagem de texto5
-    data = {
-        "phone": "120363183582582799-group",  # Substitua com o número de telefone real
-        "message": texto5
-    }
-    response = requests.post(url, headers=headers, json=data)
-
-    if response.status_code == 200:
-        print("Mensagem 3 enviada com sucesso!")
-    else:
-        print(f"Falha ao enviar a mensagem 3. Código de status: {response.status_code}")
-
-    time.sleep(120)  # Aguardar 2 minutos
-
-enviar_mensagens()
-print("Todas as mensagens foram enviadas. Reiniciando o ciclo.\n")
+time.sleep(120)
+bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+time.sleep(480)
