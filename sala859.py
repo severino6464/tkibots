@@ -17,11 +17,9 @@ links = [
 
 
 possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
+    "Apostar na 1° e 2° coluna",
+    "Apostar na 1° e 3° coluna",
+    "Apostar na 2° e 3° coluna"
 ]
 
 
@@ -45,6 +43,9 @@ mensagem = """
 <a href="https://affiliates.nuts.bet/visit/?bta=35155&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
 
 <a href="https://affiliates.nuts.bet/visit/?bta=35155&nci=5359">🖥 Jogue aqui!</a>
+
+Ainda não sabe como seguir os sinais?🤔 <b>VEJA A AULA FIXADA</b>📌
+
 
 """
 
