@@ -62,9 +62,11 @@ mensagem = """
   
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
-📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=36722&brand=nutsbet)
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=38501&brand=nutsbet)
 👉🏻: Link do jogo: [Mines](https://affiliates.nuts.bet/visit/?bta=38501&nci=5346)
 ⏱️ Válido até: {}
+
+📲 [Jogue pelo App Exclusivo!](https://vexbet.site/hackermatrix/) 
 
 """
 links = [
