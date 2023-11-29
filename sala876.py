@@ -42,9 +42,7 @@ mensagem = """
 👉 Cobrir o zero
 🔁 Fazer até 3 gales
 
-<a href="========">🔗 Cadastre-se antes de Jogar!</a>
-
-<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=36353&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
 
 """
 
