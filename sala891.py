@@ -15,11 +15,11 @@ def gerar_possibilidades_minas():
     possibilidades_minas = []
     for _ in range(3):
         # Inicializa a matriz com "🟢" para representar células vazias
-        matriz_mina = [["🟢"] * 5 for _ in range(3)]
+        matriz_mina = [["🟢"] * 3 for _ in range(2)]  # Changed to 2x3 matrix
 
         # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
-        linha = random.randint(0, 2)
-        coluna = random.randint(0, 4)
+        linha = random.randint(0, 1)  # Adjusted to 0-1 for 2 rows
+        coluna = random.randint(0, 2)  # Adjusted to 0-2 for 3 columns
 
         # Define a posição da bola na matriz
         matriz_mina[linha][coluna] = "⚽️"
@@ -29,6 +29,7 @@ def gerar_possibilidades_minas():
         possibilidades_minas.append(possibilidade_mina)
 
     return possibilidades_minas
+
 
 selecoes = [
     "Argentina", "Áustria", "Bélgica", "Brasil",
@@ -67,7 +68,7 @@ mensagem = """
 
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)
+time.sleep(10)
 
 possibilidades_minas = gerar_possibilidades_minas()
 mensagem_formatada = "\n\n".join(possibilidades_minas)
