@@ -1,183 +1,111 @@
 import telebot
 import time
-import threading
 import datetime
 import random
-import sys
-import os
-from telebot import types
 
-CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # BOT FOX
+
 bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001916532826'
 
-caminho_arquivo = "C:/Users/neto/Desktop/gp-mines01.py"
+sticker_file_id = 'CAACAgEAAxkBAANSZWw5rb6ubRY9EjZXj1pAbRDYcBYAAskCAAK0WehF68sLQC3exTYzBA'
+
+def gerar_possibilidades_minas():
+    possibilidades_minas = []
+    for _ in range(3):
+        # Inicializa a matriz com "🧤" para representar células vazias
+        matriz_mina = [["🧤"] * 3 for _ in range(2)]  # Changed to 2x3 matrix
+
+        # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
+        linha = random.randint(0, 1)  # Adjusted to 0-1 for 2 rows
+        coluna = random.randint(0, 2)  # Adjusted to 0-2 for 3 columns
+
+        # Define a posição da bola na matriz
+        matriz_mina[linha][coluna] = "⚽️"
+        
+        # Adiciona o emoji 🧍🏻 à segunda coluna da linha de baixo
+        matriz_mina[(linha + 2) % 2][1] = "🧍🏻"
+
+        # Formata a matriz como texto
+        possibilidade_mina = "\n".join("".join(linha) for linha in matriz_mina)
+        possibilidades_minas.append(possibilidade_mina)
+
+    return possibilidades_minas
+
+selecoes = [
+    "🇦🇷 Argentina", "🇦🇹 Áustria", "🇧🇪 Bélgica", "🇧🇷 Brasil",
+    "🇭🇷 Croácia", "Tcheco", "🇩🇰 Dinamarca", "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra",
+    "🇫🇮 Finlândia", "🇫🇷 França", "🇩🇪 Alemanha", "🇮🇪 Irlanda",
+    "🇮🇹 Itália", "🇳🇱 Holanda", "🇵🇱 Polônia", "🇵🇹 Portugal",
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia", "🇷🇸 Sérvia", "🇪🇸 Espanha", "🇸🇪 Suécia",
+    "🇨🇭 Suíça", "🇦🇹🇷 Turquia", "🇺🇦 Ucrânia", "🇺🇾 Uruguai"
+]
 
 texto4 = """
-🎲 Fique atento ao jogo 🎲
-💣 Mines - Entrada em 2 minutos
-🔎 Estamos validando uma entrada
-🖥 Link de cadastro:[Clique aqui](https://br4bet.com/register/eeoficial)
+⚠️ <b>Fique atento ao jogo</b> ⚠️
+
+⚽️ Penalty Shoot-Out 
+🔎 identificando entrada
+
+<a href="https://go.aff.br4-partners.com/bwo8x4n1?utm_source=P">📲 <b>Link de cadastro</b></a>
+"""
+
+mensagem = """
+✅💰<b>Estratégia Exclusiva - 12x a 32x</b>💰✅
+🔗 Link de acesso: <a href="https://go.aff.br4-partners.com/bwo8x4n1?utm_source=P"><b>Penalty Shoot-Out-Street</b></a>
+🏁 Seleção: {}
+👇🏻 <b>Chute o mais próximo do ângulo/trave possível!</b> 👇🏻
+
+{}
+
+🎉 Para 20x = Repita o 1º chute
+
+🤩 Para 32x = Repita o 1º e 2º chute
+
+⏰ Válido até: {} ⏳
+
+Quem lucrou acima de R$ 30 reage aqui embaixo👇
 """
 
 texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
- Você que fez GREEN envie um print no @suportereidossinais1 """
+✅✅✅ GREEN!!! ✅✅✅
 
-possibilidades_minas = [
-    "💣💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+Não perca a próxima entrada 12x a 32x do nosso robô!🤖✅
 
-    "💣💣⭐️⭐️⭐️\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣",
+Clique na mensagem fixada logo abaixo do nome do nosso grupo ou aqui embaixo e crie sua conta no cassino seguindo os passos que indicamos!👇
 
-    "⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+<a href="https://go.aff.br4-partners.com/bwo8x4n1?utm_source=P"><b>CLIQUE AQUI E COMECE LUCRAR AGORA MESMO🤑</b></a>
 
-    "💣💣💣⭐️⭐️\n💣💣💣⭐️💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
-
-    "⭐️💣⭐️💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣⭐️💣💣💣\n💣💣⭐️💣💣",
-
-    "⭐️💣⭐️💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
-    "💣⭐️💣💣💣\n⭐️⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣",
-    "💣⭐️💣💣⭐️\n⭐️💣⭐️💣💣\n💣💣💣⭐️💣\n💣💣💣💣💣\n💣💣⭐️💣💣",
-    "⭐️💣⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
-    "💣💣💣💣💣\n💣⭐️💣💣⭐️\n⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣",
-    "⭐️⭐️💣💣💣\n💣⭐️💣💣💣\n💣💣⭐️⭐️💣\n💣💣💣💣💣\n💣💣💣💣💣",
-    "⭐️⭐️💣⭐️💣\n💣💣💣💣💣\n⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣⭐️💣💣💣",
-    "⭐️💣⭐️⭐️💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣⭐️💣💣💣\n💣⭐️💣💣💣",
-    "⭐️💣💣⭐️💣\n⭐️💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣💣💣\n💣💣💣⭐️💣",
-    "💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣⭐️⭐️\n💣⭐️💣⭐️💣\n💣💣💣⭐️💣",
-    "⭐️💣⭐️⭐️💣\n⭐️💣💣⭐️💣\n💣⭐️💣⭐️⭐️\n💣💣💣💣💣\n⭐️💣⭐️💣⭐️",
-    "⭐️💣💣💣⭐️\n💣💣💣💣💣\n⭐️💣💣⭐️💣\n💣💣💣⭐️⭐️\n💣💣💣⭐️💣",
-    "💣💣💣💣💣\n💣💣💣⭐️⭐️\n⭐️💣💣⭐️⭐️\n⭐️💣⭐️⭐️💣\n⭐️💣💣⭐️💣",
-    "⭐️💣⭐️⭐️💣\n💣⭐️💣💣⭐️\n⭐️💣💣💣⭐️\n💣💣💣⭐️💣\n💣💣💣⭐️💣"
- 
-]
-
-
-
-
-mensagem = """
-🎲 Entrada confirmada 🎲
-🥇: Entrada 
-
-{}
-  
-🎮: Tentativas: 2
-Jogar com 2 a 3 minas
-📲: Plataforma correta: [Clique aqui](https://br4bet.com/register/eeoficial)
-👉🏻: Link do jogo: [Mines](https://br4bet.com/register/eeoficial)
-⏱️ Válido até: {}
-
-📲 [Jogue pelo APP](https://xngbet.appnuts.cloud/ap/casa/) 
-
-🤖 [Robô automático](https://t.me/reidossinaishack)
+Você pode transformar R$10 em R$320 em poucos minutos!💰🚀
 
 """
-links = [
-    "https://exemplo1.com",
-   
-]
 
+texto6 = """
+✅5 GREENS AO VIVO TODOS OS DIAS DE GRAÇA
 
-valores_botoes = {
-    '1': 7,
-    '2': 4,
-    '3': 1,
-    '4': 3
-}
+Deposite 30 reais e clique no link abaixo para entrar nas lives e concorrer a prêmios 👇
 
+<a href="https://t.me/+P4rH7M6Iz0QyOWIx"><b>CLIQUE AQUI</b></a>
+"""
 
+print("=======")
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(120)
 
+possibilidades_minas = gerar_possibilidades_minas()
+mensagem_formatada = "\n\n".join(possibilidades_minas)
 
-#------------------------------------------
-
-def reiniciar_programa():
-    python = sys.executable
-    args = sys.argv[:]
-    args.insert(0, sys.executable)
-    time.sleep(10)  # Pausa de 10 segundos
-    os.execl(python, *args)
-
-#--------------------------------------------------
-
-
-
-
-def criar_teclado():
-    keyboard = types.InlineKeyboardMarkup(row_width=4)
-    row_buttons = []
-
-    emoji_dict = {
-        '1': '🔥',
-        '2': '👏🏻',
-        '3': '👍',
-        '4': '❤️'
-    }
-
-    for button, valor in valores_botoes.items():
-        emoji = emoji_dict.get(button, '')
-        button_text = '{} {}'.format(emoji, valor)
-        row_buttons.append(types.InlineKeyboardButton(text=button_text, callback_data=button))
-
-    keyboard.add(*row_buttons)
-    return keyboard
-
-
-
-def enviar_mensagem():
-    keyboard = criar_teclado()
-
-    bot.send_message(chat_id=group_id, text=texto5, reply_markup=keyboard)
-
-
-@bot.callback_query_handler(func=lambda call: True)
-def handle_button_click(call):
-    button = call.data
-    if button in valores_botoes:
-        time.sleep(10)
-        valores_botoes[button] += 2
-        
-
-        if valores_botoes[button] >= 14:
-            valores_botoes[button] = 6
-
-        keyboard = criar_teclado()
-        bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id, reply_markup=keyboard)
-
-def enviar_periodicamente():
-
-    try:
-        possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-        link_aleatorio = random.choice(links)
-        validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
-        hora_validade = validade.strftime("%H:%M")
-        mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-        mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-        mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
-
-        bot.send_message(chat_id=group_id, text=texto4 ,parse_mode='Markdown')
-        print("BOT-MINES2-nathan")
-       
-        time.sleep(120)  # Aguarda 1 minuto
-
-        
-        bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-       
-        time.sleep(120)  # Espera 5 minutos (300 segundos)
-
-        enviar_mensagem() 
-
-        time.sleep(200)
-        
-        
-    except Exception as e:
-        print("Ocorreu um erro fatal:", e)
-        print("REINICIANDO O PROGRAMA")
-        reiniciar_programa()
-
-# Inicia um thread separado para enviar a mensagem periodicamente
-thread_envio = threading.Thread(target=enviar_periodicamente)
-thread_envio.start()
-
-bot.polling()
+n_jogadas = random.randint(1, 3)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+hora_validade = validade.strftime("%H:%M")
+selecao_aleatoria = random.choice(selecoes)
+mensagem_formatada = mensagem.format(selecao_aleatoria, mensagem_formatada, hora_validade)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(55)
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(5)
+bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+time.sleep(60)
+bot.send_message(chat_id=group_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(360)
