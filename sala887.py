@@ -3,59 +3,104 @@ import time
 import datetime
 import random
 
-CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # BOT FOX
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1002069358189'
+group_id = '-1001622316632'
 
-sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
-
-texto1 = """
-
-⚠ <b>NOVA FALHA ENCONTRADA</b> ⚠
-
-🎰 <b>Slots</b>: Tigre,Rato,Touro e Coelho
-
-✅<b>98,89%</b> DE ACERTIVIDADE
-
-🔎 Identificando a falha
-"""
-mensagem = """
-⚠ FALHA ENCONTRADA ⚠
-
-⏰ Estratégia: Horários Pagantes
-🔥 𝗡º 𝗱𝗲 𝗝𝗼𝗴𝗮𝗱𝗮𝘀: {}
-♻️ Intercale entre Turbo e Normal
-🔄 Valor da Rodada Variado
+possibilidades_minas = [
+    "Apostar em números baixos [1-18]",
+    "Apostar em números altos [19-36]",
+    "Apostar na duzia 1 e 3",
+    "Apostar na cor 🔴",
+    "Apostar na cor ⚫"
+]
 
 
-⚠️ Válido ate: {}
-
-
-<a href="https://affiliates.nuts.bet/visit/?bta=38796&brand=nutsbet">📱 Cadastre-se aqui</a>(SO FUNCIONA NA NUTSBET)
-
-🚨 Faça um depósito Recomendado de R$40,00 ou +, para a falha funcionar!
+texto4 = """
+⚠️ <b>OPORTUNIDADES IDENTIFICADAS!</b> ⚠️
 """
 
-texto2 = """
-✅ <b>OPORTUNIDADE FINALIZADA</b> ✅
-
-
-⏰ Aguarde a próxima falha... ⏰
+texto5 = """
+     <b>Entradas Finalizadas!!!!</b>
+✅✅ <b>LUCROOO!</b> ✅✅
 """
 
-print("========")
+# Estrutura de dados para os animais
+animais = [
+    {
+        'nome': 'Roleta Brasileira',
+        'mensagem': """
+🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+🎰 Roleta: Brasileira
 
-bot.send_message(chat_id=group_id, text=texto1, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)
-n_jogadas = random.randint(6, 20)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(n_jogadas, hora_validade)
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+{}
 
-time.sleep(300)
-bot.send_message(chat_id=group_id, text=texto2, parse_mode='HTML', disable_web_page_preview=True)
-bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(180)
+⏱️ Válido até: {}
+
+👉 Cobrir o zero
+🔁 Fazer até 3 gales
+
+<a href="https://affiliates.nuts.bet/visit/?bta=38796&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+
+<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+"""
+    },
+    {
+        'nome': 'American Roulette',
+        'mensagem': """
+🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+🎰 Roleta: American Roulette
+
+{}
+
+⏱️ Válido até: {}
+
+👉 Cobrir o zero
+🔁 Fazer até 3 gales
+
+<a href="https://affiliates.nuts.bet/visit/?bta=38796&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+
+<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+"""
+    },
+    {
+        'nome': 'Mega Fire Blaze Roullete Live',
+        'mensagem': """
+🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+🎰 Roleta: Mega Fire Blaze Roullete Live
+
+{}
+
+⏱️ Válido até: {}
+
+👉 Cobrir o zero
+🔁 Fazer até 3 gales
+
+<a href="https://affiliates.nuts.bet/visit/?bta=38796&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+
+<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+"""
+    }
+]
+
+print("=======")
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(60)
+
+# Itera sobre os animais e envia as mensagens
+for animal in animais:
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+    hora_validade = validade.strftime("%H:%M")
+
+    mensagem_formatada = animal['mensagem'].format(
+        possibilidade_mina_aleatoria, hora_validade)
+
+    bot.send_message(chat_id=group_id, text=mensagem_formatada,
+                     parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(360)
+
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(480)
