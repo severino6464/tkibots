@@ -77,7 +77,7 @@ Clique na mensagem fixada logo abaixo do nome do nosso grupo ou aqui embaixo e c
 
 <a href="https://go.aff.br4-partners.com/bwo8x4n1?utm_source=P"><b>CLIQUE AQUI E COMECE LUCRAR AGORA MESMO🤑</b></a>
 
-Você pode transformar R$10 em R$320 em poucos minutos!💰🚀
+Você pode transformar R$30 em R$320 em poucos minutos!💰🚀
 
 """
 
