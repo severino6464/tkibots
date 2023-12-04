@@ -86,7 +86,7 @@ texto6 = """
 
 Deposite 30 reais e clique no link abaixo para entrar nas lives e concorrer a prêmios 👇
 
-<a href="https://t.me/+P4rH7M6Iz0QyOWIx"><b>CLIQUE AQUI</b></a>
+<a href="https://t.me/+csYEoS5Mh8NlYzkx"><b>CLIQUE AQUI</b></a>
 """
 
 print("=======")
