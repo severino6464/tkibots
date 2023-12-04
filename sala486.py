@@ -17,15 +17,19 @@ def gerar_possibilidades_minas():
         # Inicializa a matriz com "🧤" para representar células vazias
         matriz_mina = [["🧤"] * 3 for _ in range(2)]  # Changed to 2x3 matrix
 
-        # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
-        linha = random.randint(0, 1)  # Adjusted to 0-1 for 2 rows
-        coluna = random.randint(0, 2)  # Adjusted to 0-2 for 3 columns
+        # Escolhe aleatoriamente uma linha para a bola (⚽️)
+        linha_bola = random.randint(0, 1)  # Adjusted to 0-1 for 2 rows
+        coluna_bola = random.randint(0, 2)  # Adjusted to 0-2 for 3 columns
 
         # Define a posição da bola na matriz
-        matriz_mina[linha][coluna] = "⚽️"
+        matriz_mina[linha_bola][coluna_bola] = "⚽️"
         
-        # Adiciona o emoji 🧍🏻 à segunda coluna da linha de baixo
-        matriz_mina[(linha + 2) % 2][1] = "🧍🏻"
+        # Define a posição do goleiro (🧍🏻) na linha de baixo
+        linha_goleiro = 1
+        coluna_goleiro = 1  # Fixo no meio
+
+        # Define a posição do goleiro na matriz
+        matriz_mina[linha_goleiro][coluna_goleiro] = "🧍🏻"
 
         # Formata a matriz como texto
         possibilidade_mina = "\n".join("".join(linha) for linha in matriz_mina)
