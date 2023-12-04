@@ -3,37 +3,44 @@ import time
 import random
 import datetime
 
-texto4 = """
-⚠️ *ATENÇÃO VAMOS INICIAR!* ⚠️
+mensagem_1 = """
+💎ENCONTRANDO FALHA NA MATRIX...💎
+🐯POSSÍVEL ENTRADA EM 2 MINUTOS
+
+📱 CADASTRE-SE AQUI
+https://affiliates.nuts.bet/visit/?bta=38558&brand=nutsbet
 """
 
-mensagem = """
-🔥 *ROBÔ CONFIRMOU* 🔥
-🎰 Roleta: Brasileira
+mensagem_2 = """
+🚨 ENTRADA CONFIRMADA 🚨
 
-{}
+🐯 Fortune Tiger 
+⏰ Estratégia: Horários Pagantes
+⚠️ Válido ate: {}
 
-⏱️ Válido até: {}
+💰 {}x Normal
+💰 {}x Turbo
 
-👉 Cobrir o zero
-🔁 Fazer até 3 gales
+⚡ Intercalando
 
-🔗 Cadastre-se antes de Jogar!
+📱 CADASTRE-SE AQUI
 https://affiliates.nuts.bet/visit/?bta=38558&brand=nutsbet
 """
 
 links = [
-    "https://exemplo1.com",
+    "https://affiliates.nuts.bet/visit/?bta=38558&brand=nutsbet",
+    
 ]
 
-possibilidades_minas = [
-    "Apostar em números baixos [1-18]",
-    "Apostar em números altos [19-36]",
-    "Apostar na duzia 1 e 3",
-    "Apostar na cor 🔴",
-    "Apostar na cor ⚫"
-]
 
+text2 = """
+🔷🔹 Entrada Finalizada 🔹🔷
+     ✅✅ GRENN! ✅✅
+  """
+
+
+
+  
 def enviar_mensagens():
     url = 'https://api.z-api.io/instances/3C6139F323A8F08189B42A5707B8D550/token/A705A869C06CC34BF55690C8/send-text'
     headers = {
@@ -41,10 +48,10 @@ def enviar_mensagens():
         'Content-Type': 'application/json'
     }
 
-    # Enviar a mensagem de texto4
+    # Enviar a mensagem_1
     data = {
-        "phone": "120363202261969669-group",  # Substitua com o número de telefone real
-        "message": texto4
+        "phone": "120363202261969669-group",
+        "message": mensagem_1
     }
     response = requests.post(url, headers=headers, json=data)
 
@@ -53,17 +60,16 @@ def enviar_mensagens():
     else:
         print(f"Falha ao enviar a mensagem 1. Código de status: {response.status_code}")
 
-    time.sleep(60)  # Aguardar 1 minuto
+    time.sleep(120)  # Aguardar 2 minutos
 
-    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-    link_aleatorio = random.choice(links)
-    validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
+    n_jogadas = random.randint(6, 20)
+    n_jogadas2 = random.randint(4, 20)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
     hora_validade = validade.strftime("%H:%M")
-    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-    mensagem_formatada = mensagem_formatada.replace("========", link_aleatorio)
+    mensagem_formatada = mensagem_2.format(hora_validade,n_jogadas, n_jogadas2)
 
     data = {
-        "phone": "120363202261969669-group",  # Substitua com o número de telefone real
+        "phone": "120363202261969669-group",
         "message": mensagem_formatada
     }
 
@@ -74,24 +80,10 @@ def enviar_mensagens():
     else:
         print(f"Falha ao enviar a mensagem 2 formatada. Código de status: {response.status_code}")
 
-    time.sleep(120)  # Aguardar 2 minutos
-
-    # Envie um sticker (se você tiver um método para enviar adesivos)
-    # Substitua "SEU_STICKER_ID" pelo ID do seu adesivo no WhatsApp
-    data = {
-        "phone": "===",  # Substitua com o número de telefone real
-        "message": ""
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-
-    if response.status_code == 200:
-        print("Sticker enviado com sucesso!")
-    else:
-        print(f"Falha ao enviar o adesivo. Código de status: {response.status_code}")
-
-    time.sleep(420)  # Aguardar 7 minutos
+    time.sleep(600)  # Aguardar 40 segundos após o envio da mensagem formatada
 
 
 enviar_mensagens()
 print("Todas as mensagens foram enviadas. Reiniciando o ciclo.\n")
+    
+    
