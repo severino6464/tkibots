@@ -91,14 +91,6 @@ Você pode transformar R$30 em R$320 em poucos minutos!💰🚀
 
 """
 
-texto6 = """
-✅5 GREENS AO VIVO TODOS OS DIAS DE GRAÇA
-
-Deposite 30 reais e clique no link abaixo para entrar nas lives e concorrer a prêmios 👇
-
-<a href="https://t.me/+csYEoS5Mh8NlYzkx"><b>CLIQUE AQUI</b></a>
-"""
-
 print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120)
@@ -117,6 +109,4 @@ time.sleep(55)
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(5)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(60)
-bot.send_message(chat_id=group_id, text=texto6, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(360)
+time.sleep(420)
