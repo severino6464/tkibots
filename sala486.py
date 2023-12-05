@@ -11,15 +11,21 @@ group_id = '-1001916532826'
 
 sticker_file_id = 'CAACAgEAAxkBAANSZWw5rb6ubRY9EjZXj1pAbRDYcBYAAskCAAK0WehF68sLQC3exTYzBA'
 
-def gerar_possibilidades_minas():
+def gerar_possibilidades_minas(opcoes_anteriores):
     possibilidades_minas = []
     for _ in range(3):
         # Inicializa a matriz com "🧤" para representar células vazias
         matriz_mina = [["🧤"] * 3 for _ in range(2)]  # Changed to 2x3 matrix
 
-        # Escolhe aleatoriamente uma linha para a bola (⚽️)
-        linha_bola = random.randint(0, 1)  # Adjusted to 0-1 for 2 rows
-        coluna_bola = random.randint(0, 2)  # Adjusted to 0-2 for 3 columns
+        # Cria uma lista com as posições disponíveis para a bola (⚽️)
+        posicoes_disponiveis = [(i, j) for i in range(2) for j in range(3) if (i, j) not in opcoes_anteriores]
+
+        # Escolhe aleatoriamente uma posição para a bola
+        posicao_bola = random.choice(posicoes_disponiveis)
+        linha_bola, coluna_bola = posicao_bola
+
+        # Adiciona a posição atual à lista de opções anteriores
+        opcoes_anteriores.append((linha_bola, coluna_bola))
 
         # Define a posição da bola na matriz
         matriz_mina[linha_bola][coluna_bola] = "⚽️"
@@ -97,7 +103,8 @@ print("=======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120)
 
-possibilidades_minas = gerar_possibilidades_minas()
+opcoes_anteriores = []  # Lista para armazenar as posições já utilizadas
+possibilidades_minas = gerar_possibilidades_minas(opcoes_anteriores)
 mensagem_formatada = "\n\n".join(possibilidades_minas)
 
 n_jogadas = random.randint(1, 3)
