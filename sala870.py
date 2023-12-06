@@ -9,33 +9,76 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1002085744836'
 
-sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
+possibilidades_minas = [
+"1.50x",
+"2.50x",
+"1.40x",
+"2.10x",
+"2.34x",
+"1.70x",
+"2.00x"
+]
 
-mensagem = """
-🚨 <b>ENTRADA CONFIRMADA</b> 🚨
 
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
 
-💰 {}x Normal
-💰 {}x Turbo
+texto4 = """
+⚠️ Fique atento ao jogo ⚠️
 
-⚡ Intercalando
+👨🏽‍🚀 Spaceman
+🔎 identificando entrada
 
-<a href="https://affiliates.nuts.bet/visit/?bta=38742&brand=nutsbet">🔗 Fazer CADASTRO ✅</a>
+🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=38742&brand=nutsbet)
 """
 
-print("========")
 
+texto5 = """
+🔷🔹 Entrada Finalizada 🔹🔷
+     ✅✅ GRENN! ✅✅
  
-n_jogadas = random.randint(6, 20)
-n_jogadas2 = random.randint(4, 20)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+"""
 
-time.sleep(120)
-bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(480)
+
+
+mensagem = """
+✅ Entrada Confirmada 
+
+Entrar apos:
+
+{}
+{}
+{}
+
+✅ Sair em {}
+⚠️ MÁXIMO 3 GALE 
+
+
+📲: Plataforma correta: [Clique aqui](https://affiliates.nuts.bet/visit/?bta=38742&brand=nutsbet)
+"""
+print("=======")
+
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+time.sleep(60) 
+
+
+
+entrada1 = datetime.datetime.now() + datetime.timedelta(minutes=1)
+hora_validade1 = entrada1.strftime("%H:%M")
+entrada2 = datetime.datetime.now() + datetime.timedelta(minutes=3)
+hora_validade2 = entrada2.strftime("%H:%M")
+entrada3 = datetime.datetime.now() + datetime.timedelta(minutes=5)
+hora_validade3 = entrada3.strftime("%H:%M")
+
+validade = datetime.datetime.now() + datetime.timedelta(minutes=3)
+hora_validade = validade.strftime("%H:%M")
+
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+
+
+mensagem_formatada = mensagem.format(hora_validade1,hora_validade2,hora_validade3,possibilidade_mina_aleatoria,)
+
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+
+time.sleep(400)  # Espera 5 minutos (300 segundos)
+
+bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
+time.sleep(200) 
