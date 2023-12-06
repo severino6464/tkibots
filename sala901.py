@@ -40,7 +40,6 @@ mensagem = """
 ⏱️ Válido até: {}
 
 👉 Cobrir o zero
-🔁 Fazer até 3 gales
 
 <a href="https://affiliates.nuts.bet/visit/?bta=35452&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
 
