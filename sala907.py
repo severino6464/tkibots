@@ -42,10 +42,11 @@ mensagem = """
 👉 Cobrir o zero
 🔁 Fazer até 3 gales
 
-<a href="https://affiliates.nuts.bet/visit/?bta=38796&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=38796&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a><b>(SÓ FUNCIONA NA NUTSBET)</b>
 
 <a href="https://nuts.bet/live-casino/game/2172665">🖥 Jogue aqui!</a>
 
+🚨 Faça um depósito! Recomendado R$40,00 ou +, para a falha funcionar!
 """
 
 
