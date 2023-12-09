@@ -134,6 +134,14 @@ def send_signal():
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
     time.sleep(300)
 
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+
     bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 
 
