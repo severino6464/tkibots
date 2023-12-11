@@ -67,12 +67,14 @@ text2 = """
   """
 
 text3 = """
-<b>✅5 GREENS AO VIVO TODOS OS DIAS DE GRAÇA
+<b>Acesse o Canal de operações ao vivo no Spaceman🧑‍🚀
 
-Deposite 30 reais e clique no link abaixo para entrar nas lives e concorrer a prêmios 👇
+Com o método exclusivo de Velas Phoenix que garante até 10 ✅GREENS✅ Todos os dias
+
+Aproveitem as Lives enquanto ta de graça 👇
 
 </b> 
-<a href="https://t.me/+P4rH7M6Iz0QyOWIx">CLIQUE AQUI</a>
+<a href="https://t.me/+P4rH7M6Iz0QyOWIx">CLIQUE AQUI PARA ACESSAR GRATUITAMENTE</a>
   """
 
 print("=====")
