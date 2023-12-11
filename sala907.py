@@ -69,7 +69,7 @@ def send_signal():
     hora_validade = validade.strftime("%H:%M")
     mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
     bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep300
+    time.sleep(300)
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
     validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
@@ -149,7 +149,7 @@ def send_signal():
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
     signal_times = [
-        "09:00", "17:00", "20:00", "10:10"
+        "09:00", "17:00", "20:00"
     ]
 
     if current_time in signal_times:
