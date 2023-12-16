@@ -7,7 +7,7 @@ import requests
 CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # Substitua pelo seu token de bot
 bot = telebot.TeleBot(CHAVE_API)
 
-channel_id = '-1002042129839'  # Substitua pelo ID do seu canal
+channel_id = '-1002042129839'
 
 possibilidades_minas = [
     "Apostar na 1° e 2° coluna",
@@ -97,7 +97,7 @@ def enviar_sinais_e_relatorio():
     # Aguardar 5 minutos antes de iniciar os sinais
     time.sleep(5 * 60)
 
-    for _ in range(5):
+    for _ in range(6):
         resultado = {'hora': datetime.datetime.now().strftime("%H:%M"), 'resultado': 'GREEN ✅' if contagem_verde < 5 else 'RED ❌'}
         
         # Enviar uma entrada confirmada
@@ -108,7 +108,7 @@ def enviar_sinais_e_relatorio():
             time.sleep(120)
             bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
         
-        time.sleep(5 * 60)
+        time.sleep(10 * 60)
 
     enviar_relatorio(contagem_verde, contagem_vermelho)
 
