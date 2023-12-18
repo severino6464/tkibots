@@ -116,7 +116,7 @@ def enviar_sinais_e_relatorio():
 
 def check_and_send_signal():
     current_time = datetime.datetime.now().strftime("%H:%M")
-    signal_times = ["09:00", "15:00","20:00"]
+    signal_times = ["09:00", "15:00","20:00", "09:50"]
 
     if current_time in signal_times:
         enviar_sinais_e_relatorio()
