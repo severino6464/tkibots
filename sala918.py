@@ -1,20 +1,14 @@
 import telebot
-import time
 import datetime
 import random
+import time
 
-CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
+
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" 
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1002101177473'
-
-sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
-
-links = [
-    "https://exemplo1.com",
-]
-
+channel_id = '-1002101177473'
 
 possibilidades_minas = [
     "Apostar em números baixos [1-18]",
@@ -27,42 +21,92 @@ possibilidades_minas = [
 
 
 texto4 = """
-⚠️ <b>ATENÇÃO VAMOS INICIAR!</b> ⚠️
+⚠️ <b>ATENÇÃO VAMOS INICIAR</b> ⚠️
+
+<a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
+
+<a href="https://nuts.bet/live-casino/game/2177465"><b>🏦 Abra a roleta</b></a>
+"""
+
+texto5 = """
+✅✅ <b>SESSÃO ENCERRADA!</b> ✅✅
 """
 
 
 mensagem = """
-🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+💰 ANALISTA CONFIRMOU 💰
 🎰 Roleta: Brasileira
 
 {}
 
 ⏱️ Válido até: {}
+⚠️ Sempre cobrir o zero
+🔁 Fazer até 2 proteções
 
-👉 Cobrir o zero
-🔁 Fazer até 3 gales
 
-<a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet">🔗 Cadastre-se antes de Jogar!</a>
+<a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
-<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
-
+<a href="https://nuts.bet/live-casino/game/2177465"><b>🏦Abra a roleta</b></a>
 """
 
+def send_signal():
+
+    bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(120) 
+
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+    validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+    hora_validade = validade.strftime("%H:%M")
+    mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+    bot.send_message(chat_id=channel_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+    time.sleep(180)
+
+    bot.send_message(chat_id=channel_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 
 
 
-print("======")
-bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(60)
-possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-link_aleatorio = random.choice(links)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
-mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+def check_and_send_signal():
+    current_time = datetime.datetime.now().strftime("%H:%M")
+    signal_times = [
+        "09:30", "12:00", "15:00", "20:00"
+    ]
 
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)
-bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(420)
+    if current_time in signal_times:
+        send_signal()
+
+
+try:
+        check_and_send_signal()
+        # Wait for 1 minute before checking the time again
+        datetime.datetime.now() + datetime.timedelta(minutes=0)
+except Exception as e:
+        print(f"Error occurred: {str(e)}")
