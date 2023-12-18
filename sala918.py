@@ -52,7 +52,7 @@ mensagem = """
 def send_signal():
 
     bot.send_message(chat_id=channel_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-    time.sleep(120) 
+    time.sleep(300) 
 
 
     possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
