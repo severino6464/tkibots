@@ -35,7 +35,7 @@ texto5 = """
 
 mensagem = """
 💰 ANALISTA CONFIRMOU 💰
-🎰 Roleta: Live
+🎰 Roleta: American
 
 {}
 
