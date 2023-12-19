@@ -25,7 +25,7 @@ texto4 = """
 
 <a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
-<a href="https://nuts.bet/live-casino/game/2354526"><b>🏦 Abra a roleta</b></a>
+<a href="https://nuts.bet/live-casino/game/2183643"><b>🏦 Abra a roleta</b></a>
 """
 
 texto5 = """
@@ -46,7 +46,7 @@ mensagem = """
 
 <a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
-<a href="https://nuts.bet/live-casino/game/2354526"><b>🏦Abra a roleta</b></a>
+<a href="https://nuts.bet/live-casino/game/2183643"><b>🏦Abra a roleta</b></a>
 """
 
 def send_signal():
