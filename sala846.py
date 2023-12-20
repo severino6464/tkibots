@@ -15,29 +15,29 @@ links = [
 
 
 possibilidades_minas = [
-    '💰 Após o 5️⃣ apostar 1️⃣ e 2️⃣',
-    '💰 Após o 1️⃣ apostar 1️⃣ e 2️⃣',
-    '💰 Após o 2️⃣ apostar 1️⃣ e 2️⃣'
+    '💰 After the 5️⃣ bet 1️⃣ e 2️⃣',
+    '💰 After the 1️⃣ bet 1️⃣ e 2️⃣',
+    '💰 After the 2️⃣ bet 1️⃣ e 2️⃣'
 ]
 
 
 
 texto4 = """
-🚨 <b>ALERTA, POSSÍVEL ENTRADA!</b>
-🎰 Roleta: <a href="https://1woqny.top/#fsxk">Crazy Time Bet7k</a>
-⏳ Aguarde confirmar
+🚨 <b>ALERT, POSSIBLE ENTRY!</b>
+🎰 Roulette: <a href="https://1woqny.top/#fsxk">Crazy Time Bet7k</a>
+⏳ Wait to confirm
 """
 texto3 = """
 ✅✅ GREEN!!! ✅✅
 """
 
 mensagem = """
-🔔 Entrada Confirmada 🔔 
-Mesa: <a href="https://1woqny.top/#fsxk">Crazy Time Bet7k</a>
+🔔 Confirmed Entry 🔔 
+🎰 Roulette: <a href="https://1woqny.top/#fsxk">Crazy Time Bet7k</a>
 
 {}
 
-🔁 Fazer até 2 gales
+🔁 Make up to 2 gales
 """
 
 
