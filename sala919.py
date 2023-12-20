@@ -11,11 +11,11 @@ chat_id = '-1002137276754'
 
 
 texto4 = """
-⚠️ <b>ANALISANDO ENTRADAS</b> ⚠️
+⚠️ ANALISANDO ENTRADAS⚠️
 
 🎰 Roleta: Brasileira 
 
-<a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🖥 Link de cadastro</b></a>
+🖥 Link de cadastro:[Clique aqui](https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet)
 """
 
 
@@ -48,7 +48,7 @@ def determinar_cor(numero):
 def enviar_mensagem_telegram(mensagem):
   
     bot = telebot.TeleBot(token=token)
-    bot.send_message(chat_id=chat_id, text=mensagem, parse_mode='HTML', disable_web_page_preview=True)
+    bot.send_message(chat_id=chat_id, text=mensagem,parse_mode='Markdown')
 
 url = "https://casino.betfair.com/api/tables-details"
 headers = {"cookie": "vid=8ab7daa7-57f7-4196-8285-943390594163"}
@@ -68,11 +68,11 @@ if ultimos_resultados != check_resultados:
     x3 = determinar_cor(terceiro_numero)
     x4 = determinar_cor(quarto_numero)
 
-    if x1 == x2 == x3 == x4:
+    if x1 == x2 == x3:
         cor_aposta = "🔴" if x1 == "PRETO" else "⚫"
         ultima_aposta = x1
         mensagem = f"""
-        💰 <b>PADRÃO INDETIFICADO</b> 💰
+        💰 PADRÃO INDETIFICADO 💰
         🚀 Entrada Confirmada
         🎰 Roleta: Brasileira 
 
@@ -81,9 +81,7 @@ if ultimos_resultados != check_resultados:
         🟢 Sempre Cobrir o Zero
         🚨 Aplicar até 2 gales
     
-        <a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🖥 Link de cadastro</b></a>
-
-        <a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🎯 Aposte aqui!</b></a>
+        🎯[APOSTE AQUI](https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet)
 """
         enviar_mensagem_telegram(mensagem)
         print(mensagem)
@@ -93,8 +91,7 @@ if ultimos_resultados != check_resultados:
     else:
         mensagem = f"O primeiro número foi: {primeiro_numero}, e ele é da cor: {x1}\n"
         mensagem += f"O segundo número foi: {segundo_numero}, e ele é da cor: {x2}\n"
-        mensagem += f"O terceiro número foi: {terceiro_numero}, e ele é da cor: {x3}\n"
-        mensagem += f"O quarto número foi: {quarto_numero}, e ele é da cor: {x4}"
+        mensagem += f"O terceiro número foi: {terceiro_numero}, e ele é da cor: {x3}"
 
        
     print(mensagem)
@@ -109,7 +106,7 @@ if ultima_aposta is not None:
             time.sleep(10)
              
             bot = telebot.TeleBot(token=token)
-            bot.send_message(chat_id=chat_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+            bot.send_message(chat_id=chat_id, text=texto4, parse_mode='Markdown')
 
            
         else:
@@ -119,7 +116,7 @@ if ultima_aposta is not None:
             time.sleep(10)
               
             bot = telebot.TeleBot(token=token)
-            bot.send_message(chat_id=chat_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
+            bot.send_message(chat_id=chat_id, text=texto4, parse_mode='Markdown')
 
    
 time.sleep(5)
