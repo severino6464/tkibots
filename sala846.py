@@ -24,7 +24,7 @@ possibilidades_minas = [
 
 texto4 = """
 🚨 <b>ALERTA, POSSÍVEL ENTRADA!</b>
-🎰 Roleta: Crazy Time Bet7k (https://1woqny.top/#fsxk)
+🎰 Roleta: <a href="https://1woqny.top/#fsxk">Crazy Time Bet7k</a>
 ⏳ Aguarde confirmar
 """
 texto3 = """
@@ -33,7 +33,7 @@ texto3 = """
 
 mensagem = """
 🔔 Entrada Confirmada 🔔 
-Mesa: Crazy Time Bet7k (https://1woqny.top/#fsxk)
+Mesa: <a href="https://1woqny.top/#fsxk">Crazy Time Bet7k</a>
 
 {}
 
