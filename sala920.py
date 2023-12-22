@@ -34,6 +34,10 @@ texto5 = """
 ✅✅ <b>ENTRADA ENCERRADA!</b> ✅✅
 """
 
+links = [
+    "https://exemplo1.com",
+]
+
 
 mensagem = """
 💰 ANALISTA CONFIRMOU 💰
