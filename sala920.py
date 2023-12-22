@@ -23,7 +23,7 @@ possibilidades_minas = [
 sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
 
 texto4 = """
-⚠️ <b>ATENÇÃO VAMOS INICIAR</b> ⚠️
+⚠️ <b>ATENÇÃO POSSÍVEL ENTRADA</b> ⚠️
 
 <a href="https://affiliates.nuts.bet/visit/?bta=38914&brand=nutsbet"><b>🔗 Cadastre-se antes de Jogar!</b></a>
 
