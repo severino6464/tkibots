@@ -67,11 +67,12 @@ text2 = """
   """
 
 text3 = """
-<b>Acesse o Canal de operações ao vivo no Spaceman🧑‍🚀
+<b>Acesse o Canal de operações ao vivo no Aviator🧑‍🚀
 
-Com o método exclusivo de Velas Phoenix que garante até 10 ✅GREENS✅ Todos os dias
+Com o método exclusivo HUNTER 7x em busc de velas de 3 a 7x ao vivo todos os dias
 
-Aproveitem as Lives enquanto ta de graça 👇
+Aproveitem as Lives enquanto ta de graça para multiplicar seu investimento em até 7x👇
+
 
 </b> 
 <a href="https://t.me/+P4rH7M6Iz0QyOWIx">CLIQUE AQUI PARA ACESSAR GRATUITAMENTE</a>
