@@ -33,12 +33,6 @@ texto4 = """
 """
 
 
-texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
- 
-"""
-
 
 
 mensagem = """
@@ -75,6 +69,4 @@ mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
 time.sleep(60)  # Espera 5 minutos (300 segundos)
-
-bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(120) 
