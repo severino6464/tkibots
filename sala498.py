@@ -67,15 +67,18 @@ text2 = """
   """
 
 text3 = """
-<b>Acesse o Canal de operações ao vivo no Aviator🧑‍🚀
+<b>Esse especialista em entradas em números na roleta está entregando até ✅5 GREENS GARANTIDOS✅
 
-Com o método exclusivo HUNTER 7x em busc de velas de 3 a 7x ao vivo todos os dias
+😱Todos os diaas😱
 
-Aproveitem as Lives enquanto ta de graça para multiplicar seu investimento em até 7x👇
+Além de aumentar seus lucros em até 36x com o MÉTODO HUNTER 36x
+
+Você ainda pode concorrer a sorteios ao participar das lives💸
+👇PARTICIPE GRATUITAMENTE
 
 
 </b> 
-<a href="https://t.me/+P4rH7M6Iz0QyOWIx">CLIQUE AQUI PARA ACESSAR GRATUITAMENTE</a>
+<a href="https://t.me/+P4rH7M6Iz0QyOWIx">👉 CLIQUE AQU</a>
   """
 
 print("=====")
