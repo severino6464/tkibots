@@ -53,10 +53,6 @@ Jogar com 2 a 3 minas
 """
 
 
-text2 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
-  """
 
 print("=====")
 
@@ -70,5 +66,4 @@ mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
    
 time.sleep(120)
-bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(480)
