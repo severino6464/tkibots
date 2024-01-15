@@ -15,16 +15,10 @@ texto4 = """
 """
 
 
-texto5 = """
-     <b>Entrada Finalizada</b> 
-     ✅✅ <b>LUCROOO!</b> ✅✅
-"""
-
-
 
 mensagem = """
-🔔 <b>Entrada Confirmada!</b> 🔔
-🖥 Site: <a href="https://nuts.bet/live-casino/game/2181137"><b>Dados</b></a>
+🔔 <b>ENTRADA QUEENFIRMADA!</b> 🔔
+🖥 Mesa: <a href="#"><b>Football Studio</b></a>
 
 🕑 <b>HORÁRIOS PAGANTES</b>:
 
@@ -36,7 +30,9 @@ mensagem = """
 {}
 {}
 
-🕑 Margem de segurança: 2 minutos
+💰 Apostar apenas em empates
+
+🚨 Cobrir o empate com 10% da aposta
 
 <a href="https://affiliates.nuts.bet/visit/?bta=39016&brand=nutsbet">🎰 <b>CLIQUE E CADASTRE-SE NA PLATAFORMA</b></a>
 """
@@ -66,6 +62,4 @@ mensagem_formatada = mensagem.format(hora_validade1,hora_validade2,hora_validade
 
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(1200)
-
-bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(600)
