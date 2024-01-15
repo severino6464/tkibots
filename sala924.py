@@ -23,8 +23,7 @@ mensagem = """
 
 ⚡ Intercalando
 
-<a href="========">🔗 Fazer CADASTRO ✅</a>
-<a href="https://nuts.bet/casino/game/2180615">🔗 Abrir FORTUNE TIGER</a>
+<a href="https://go.boasortebet.com/visit/?bta=35756&brand=boasortebet">🔗 Fazer CADASTRO ✅</a>
 """
 
 print("========")
