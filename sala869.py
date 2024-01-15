@@ -9,8 +9,6 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1002024811283'
 
-sticker_file_id = 'CAACAgEAAxkBAAMCZSbmh4EopfmSJgx8Z8sDxkeWf1UAAvwAAzgOghFAju2fQymOBzAE'
-
 mensagem = """
 🚨 <b>ENTRADA CONFIRMADA</b> 🚨
 
@@ -38,5 +36,4 @@ mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 
 time.sleep(120)
-bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
 time.sleep(480)
