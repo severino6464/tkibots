@@ -9,7 +9,6 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1002000865634'
 
-sticker_file_id = 'CAACAgIAAxkBAAMsZTC6XdKmOE1SHeCfUBcpU4Y79f0AAloHAAJjK-IJRP8CDh-ifn8wBA'
 
 def gerar_possibilidades_minas():
     possibilidades_minas = []
@@ -83,5 +82,4 @@ time.sleep(120)  # Espera 5 minutos (300 segundos)
 
 bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(10)
-bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
 time.sleep(50)
