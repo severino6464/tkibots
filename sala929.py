@@ -3,84 +3,66 @@ import time
 import datetime
 import random
 
-CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8"  # BOT FOX
+CHAVE_API = "5597794728:AAGfwOg3RijfPrQ5S_Iw6NKAuYucNEdIsO8" # BOT FOX
 
 bot = telebot.TeleBot(CHAVE_API)
 
-group_id = '-1002113060115'
+group_id = '-1002076686211'
 
-sticker_file_id = 'CAACAgIAAxkBAAMsZTC6XdKmOE1SHeCfUBcpU4Y79f0AAloHAAJjK-IJRP8CDh-ifn8wBA'
+sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
 
-def gerar_possibilidades_minas():
-    possibilidades_minas = []
-    for _ in range(3):
-        # Inicializa a matriz com "🟢" para representar células vazias
-        matriz_mina = [["🟢"] * 5 for _ in range(3)]
-
-        # Escolhe aleatoriamente uma linha e uma coluna para a bola (⚽️)
-        linha = random.randint(0, 2)
-        coluna = random.randint(0, 4)
-
-        # Define a posição da bola na matriz
-        matriz_mina[linha][coluna] = "⚽️"
-
-        # Formata a matriz como texto
-        possibilidade_mina = "\n".join("".join(linha) for linha in matriz_mina)
-        possibilidades_minas.append(possibilidade_mina)
-
-    return possibilidades_minas
-
-selecoes = [
-    "Argentina", "Áustria", "Bélgica", "Brasil",
-    "Croácia", "Tcheco", "Dinamarca", "Inglaterra",
-    "Finlândia", "França", "Alemanha", "Irlanda",
-    "Itália", "Holanda", "Polônia", "Portugal",
-    "Escócia", "Sérvia", "Espanha", "Suécia",
-    "Suíça", "Turquia", "Ucrânia", "Uruguai"
+links = [
+    "https://exemplo1.com",
 ]
 
+
+possibilidades_minas = [
+    "Apostar em números baixos [1-18]",
+    "Apostar em números altos [19-36]",
+    "Apostar na duzia 1 e 3",
+    "Apostar na cor 🔴",
+    "Apostar na cor ⚫"
+]
+
+
+
 texto4 = """
-⚠️ <b>Fique atento ao jogo</b> ⚠️
-
-⚽️ Penalty Shoot-Out 
-🔎 identificando entrada
-
-<a href="http://bit.ly/CLIQUE_AQUI_PARA_FORAR">📲 <b>Link de cadastro</b></a>
+⚠️ <b>ATENÇÃO VAMOS INICIAR!</b> ⚠️
 """
 
-texto5 = """
-🔷🔹 <b>Entrada Finalizada</b> 🔹🔷
-     ✅✅ <b>GRENN!</b> ✅✅
-"""
 
 mensagem = """
-⚽️💰 <b>Entrada confirmada</b> ⚽️💰
-🏁 Seleção: {}
-⏰ Válido até: {}
-🔁 N° de tentativas: {}
-🔗 Link de acesso: <a href="http://bit.ly/CLIQUE_AQUI_PARA_FORAR"><b>Penalty Shoot-Out-Street</b></a>
-👇🏻 <b>Provável sequência</b> 👇🏻
+🔥 <b>ROBÔ CONFIRMOU</b> 🔥
+🎰 Roleta: Brasileira
 
 {}
-  
+
+⏱️ Válido até: {}
+
+👉 Cobrir o zero
+🔁 Fazer até 3 gales
+
+<a href="http://bit.ly/CLIQUE_AQUI_PARA_FORAR">🔗 Cadastre-se antes de Jogar!</a>
+
+<a href="https://nuts.bet/live-casino/game/2177465">🖥 Jogue aqui!</a>
+
 """
 
-print("=======")
+
+
+
+print("======")
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)
-
-possibilidades_minas = gerar_possibilidades_minas()
-mensagem_formatada = "\n\n".join(possibilidades_minas)
-
-n_jogadas = random.randint(1, 3)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
+time.sleep(60)
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+link_aleatorio = random.choice(links)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
 hora_validade = validade.strftime("%H:%M")
-selecao_aleatoria = random.choice(selecoes)
-mensagem_formatada = mensagem.format(selecao_aleatoria, hora_validade, n_jogadas, mensagem_formatada)
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(120)  # Espera 5 minutos (300 segundos)
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 
-bot.send_message(chat_id=group_id, text=texto5, parse_mode='HTML', disable_web_page_preview=True)
-time.sleep(10)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(120)
 bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
-time.sleep(50)
+time.sleep(420)
