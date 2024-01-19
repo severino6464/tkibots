@@ -31,13 +31,14 @@ def gerar_possibilidades_minas():
 
 
 selecoes = [
-    "Argentina", "Áustria", "Bélgica", "Brasil",
-    "Croácia", "Tcheco", "Dinamarca", "Inglaterra",
-    "Finlândia", "França", "Alemanha", "Irlanda",
-    "Itália", "Holanda", "Polônia", "Portugal",
-    "Escócia", "Sérvia", "Espanha", "Suécia",
-    "Suíça", "Turquia", "Ucrânia", "Uruguai"
+    "Áustria", "Azerbaijão", "Bélgica", "Croácia",
+    "Rep Tcheca", "Dinamarca", "Inglaterra", "Finlândia",
+    "França", "Alemanha", "Irlanda", "Itália",
+    "Holanda", "Polônia", "Portugal", "Montenegro",
+    "Escócia", "Sérvia", "Espanha", "Suíça",
+    "Suécia", "Turquia", "Ucrânia", "Uzbequistão"
 ]
+
 
 texto4 = """
 ⚠️ <b>Fique atento ao jogo</b> ⚠️
