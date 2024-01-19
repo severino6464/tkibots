@@ -10,13 +10,7 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1002076063423'
 
 possibilidades_minas = [
-"‼️ RETIRAR EM 1.50x",
-"‼️ RETIRAR EM 2.00x",
-"‼️ RETIRAR EM 2.00x",
-"‼️ RETIRAR EM 3.50x",
-"‼️ RETIRAR EM 1.04x",
-"‼️ RETIRAR EM 2.30x",
-"‼️ RETIRAR EM 5.00x"
+"‼️ RETIRAR EM 1.50x"
      
  
 ]
