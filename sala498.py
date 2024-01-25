@@ -66,20 +66,6 @@ text2 = """
  Você que fez GREEN envie um print no @suportereidossinais1
   """
 
-text3 = """
-<b>Esse especialista em entradas em números na roleta está entregando até ✅5 GREENS GARANTIDOS✅
-
-😱Todos os diaas😱
-
-Além de aumentar seus lucros em até 36x com o MÉTODO HUNTER 36x
-
-Você ainda pode concorrer a sorteios ao participar das lives💸
-👇PARTICIPE GRATUITAMENTE
-
-
-</b> 
-<a href="https://t.me/+P4rH7M6Iz0QyOWIx">👉 CLIQUE AQU</a>
-  """
 
 print("=====")
 bot.send_message(chat_id=group_id, text=texto1, parse_mode='HTML', disable_web_page_preview=True)
@@ -93,7 +79,6 @@ mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_
 mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
 bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(30)
-bot.send_message(chat_id=group_id, text=text3 ,parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(90)
 bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
 time.sleep(180)  # Espera 5 minutos (300 segundos)
