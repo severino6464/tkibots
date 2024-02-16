@@ -9,63 +9,16 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001912471689'
 
-possibilidades_minas = [
-"🔵",
-"🔴"
-     
- 
-]
+ptexto4 = """
+
+⚠️⚠️⚠️ ATENÇÃO PLATAFORMA EM LANÇAMENTO E TÃO DOBRANDO OS DEPÓSITOS ⚠️⚠️⚠️
 
 
+[📱 Cadastre-se aqui](https://vexbet.tech/)
+[LINK DA PLATAFORMA](https://vexbet.tech/)
 
-texto4 = """
-⚠️ Fique atento ao jogo ⚠️
 
-🎲 BAC BO
-🔎 identificando entrada
-
-🖥 Link de cadastro:[Clique aqui](https://bit.ly/nutsapprev)
 """
-
-
-texto5 = """
-🔷🔹 Entrada Finalizada 🔹🔷
-     ✅✅ GRENN! ✅✅
- 
-"""
-
-
-
-mensagem = """
-✅ Entrada Confirmada 
-
-👉 Entrada:{}
-
-⚠️ MÁXIMO 2 GALES 
-🔔 Entrada Confirmada 🔔  
-✅ Entrar Agora  
-
-⏱️ Válido até: {}
-
-📲: Plataforma correta: [Clique aqui](https://bit.ly/nutsapprev)
-"""
-
-print("126")
 
 bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
-time.sleep(120) 
-
-
-
-  
-possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=1)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
-
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-
-time.sleep(60)  # Espera 5 minutos (300 segundos)
-
-bot.send_message(chat_id=group_id, text=texto5, parse_mode='Markdown')
-time.sleep(120) 
+time.sleep(12000) 
