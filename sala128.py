@@ -9,48 +9,17 @@ bot = telebot.TeleBot(CHAVE_API)
 
 group_id = '-1001900457280'
 
+texto4 = """
 
-text2 = """""
-🤑 SINAL FINALIZADO 🤑
+⚠️⚠️⚠️ ATENÇÃO PLATAFORMA EM LANÇAMENTO E TÃO DOBRANDO OS DEPÓSITOS ⚠️⚠️⚠️
 
-🍀 identificando novos padrões… 🕰
+
+[📱 Cadastre-se aqui](https://vexbet.tech/)
+[LINK DA PLATAFORMA](https://vexbet.tech/)
+
 
 """
 
-
-mensagem = """
-🚨SINAL APENAS PARA A NUTS BET 🚨
-
-✅ENTRADA CONFIRMADA✅
-
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
-
-💰 {}x Normal
-💰 {}x Turbo
-
-⚡ Intercalando
-
-[🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=36079&brand=nutsbet)
-
-"""
-
-
-
- 
-
-
-n_jogadas = random.randint(3, 10)
-n_jogadas2 = random.randint(3, 10)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=5)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
-
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-time.sleep(345)  # Espera 10 minutos (600 segundos)
-
-bot.send_message(chat_id=group_id, text=text2, parse_mode='Markdown')
-    
-time.sleep(120)
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+time.sleep(12000) 
 
