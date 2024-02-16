@@ -10,41 +10,16 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1001975463044'
 
 
+texto4 = """
+
+⚠️⚠️⚠️ ATENÇÃO PLATAFORMA EM LANÇAMENTO E TÃO DOBRANDO OS DEPÓSITOS ⚠️⚠️⚠️
 
 
+[📱 Cadastre-se aqui](https://vexbet.tech/)
+[LINK DA PLATAFORMA](https://vexbet.tech/)
 
-mensagem = """
-🚨 ENTRADA CONFIRMADA 🚨
-
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
-
-💰 {}x Normal
-💰 {}x Turbo
-
-⚡ Intercalando
-
-[🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=36575&nci=5343)
-[🔗 Abrir FORTUNE TIGER](https://affiliates.nuts.bet/visit/?bta=36575&nci=5343)
 
 """
 
-
-
-
-
-print("aff115")
-
- 
-
-
-n_jogadas = random.randint(6, 20)
-n_jogadas2 = random.randint(4, 20)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
-hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
-
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
-
-time.sleep(600)  # Espera 10 minutos (600 segundos)
+bot.send_message(chat_id=group_id, text=texto4, parse_mode='Markdown')
+time.sleep(12000) 
