@@ -63,7 +63,7 @@ Quem lucrou acima de R$ 10 reage aqui embaixo 👇
 text2 = """
 🔷🔹 Entrada Finalizada 🔹🔷
      ✅✅ GRENN! ✅✅
- Você que fez GREEN envie um print no @suportereidossinais1
+ Você que fez GREEN envie um print no @suportereidomines
   """
 
 
