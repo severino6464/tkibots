@@ -10,36 +10,88 @@ bot = telebot.TeleBot(CHAVE_API)
 group_id = '-1001908848076'
 
 
+sticker_file_id = 'CAACAgIAAxkBAAMmZSb_ngXS-jrJPaIDkQxNkCtYOQQAAtgLAAJYD5hKNPj69b5xWK8wBA'
+
+possibilidades_minas = [
+    "💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+    "💣💣⭐️💣⭐️\n💣⭐️⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️⭐️⭐️\n💣💣⭐️💣💣",
+    "💣💣💣⭐️⭐️\n💣💣💣⭐️💣\n💣⭐️⭐️⭐️💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣💣💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣⭐️⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️💣💣💣⭐️\n💣💣⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "💣⭐️💣💣💣\n⭐️💣⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣",
+    "💣⭐️💣⭐️💣\n💣💣💣⭐️💣\n💣💣⭐️⭐️💣\n💣💣⭐️⭐️💣\n💣💣⭐️💣💣",
+    "⭐️⭐️⭐️💣💣\n💣⭐️⭐️💣💣\n💣💣💣💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "💣💣💣💣💣\n💣💣💣💣⭐️\n⭐️💣⭐️💣💣\n💣💣⭐️💣💣\n💣💣⭐️💣💣",
+    "⭐️⭐️💣💣💣\n💣⭐️💣💣💣\n💣⭐️⭐️⭐️💣\n💣💣💣💣💣\n💣💣💣💣💣",
+    "⭐️⭐️💣⭐️💣\n💣💣💣⭐️⭐️\n💣💣💣💣💣\n💣💣💣💣💣\n💣⭐️⭐️⭐️💣",
+    "💣💣💣💣⭐️\n⭐️💣💣⭐️💣\n⭐️⭐️⭐️💣💣\n💣⭐️💣💣💣\n💣⭐️💣💣💣",
+    "⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣💣💣\n💣⭐️💣⭐️💣",
+    "⭐️⭐️⭐️💣💣\n⭐️💣⭐️💣💣\n💣💣💣💣💣\n💣💣💣💣💣\n💣💣💣⭐️💣",
+    "⭐️💣💣💣💣\n⭐️💣💣⭐️💣\n💣💣💣💣💣\n💣💣⭐️⭐️💣\n💣💣⭐️⭐️⭐️",
+    "💣💣💣💣⭐️\n⭐️💣💣⭐️💣\n⭐️💣⭐️⭐️💣\n💣💣💣💣💣\n💣💣⭐️⭐️💣",
+    "💣💣💣⭐️💣\n⭐️💣💣⭐️⭐️\n⭐️💣💣💣💣\n💣💣💣💣💣\n💣💣💣⭐️💣",
+    "⭐️💣💣💣💣\n💣💣💣💣💣\n⭐️💣💣💣💣\n💣⭐️💣⭐️💣\n💣⭐️💣⭐️💣"
+]
+
+links = [
+    "https://exemplo1.com",
+   
+]
 
 
+text1 = """
+🔎 <b>Inteligência artificial em ação</b> 🔎
+
+💣 Mines - Rastreando as bombas
+
+⏱ Sinal em 2 Minutos
+
+💻 Única plataforma que funciona - Principal Bet -<a href="https://bcraft.g2afse.com/click?pid=20&offer_id=14&sub1=TerrorDoMines"><b>REGISTRE-SE</b></a>
+"""
 
 mensagem = """
-🚨 ENTRADA CONFIRMADA 🚨
+🎲 <b>Oportunidade confirmada</b> 🎲
+🥇 Hora de lucrar
+💥<b> Selecione 3 minas</b>
 
-🐯 Fortune Tiger 
-⏰ Estratégia: Horários Pagantes
-⚠️ Válido ate: {}
+{}
 
-💰 {}x Normal
-💰 {}x Turbo
+🎮: Tentativas: 5
+📲: Casa correta <a href="https://bcraft.g2afse.com/click?pid=20&offer_id=14&sub1=TerrorDoMines"><b>Clicando aqui</b></a>
+💻: Depósito mínimo <b>R$ 20,00</b> 👆🏻
 
-⚡ Intercalando
+⏱️ Válido até: {}
 
-[🔗 Fazer CADASTRO ✅](https://affiliates.nuts.bet/visit/?bta=35572&brand=nutsbet)
-[🔗 Abrir FORTUNE TIGER](https://affiliates.nuts.bet/visit/?bta=35572&brand=nutsbet)
-
+🔥 <b>ÚNICA PLATAFORMA QUE FUNCIONA ACIMA!!!</b> 🔥
 """
 
 
- 
 
+text2 = """
+✅✅ NOSSA INTELIGÊNCIA ACERTOU ✅✅ 
 
-n_jogadas = random.randint(6, 20)
-n_jogadas2 = random.randint(4, 20)
-validade = datetime.datetime.now() + datetime.timedelta(minutes=10)
+🥇Você que fez GREEN REAJA abaixo e envie um print em nosso suporte @gustavothierry
+
+🍀 Quem lucrou acima de R$ 50,00 reage aqui em baixo 👇🏻
+
+  """
+
+print("=====")
+bot.send_message(chat_id=group_id, text=text1 ,parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(120)
+
+possibilidade_mina_aleatoria = random.choice(possibilidades_minas)
+link_aleatorio = random.choice(links)
+validade = datetime.datetime.now() + datetime.timedelta(minutes=2)
 hora_validade = validade.strftime("%H:%M")
-mensagem_formatada = mensagem.format(hora_validade,n_jogadas, n_jogadas2)
-bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='Markdown')
+mensagem_formatada = mensagem.format(possibilidade_mina_aleatoria, hora_validade)
+mensagem_formatada = mensagem_formatada.replace("LINK_PLATAFORMA_CORRETA", link_aleatorio)
+mensagem_formatada = mensagem_formatada.replace("LINK_JOGO", link_aleatorio)
+bot.send_message(chat_id=group_id, text=mensagem_formatada, parse_mode='HTML', disable_web_page_preview=True)
+time.sleep(120)
 
-time.sleep(600)  # Espera 10 minutos (600 segundos)
+bot.send_message(chat_id=group_id, text=text2 ,parse_mode='HTML', disable_web_page_preview=True)
+bot.send_sticker(chat_id=group_id, sticker=sticker_file_id)
+time.sleep(960)
 
