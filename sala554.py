@@ -48,7 +48,7 @@ Jogar com 2 a 3 minas
 
 ⏱️ Válido até: {}
 
-<a href="https://bcraft.g2afse.com/click?pid=15&offer_id=36">🖥 Link de cadastro</a>
+<a href="https://baraodabet.com/main">🖥 Link de cadastro</a>
 """
 
 
