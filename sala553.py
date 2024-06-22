@@ -29,7 +29,7 @@ texto4 = """
 ✈️ Aviator 
 🔎 identificando entrada
 
-🖥 Link de cadastro:[Clique aqui](https://bcraft.g2afse.com/click?pid=15&offer_id=36)
+🖥 Link de cadastro:[Clique aqui](https://baraodabet.com/main)
 """
 
 
