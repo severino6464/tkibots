@@ -46,8 +46,8 @@ mensagem = """
 🎮: Tentativas: 2
 Jogar com 2 a 3 minas
 
-📲: Plataforma correta: [Clique aqui](https://principalbet.com/main?openedModals=%2Fsign-up)
-👉🏻: Link do jogo: [Mines](https://principalbet.com/main?openedModals=%2Fsign-up)
+📲: Plataforma correta: [Clique aqui](https://bcraft.g2afse.com/click?pid=1595&offer_id=16)
+👉🏻: Link do jogo: [Mines](https://bcraft.g2afse.com/click?pid=1595&offer_id=16)
 ⏱️ Válido até: {}
 
 """
